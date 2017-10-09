@@ -1,0 +1,148 @@
+" ACTIVE PLUGINS:
+" 	vim-vinegar (hit "-")
+" 	vim-mru (type ":MRU")
+
+" pathogen
+""""filetype off
+" call pathogen#incubate()
+""""call pathogen#infect('bundle/{}')
+""""call pathogen#helptags()
+""""filetype plugin indent on
+
+:syntax on
+
+:set incsearch
+:set hlsearch
+:set smartcase
+:set ignorecase
+:set laststatus=2
+:set t_Co=256
+:set wildmenu
+:set wildmode=list:longest,full
+:set noswapfile
+:set hidden
+" :set nofoldenable
+:set textwidth=79 
+:set background=dark
+
+:highlight Search ctermfg=White
+:highlight Search ctermbg=Red
+:highlight Comment ctermfg=LightGray
+
+let mapleader = ","
+
+" encryption
+:set cryptmethod=blowfish
+autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
+
+" remap the ESC key to jj
+" exit insert mode easily
+:imap jj <Esc>
+
+" remap the ; key to `
+" go to a mark's exact cursor position easily
+" ; is easier to reach than `
+:nnoremap ; `
+
+" cycle through buffers
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
+
+" F7 key
+" copy the current filename onto the system clipboard
+" use 'p' to paste (as usual)
+nnor <F7> :let @"=expand("%")<CR>
+
+" macros
+let @a = 'o```bashjj'
+let @b = 'o```jj'
+let @c = 'o```no-highlightjj'
+
+" vim-airline stuff
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_theme = 'laederon'
+
+" GFM markdown
+augroup markdown
+    au!
+    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
+
+let mapleader = ","
+
+" set a text width depending on file extension
+if has('autocmd')
+	au BufRead,BufNewFile *.xml set tw=150
+	au BufRead,BufNewFile *.sh set tw=135
+endif
+
+" navigate windows
+nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
+nmap <silent> <space>j :wincmd j<CR> " go Down with "SPACE, j"
+nmap <silent> <space>h :wincmd h<CR> " go Left with "SPACE, h"
+nmap <silent> <space>l :wincmd l<CR> " go Right with "SPACE, l"
+
+" resize split windows
+map <silent> <C-h> <C-w>< " less cols (vert split) with "C-h"
+map <silent> <C-l> <C-w>> " more cols (vert split) with "C-l"
+map <silent> <C-j> <C-W>- " less rows (horiz split) with "C-j"
+map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
+
+" F12 key
+" allow reliable pasting from other apps
+nnoremap <F12> :set invpaste paste?<CR>
+imap <F12> <C-O><F12>
+set pastetoggle=<F12>
+
+" Toggle with ",s"
+" view tabs and trailing spaces
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
+
+" Add a line above, "99" w/o entering Insert mode
+nnoremap 99 O<Esc>j
+" Add a line below, "88" w/o entering Insert mode
+nnoremap 88 o<Esc>k
+
+" Add a space to the right w/o entering Insert mode with "s"
+map s a<space><Esc>h
+
+" COMMENTS
+" insert/remove '#' at beginning of visual block lines with "#" and ",#"
+vmap # :s/^/# /<CR>gv
+vmap <Leader># :s/^# //<CR>gv
+" insert/remove '"' at beginning of visual block lines with """ and ",""
+vmap " :s/^/" /<CR>gv
+vmap <Leader>" :s/^" //<CR>gv
+
+" F4 key
+" fold & unfold visual/non-visual blocks
+nnoremap <F4> za
+vnoremap <F4> zf
+
+" F5 key
+" toggle highlighted search
+map <F5> :set hls!<bar>set hls?<CR>
+
+" F6 key
+" toggle the spellchecker
+:map <F6> :setlocal spell! spelllang=en_gb<CR>
+" Enable spellcheck by default (and add a word with "zg")
+""":set spell spelllang=en_gb
+
+" Ctrl-x
+" dictionary
+"""set dictionary=/usr/share/dict/words
+
+" THEMES
+" make the xoria256 theme transparent
+autocmd ColorScheme * highlight Normal ctermbg=None
+autocmd ColorScheme * highlight NonText ctermbg=None
+colorscheme xoria256
+" colorscheme jellybeans
+" colorscheme vibrantink
+" colorscheme wuye
