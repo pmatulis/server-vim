@@ -1,0 +1,18 @@
+[submodule "pack/plugins/start/vim-gfm-syntax"]
+	path = pack/plugins/start/vim-gfm-syntax
+	url = https://github.com/rhysd/vim-gfm-syntax
+[submodule "pack/plugins/start/ctrlp"]
+	path = pack/plugins/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/plugins/start/vim-easyescape"]
+	path = pack/plugins/start/vim-easyescape
+	url = https://github.com/zhou13/vim-easyescape
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/plugins/start/vim-airline-themes"]
+	path = pack/plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/plugins/start/vim-colorschemes"]
+	path = pack/plugins/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes

@@ -1,14 +1,3 @@
-" ACTIVE PLUGINS:
-" 	vim-vinegar (hit "-")
-" 	vim-mru (type ":MRU")
-
-" pathogen
-""""filetype off
-" call pathogen#incubate()
-""""call pathogen#infect('bundle/{}')
-""""call pathogen#helptags()
-""""filetype plugin indent on
-
 :syntax on
 
 :set incsearch
@@ -21,9 +10,9 @@
 :set wildmode=list:longest,full
 :set noswapfile
 :set hidden
-" :set nofoldenable
+":set nofoldenable
 :set textwidth=79 
-:set background=dark
+":set background=dark
 
 :highlight Search ctermfg=White
 :highlight Search ctermbg=Red
@@ -35,12 +24,26 @@ let mapleader = ","
 :set cryptmethod=blowfish
 autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
 
-" remap the ESC key to jj
-" exit insert mode easily
-:imap jj <Esc>
+" vim-easyescape (see ~/.vim/pack/plugins)
+" * remap the ESC key to jj (to exit insert mode easily)
+let g:easyescape_chars = { "j": 2 }
+let g:easyescape_timeout = 100
+cnoremap jj <Esc>
 
-" remap the ; key to `
-" go to a mark's exact cursor position easily
+" CtrlP (see ~/.vim/pack/plugins)
+" * a shortcut
+let g:ctrlp_map = '<c-p>' 
+let g:ctrlp_cmd = 'CtrlP'
+" * where to search
+let g:ctrlp_working_path_mode = 'ar'
+" Notes:
+"	a) Ctrl-j|k : scroll through files
+"	b) Ctrl-t   : open file in tab
+"	c) Ctrl-f   : change modes
+"	d) Ctrl-d   : switch to filename search instead of full path
+"	e) Ctrl-z   : mark multiple files
+
+" remap the ; key to ` (to go to a mark's exact cursor position easily)
 " ; is easier to reach than `
 :nnoremap ; `
 
@@ -64,15 +67,7 @@ let g:airline#extensions#whitespace#enabled = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
-let g:airline_theme = 'laederon'
-
-" GFM markdown
-augroup markdown
-    au!
-    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
-augroup END
-
-let mapleader = ","
+let g:airline_theme = 'bubblegum'
 
 " set a text width depending on file extension
 if has('autocmd')
@@ -113,8 +108,8 @@ map s a<space><Esc>h
 
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
-vmap # :s/^/# /<CR>gv
-vmap <Leader># :s/^# //<CR>gv
+vmap # :s/^/# /<CR>gv<Esc>
+vmap <Leader># :s/^# //<CR>gv<Esc>
 " insert/remove '"' at beginning of visual block lines with """ and ",""
 vmap " :s/^/" /<CR>gv
 vmap <Leader>" :s/^" //<CR>gv
@@ -139,10 +134,10 @@ map <F5> :set hls!<bar>set hls?<CR>
 """set dictionary=/usr/share/dict/words
 
 " THEMES
-" make the xoria256 theme transparent
+" make some themes transparent
 autocmd ColorScheme * highlight Normal ctermbg=None
 autocmd ColorScheme * highlight NonText ctermbg=None
-colorscheme xoria256
-" colorscheme jellybeans
-" colorscheme vibrantink
-" colorscheme wuye
+"colorscheme xoria256
+colorscheme jellybeans
+"colorscheme vibrantink
+"colorscheme wuye
