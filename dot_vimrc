@@ -20,19 +20,20 @@
 let mapleader = ","
 
 " PLUGINS BEGIN .................
+" See ~/.vim/pack/plugins
 
-" "vim-easyescape" (see ~/.vim/pack/plugins)
+" "vim-easyescape"
 " -- remap the ESC key to jj (to exit insert mode easily)
 let g:easyescape_chars = { "j": 2 }
 let g:easyescape_timeout = 300
 cnoremap jj <Esc>
 
-" "CtrlP" (see ~/.vim/pack/plugins)
+" "CtrlP"
 " -- shortcut
 let g:ctrlp_map = '<c-p>' 
 let g:ctrlp_cmd = 'CtrlP'
 " -- where to search
-let g:ctrlp_working_path_mode = 'ar'
+let g:ctrlp_working_path_mode = 'c'
 
 " Notes:
 "	a) Ctrl-j|k : scroll through files
@@ -41,7 +42,7 @@ let g:ctrlp_working_path_mode = 'ar'
 "	d) Ctrl-d   : switch to filename search instead of full path
 "	e) Ctrl-z   : mark multiple files
 
-" "vim-airline" (see ~/.vim/pack/plugins)
+" "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline#extensions#tabline#enabled = 1
@@ -104,7 +105,7 @@ map <F5> :set hls!<bar>set hls?<CR>
 " toggle the spellchecker
 :map <F6> :setlocal spell! spelllang=en_gb<CR>
 " Enable spellcheck by default (and add a word with "zg")
-""":set spell spelllang=en_gb
+:set spell spelllang=en_gb
 
 " F7 key
 " copy the current filename onto the system clipboard
