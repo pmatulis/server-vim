@@ -1,8 +1,8 @@
 For details see https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
 
-= central vim setup =
+# central vim setup
  
-== preliminaries ==
+## preliminaries
  
 mkdir ~/.vim
 cp .vimrc_good ~/.vim/dot_vimrc 
@@ -11,7 +11,7 @@ ln -s ~/.vim/dot_vimrc ~/.vimrc
 On github.com, create project such as
 https://github.com/pmatulis/server-vim
 
-== initial data ==
+## initial data
  
 cd ~/.vim
 git init
@@ -32,13 +32,13 @@ git submodule add https://github.com/jayflo/vim-skip pack/plugins/start/vim-skip
 git commit -m "added submodules"
 git push -u origin master
 
-== updating plugins ==
+## updating plugins
 
 cd ~/.vim
 git submodule update --remote --merge
 git commit -m "update plugins"
 
-== removing a plugin ==
+## removing a plugin
 
 cd ~/.vim
 git submodule deinit pack/plugins/start/<plugin>
