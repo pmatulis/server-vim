@@ -1,0 +1,47 @@
+For details see https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
+
+= central vim setup =
+ 
+== preliminaries ==
+ 
+mkdir ~/.vim
+cp .vimrc_good ~/.vim/dot_vimrc 
+ln -s ~/.vim/dot_vimrc ~/.vimrc
+
+On github.com, create project such as
+https://github.com/pmatulis/server-vim
+
+== initial data ==
+ 
+cd ~/.vim
+git init
+git add *
+git commit -m "initial commit"
+git remote add origin git@github.com:pmatulis/server-vim
+
+git submodule init
+
+git submodule add https://github.com/rhysd/vim-gfm-syntax pack/plugins/start/vim-gfm-syntax
+git submodule add https://github.com/zhou13/vim-easyescape pack/plugins/start/vim-easyescape
+git submodule add https://github.com/ctrlpvim/ctrlp.vim pack/plugins/start/ctrlp
+git submodule add https://github.com/vim-airline/vim-airline pack/plugins/start/vim-airline
+git submodule add https://github.com/vim-airline/vim-airline-themes pack/plugins/start/vim-airline-themes
+git submodule add https://github.com/flazz/vim-colorschemes pack/plugins/start/vim-colorschemes
+git submodule add https://github.com/jayflo/vim-skip pack/plugins/start/vim-skip
+
+git commit -m "added submodules"
+git push -u origin master
+
+== updating plugins ==
+
+cd ~/.vim
+git submodule update --remote --merge
+git commit -m "update plugins"
+
+== removing a plugin ==
+
+cd ~/.vim
+git submodule deinit pack/plugins/start/<plugin>
+git rm pack/plugins/start/<plugin>
+rm -Rf .git/modules/pack/plugins/start/<plugin>
+git commit -m "remove <plugin>"
