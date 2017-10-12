@@ -19,3 +19,6 @@
 [submodule "pack/plugins/start/vim-skip"]
 	path = pack/plugins/start/vim-skip
 	url = https://github.com/jayflo/vim-skip
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
