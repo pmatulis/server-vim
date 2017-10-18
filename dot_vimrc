@@ -11,7 +11,9 @@
 :set noswapfile
 :set hidden
 ":set nofoldenable
-:set textwidth=79 
+:set textwidth=79
+:set colorcolumn=+1
+:set autoindent
 
 " :highlight Search ctermfg=White
 " :highlight Search ctermbg=Red
@@ -30,7 +32,7 @@ cnoremap jj <Esc>
 
 " "CtrlP"
 " -- shortcut
-let g:ctrlp_map = '<c-p>' 
+let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 " -- where to search
 let g:ctrlp_working_path_mode = 'c'
@@ -76,6 +78,11 @@ map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>w :set nolist!<CR>
 
+" Toggle with ",f" and ",g"
+" auto-wrap using textwidth
+map <leader>f :set fo+=t<CR>
+map <leader>g :set fo-=t<CR>
+
 " Add a line above, "99"
 " (w/o entering Insert mode)
 nnoremap 99 O<Esc>j
@@ -90,10 +97,10 @@ nmap <silent> <leader>s a<space><Esc>h
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
-vmap <Leader># :s/^# //<CR>gv<Esc>
+vmap <leader># :s/^# //<CR>gv<Esc>
 " insert/remove '"' at beginning of visual block lines with """ and ",""
 vmap " :s/^/" /<CR>gv
-vmap <Leader>" :s/^" //<CR>gv
+vmap <leader>" :s/^" //<CR>gv
 
 " Only turn on spelling for certain filetypes
 autocmd FileType md,markdown setlocal spell spelllang=en_gb
@@ -127,6 +134,9 @@ set pastetoggle=<F12>
 " dictionary
 """set dictionary=/usr/share/dict/words
 
+" remove all whitespace at the end of lines
+autocmd BufWritePre * :%s/\s\+$//e
+
 " THEMES
 " make some themes transparent
 autocmd ColorScheme * highlight Normal ctermbg=None
@@ -140,6 +150,7 @@ colorscheme jellybeans
 let @a = 'o```bashjj'
 let @b = 'o```jj'
 let @c = 'o```no-highlightjj'
+let @n = 'o!!! Note:    '
 
 " set a text width depending on file extension
 if has('autocmd')
