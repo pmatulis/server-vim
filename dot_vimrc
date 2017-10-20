@@ -46,7 +46,7 @@ let g:ctrlp_working_path_mode = 'c'
 
 " "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#whitespace#enabled = 1
+let g:airline#extensions#whitespace#enabled = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
@@ -58,8 +58,8 @@ set updatetime=250
 " PLUGINS END .................
 
 " cycle through buffers
-:nnoremap <C-n> :bnext<CR>
-:nnoremap <C-p> :bprevious<CR>
+:nnoremap <Left> :bprevious<CR>	" previous buffer with Left arrow key
+:nnoremap <Right> :bnext<CR>    " next buffer with Rigt arrow key
 
 " navigate windows
 nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
@@ -94,6 +94,10 @@ nnoremap 88 o<Esc>k
 " (w/o entering Insert mode)
 nmap <silent> <leader>s a<space><Esc>h
 
+" Reformat current paragraph, ",r"
+" (includes the removal of double spaces)
+nmap <silent> <leader>r vipgqgv:s/  / /g<CR>
+
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
@@ -105,6 +109,7 @@ vmap <leader>" :s/^" //<CR>gv
 " Only turn on spelling for certain filetypes
 autocmd FileType md,markdown setlocal spell spelllang=en_gb
 " (add a word with "zg")
+" (remove a word with "zug")
 
 " F4 key
 " fold & unfold visual/non-visual blocks
@@ -146,11 +151,12 @@ colorscheme jellybeans
 "colorscheme vibrantink
 "colorscheme wuye
 
-" macros
-let @a = 'o```bashjj'
-let @b = 'o```jj'
-let @c = 'o```no-highlightjj'
-let @n = 'o!!! Note:    '
+" MACROS
+" for writing in Markdown
+let @a = 'o```bashjj'		" insert bash syntax highlighting
+let @b = 'o```jj'		" close syntax highlighting
+let @c = 'o```no-highlightjj'	" insert no-highlight syntax highlighting
+let @n = 'o!!! Note:    '	" insert a Note admonishment
 
 " set a text width depending on file extension
 if has('autocmd')
