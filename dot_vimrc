@@ -1,7 +1,7 @@
 :syntax on
 
 :set incsearch
-:set hlsearch
+":set hlsearch
 :set smartcase
 :set ignorecase
 :set laststatus=2
@@ -47,7 +47,6 @@ let g:ctrlp_working_path_mode = 'c'
 " "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
-let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_theme = 'bubblegum'
@@ -80,8 +79,8 @@ nmap <silent> <leader>w :set nolist!<CR>
 
 " Toggle with ",f" and ",g"
 " auto-wrap using textwidth
-map <leader>f :set fo+=t<CR>
-map <leader>g :set fo-=t<CR>
+map <leader>f :set fo+=t<CR> " ON"
+map <leader>g :set fo-=t<CR> " OFF"
 
 " Add a line above, "99"
 " (w/o entering Insert mode)
@@ -123,6 +122,8 @@ map <F5> :set hls!<bar>set hls?<CR>
 " F6 key
 " toggle the spellchecker
 :map <F6> :setlocal spell! spelllang=en_gb<CR>
+" Enable spellcheck by default (and add a word with "zg")
+:set spell spelllang=en_gb
 
 " F7 key
 " copy the current filename onto the system clipboard
@@ -140,7 +141,7 @@ set pastetoggle=<F12>
 """set dictionary=/usr/share/dict/words
 
 " remove all whitespace at the end of lines
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
 
 " THEMES
 " make some themes transparent
@@ -153,10 +154,12 @@ colorscheme jellybeans
 
 " MACROS
 " for writing in Markdown
-let @a = 'o```bashjj'		" insert bash syntax highlighting
-let @b = 'o```jj'		" close syntax highlighting
-let @c = 'o```no-highlightjj'	" insert no-highlight syntax highlighting
-let @n = 'o!!! Note:    '	" insert a Note admonishment
+let @a = 'o```bashjj'		  " insert bash syntax highlighting
+let @b = 'o```jj'		  " close syntax highlighting
+let @c = 'o```no-highlightjj'	  " insert no-highlight syntax highlighting
+let @n = 'o!!! Note:    '	  " insert a Note admonishment
+let @t = 'oTODO:  '		  " insert a TODO line
+let @l = 'o<!-- LINKS -->'  " insert a LINKS line
 
 " set a text width depending on file extension
 if has('autocmd')
