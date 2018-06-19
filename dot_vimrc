@@ -13,16 +13,56 @@
 ":set nofoldenable
 :set textwidth=79
 :set colorcolumn=+1
+"highlight ColorColumn cterm=0
 :set autoindent
+:set viminfo='100,n$HOME/.vim/files/info/viminfo
 
-" :highlight Search ctermfg=White
-" :highlight Search ctermbg=Red
+:highlight Search ctermfg=White
+:highlight Search ctermbg=Red
 " :highlight Comment ctermfg=LightGray
+
+" Visual queue when auto-wrapping is disabled
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermfg=darkgrey
+  autocmd BufEnter * match OverLength /\%80v.*/
+augroup END
 
 let mapleader = ","
 
+" Cursor shapes based on mode
+" insert: ibeam
+let &t_SI = "\<Esc>[6 q"
+" replace: underline
+let &t_SR = "\<Esc>[4 q"
+" normal: block
+let &t_EI = "\<Esc>[2 q"
+
+" Cursor colours based on mode
+" insert: red
+"let &t_SI .= "\<Esc>]12;red\x7"
+" replace: red
+"let &t_SR .= "\<Esc>]12;red\x7"
+" normal: red
+"let &t_EI .= "\<Esc>]12;red\x7"
+"silent !echo -ne "\033]12;red\007"
+" reset cursor when vim exits
+"autocmd VimLeave * silent !echo -ne "\033]112\007"
+
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
+
+" "vim-startify"
+let g:startify_bookmarks = [
+ \ { 'i': 'reference-install.md'},
+ \ { 'r': 'reference-release-notes.md'} ]
+let g:startify_session_persistence = 1
+let g:startify_files_number = 6
+let g:startify_lists = [
+ \ { 'type': 'dir',       'header': [   'MRU '. getcwd()] },
+ \ { 'type': 'sessions',  'header': [   'Sessions']       },
+ \ { 'type': 'bookmarks', 'header': [   'Bookmarks']      },
+ \ { 'type': 'commands',  'header': [   'Commands']       },
+ \ ]
 
 " "vim-easyescape"
 " -- remap the ESC key to jj (to exit insert mode easily)
@@ -36,6 +76,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 " -- where to search
 let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_open_multiple_files = 'tj'
 
 " Notes:
 "	a) Ctrl-j|k : scroll through files
