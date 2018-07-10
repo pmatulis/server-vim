@@ -8,20 +8,24 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +444 charms-bundles.md
-badd +2 charms-bundles-gui.md
-badd +174 authors-charm-store.md
-badd +218 developer-getting-started.md
+badd +2 clouds-maas.md
+badd +6 clouds.md
+badd +1 clouds-manual.md
+badd +5 clouds-LXD.md
+badd +5 clouds-lxd-resources.md
+badd +8 controllers-config.md
 argglobal
 silent! argdel *
-argadd charms-bundles.md
-edit developer-getting-started.md
+argadd clouds.md
+argadd clouds-maas.md
+edit clouds-maas.md
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
 argglobal
+edit clouds-maas.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -31,12 +35,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 218 - ((40 * winheight(0) + 33) / 67)
+let s:l = 88 - ((66 * winheight(0) + 33) / 67)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-218
-normal! 05|
+88
+normal! 0
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf
