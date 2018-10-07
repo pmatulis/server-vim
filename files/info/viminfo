@@ -11,17 +11,17 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0/  
+~MSle0~/vim
 
 # Last Substitute Search Pattern:
-~MSle0~&  
+~MSle0&  
 
 # Last Substitute String:
 $ 
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1538930943,,"x"
+|2,0,1538931107,,"x"
 :w
 |2,0,1538930914,,"w"
 :q
@@ -122,6 +122,8 @@ $
 |2,0,1531430062,,"%s/here3/step5/gc"
 
 # Search String History (newest to oldest):
+?/vim
+|2,1,1538931093,47,"vim"
 ?   
 |2,1,1538593321,,"  "
 ? k8cl
@@ -220,8 +222,6 @@ $
 |2,1,1536930951,47,"Manu"
 ?/input
 |2,1,1536930438,47,"input"
-?/add-cred
-|2,1,1536868764,47,"add-cred"
 
 # Expression History (newest to oldest):
 
@@ -281,59 +281,81 @@ $
 |3,0,9,1,1,0,1538499139,"[lxd-upstream-clustering]: https://lxd.readthedocs.io/en/latest/clustering/"
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1538930802,"o!!! Note:    "
+|3,0,10,0,1,0,1538931079,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1538930802,"o```bash```jj88k"
+|3,0,11,0,1,0,1538931079,"o```bash```jj88k"
 "c	CHAR	0
 	o```jj
 |3,0,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1538930802,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1538931079,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1538930802,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1538931079,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1538930802,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1538931079,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1538930802,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1538931079,"j88itable_of_contents: Truejj"
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1538930802,"oTODO:  "
+|3,0,29,0,1,0,1538931079,"oTODO:  "
 ""-	CHAR	0
-	mkdir ~/.vim
-|3,1,36,0,1,0,1538930907,"mkdir ~/.vim"
+	 https://github.com/pmatulis/server-vim
+|3,1,36,0,1,0,1538931103," https://github.com/pmatulis/server-vim"
 
 # File marks:
-'0  52  36  ~/.vim/README
-|4,48,52,36,1538930943,"~/.vim/README"
-'1  1  0  ~/.vim/README
-|4,49,1,0,1538930046,"~/.vim/README"
-'2  1  0  ~/.vim/README
-|4,50,1,0,1538930046,"~/.vim/README"
-'3  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,51,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
-'4  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,52,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
-'5  102  19  ~/.zshrc
-|4,53,102,19,1538585156,"~/.zshrc"
-'6  1  0  ~/git/pmatulis_juju-docs/.git/MERGE_MSG
-|4,54,1,0,1538583023,"~/git/pmatulis_juju-docs/.git/MERGE_MSG"
-'7  227  63  ~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md
-|4,55,227,63,1538579540,"~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md"
-'8  225  0  ~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md
-|4,56,225,0,1538499413,"~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md"
-'9  230  0  ~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md
-|4,57,230,0,1538499413,"~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md"
+'0  9  16  ~/.vim/.git/config
+|4,48,9,16,1538931107,"~/.vim/.git/config"
+'1  53  36  ~/.vim/README
+|4,49,53,36,1538931071,"~/.vim/README"
+'2  52  36  ~/.vim/README
+|4,50,52,36,1538930943,"~/.vim/README"
+'3  52  36  ~/.vim/README
+|4,51,52,36,1538930943,"~/.vim/README"
+'4  1  0  ~/.vim/README
+|4,52,1,0,1538930046,"~/.vim/README"
+'5  1  0  ~/.vim/README
+|4,53,1,0,1538930046,"~/.vim/README"
+'6  1  0  ~/.vim/README
+|4,54,1,0,1538930046,"~/.vim/README"
+'7  1  0  ~/.vim/README
+|4,55,1,0,1538930046,"~/.vim/README"
+'8  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,56,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+'9  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,57,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
 
 # Jumplist (newest first):
+-'  9  16  ~/.vim/.git/config
+|4,39,9,16,1538931107,"~/.vim/.git/config"
+-'  1  0  ~/.vim/.git/config
+|4,39,1,0,1538931093,"~/.vim/.git/config"
+-'  53  36  ~/.vim/README
+|4,39,53,36,1538931071,"~/.vim/README"
+-'  53  36  ~/.vim/README
+|4,39,53,36,1538931071,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538931028,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538931028,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
 -'  52  36  ~/.vim/README
 |4,39,52,36,1538930943,"~/.vim/README"
 -'  1  0  ~/.vim/README
 |4,39,1,0,1538930802,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930802,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930046,"~/.vim/README"
 -'  1  0  ~/.vim/README
 |4,39,1,0,1538930046,"~/.vim/README"
 -'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
@@ -344,6 +366,54 @@ $
 |4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 -'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 |4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
 -'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
 |4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
 -'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
@@ -360,6 +430,54 @@ $
 |4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
 -'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
 |4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
 -'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
 |4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
 -'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
@@ -376,6 +494,30 @@ $
 |4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 -'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 |4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 -'  163  5  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 |4,39,163,5,1538590237,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 -'  163  5  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
@@ -384,164 +526,30 @@ $
 |4,39,163,5,1538590237,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 -'  163  5  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 |4,39,163,5,1538590237,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  148  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,148,0,1538590233,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  148  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,148,0,1538590233,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  148  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,148,0,1538590233,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  148  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,148,0,1538590233,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  47  0  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,47,0,1538589693,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  47  0  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,47,0,1538589693,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  47  0  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,47,0,1538589693,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  47  0  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,47,0,1538589693,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  146  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,146,0,1538589684,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  146  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,146,0,1538589684,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  146  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,146,0,1538589684,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  146  0  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,146,0,1538589684,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  102  19  ~/.zshrc
-|4,39,102,19,1538585156,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  36  20  ~/.zshrc
-|4,39,36,20,1538585122,"~/.zshrc"
--'  34  7  ~/.zshrc
-|4,39,34,7,1538585122,"~/.zshrc"
--'  33  11  ~/.zshrc
-|4,39,33,11,1538585122,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  31  5  ~/.zshrc
-|4,39,31,5,1538585121,"~/.zshrc"
--'  14  11  ~/.zshrc
-|4,39,14,11,1538585121,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1538585120,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1538585119,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1538585119,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1538585119,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1538585119,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1538585119,"~/.zshrc"
+-'  163  5  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,163,5,1538590237,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  163  5  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,163,5,1538590237,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/.vim/.git/config
+	*	1538931107	0
+	"	9	16
+	^	7	41
+	.	7	40
+	+	7	40
+
 > ~/.vim/README
-	*	1538930939	0
-	"	52	36
-	^	53	37
-	.	53	36
+	*	1538931055	0
+	"	53	36
+	^	52	45
+	.	52	45
 	+	52	9
 	+	52	0
 	+	51	1
 	+	53	36
+	+	52	45
 
 > ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 	*	1538705593	0
@@ -4096,7 +4104,3 @@ $
 	.	463	0
 	+	468	0
 	+	463	0
-
-> ~/git/pmatulis_juju-docs/charms-bundles.md
-	*	1532525714	0
-	"	1	0
