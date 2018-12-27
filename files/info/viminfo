@@ -21,9 +21,9 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1545880945,,"x"
+|2,0,1545884920,,"x"
 :q
-|2,0,1538930046,,"q"
+|2,0,1545884281,,"q"
 :w
 |2,0,1538930914,,"w"
 :bd
@@ -221,288 +221,309 @@ $
 
 # Registers:
 "0	LINE	0
-	alias dbentr-juju='ls src/en/*.md src/en/metadata.yaml src/en/media/*.png | entr documentation-builder --source-folder src --media-path src/en/media --output-media-path build/en/media'
-|3,0,0,1,1,0,1545867545,"alias dbentr-juju='ls src/en/*.md src/en/metadata.yaml src/en/media/*.png | entr documentation-builder --source-folder src --media-path src/en/media --output-media-path build/en/media'"
-""1	LINE	0
-	>>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9
-|3,1,1,1,1,0,1545880944,">>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9"
+	git submodule update --remote --merge
+|3,0,0,1,1,0,1545884910,"git submodule update --remote --merge"
+"1	LINE	0
+	ln -s ~/.vim/dot_vimrc ~/.vimrc
+|3,0,1,1,1,0,1545883998,"ln -s ~/.vim/dot_vimrc ~/.vimrc"
 "2	LINE	0
-	=======
-|3,0,2,1,1,0,1545880940,"======="
+	>>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9
+|3,0,2,1,1,0,1545880944,">>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9"
 "3	LINE	0
-		a	36	39
-|3,0,3,1,1,0,1545880939,"	a	36	39"
+	=======
+|3,0,3,1,1,0,1545880940,"======="
 "4	LINE	0
-		+	227	23
-|3,0,4,1,1,0,1545880939,"	+	227	23"
+		a	36	39
+|3,0,4,1,1,0,1545880939,"	a	36	39"
 "5	LINE	0
-		+	226	78
-|3,0,5,1,1,0,1545880939,"	+	226	78"
+		+	227	23
+|3,0,5,1,1,0,1545880939,"	+	227	23"
 "6	LINE	0
-		+	223	20
-|3,0,6,1,1,0,1545880938,"	+	223	20"
+		+	226	78
+|3,0,6,1,1,0,1545880939,"	+	226	78"
 "7	LINE	0
-		+	251	0
-|3,0,7,1,1,0,1545880938,"	+	251	0"
+		+	223	20
+|3,0,7,1,1,0,1545880938,"	+	223	20"
 "8	LINE	0
-		+	249	0
-|3,0,8,1,1,0,1545880938,"	+	249	0"
+		+	251	0
+|3,0,8,1,1,0,1545880938,"	+	251	0"
 "9	LINE	0
-		+	241	0
-|3,0,9,1,1,0,1545880938,"	+	241	0"
+		+	249	0
+|3,0,9,1,1,0,1545880938,"	+	249	0"
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1545880785,"o!!! Note:    "
+|3,0,10,0,1,0,1545884907,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1545880785,"o```bash```jj88k"
+|3,0,11,0,1,0,1545884907,"o```bash```jj88k"
 "c	CHAR	0
 	o```jj
 |3,0,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1545880785,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1545884907,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1545880785,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1545884907,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1545880785,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1545884907,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1545880785,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1545884907,"j88itable_of_contents: Truejj"
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1545880785,"oTODO:  "
-"-	CHAR	0
-	 https://github.com/pmatulis/server-vim
-|3,0,36,0,1,0,1538931103," https://github.com/pmatulis/server-vim"
+|3,0,29,0,1,0,1545884907,"oTODO:  "
+""-	CHAR	0
+	update --remote --merge
+|3,1,36,0,1,0,1545884913,"update --remote --merge"
 
 # File marks:
-'0  5362  1  ~/.vim/files/info/viminfo
-|4,48,5362,1,1545880945,"~/.vim/files/info/viminfo"
-'1  9  16  ~/.vim/.git/config
-|4,49,9,16,1538931107,"~/.vim/.git/config"
-'2  53  36  ~/.vim/README
-|4,50,53,36,1538931071,"~/.vim/README"
-'3  52  36  ~/.vim/README
-|4,51,52,36,1538930943,"~/.vim/README"
-'4  52  36  ~/.vim/README
-|4,52,52,36,1538930943,"~/.vim/README"
-'5  1  0  ~/.vim/README
-|4,53,1,0,1538930046,"~/.vim/README"
-'6  1  0  ~/.vim/README
-|4,54,1,0,1538930046,"~/.vim/README"
-'7  1  0  ~/.vim/README
-|4,55,1,0,1538930046,"~/.vim/README"
-'8  1  0  ~/.vim/README
-|4,56,1,0,1538930046,"~/.vim/README"
-'9  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,57,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+'0  56  17  ~/.vim/README
+|4,48,56,17,1545884920,"~/.vim/README"
+'1  1  0  ~/.vim/README
+|4,49,1,0,1545884281,"~/.vim/README"
+'2  1  0  ~/.vim/README
+|4,50,1,0,1545884281,"~/.vim/README"
+'3  1  0  ~/.vim/README
+|4,51,1,0,1545884229,"~/.vim/README"
+'4  1  0  ~/.vim/README
+|4,52,1,0,1545884229,"~/.vim/README"
+'5  1  6  ~/.vim/.gitignore
+|4,53,1,6,1545884158,"~/.vim/.gitignore"
+'6  56  0  ~/.vim/README
+|4,54,56,0,1545884002,"~/.vim/README"
+'7  56  0  ~/.vim/README
+|4,55,56,0,1545884002,"~/.vim/README"
+'8  56  0  ~/.vim/README
+|4,56,56,0,1545884002,"~/.vim/README"
+'9  55  0  ~/.vim/README
+|4,57,55,0,1545884002,"~/.vim/README"
 
 # Jumplist (newest first):
+-'  56  17  ~/.vim/README
+|4,39,56,17,1545884920,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545884908,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545884281,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545884229,"~/.vim/README"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  55  0  ~/.vim/README
+|4,39,55,0,1545884002,"~/.vim/README"
+-'  55  0  ~/.vim/README
+|4,39,55,0,1545884002,"~/.vim/README"
+-'  55  0  ~/.vim/README
+|4,39,55,0,1545884002,"~/.vim/README"
+-'  55  0  ~/.vim/README
+|4,39,55,0,1545884002,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545883982,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545883982,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545883953,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545883953,"~/.vim/README"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
 -'  5362  1  ~/.vim/files/info/viminfo
 |4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
 -'  713  0  ~/.vim/files/info/viminfo
 |4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  252  0  ~/.vim/files/info/viminfo
-|4,39,252,0,1545880870,"~/.vim/files/info/viminfo"
--'  235  0  ~/.vim/files/info/viminfo
-|4,39,235,0,1545880860,"~/.vim/files/info/viminfo"
--'  115  0  ~/.vim/files/info/viminfo
-|4,39,115,0,1545880836,"~/.vim/files/info/viminfo"
--'  15  0  ~/.vim/files/info/viminfo
-|4,39,15,0,1545880830,"~/.vim/files/info/viminfo"
--'  1  0  ~/.vim/files/info/viminfo
-|4,39,1,0,1545880797,"~/.vim/files/info/viminfo"
--'  9  16  ~/.vim/.git/config
-|4,39,9,16,1538931107,"~/.vim/.git/config"
--'  1  0  ~/.vim/.git/config
-|4,39,1,0,1538931093,"~/.vim/.git/config"
--'  53  36  ~/.vim/README
-|4,39,53,36,1538931071,"~/.vim/README"
--'  53  36  ~/.vim/README
-|4,39,53,36,1538931071,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538931028,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538931028,"~/.vim/README"
--'  52  36  ~/.vim/README
-|4,39,52,36,1538930943,"~/.vim/README"
--'  52  36  ~/.vim/README
-|4,39,52,36,1538930943,"~/.vim/README"
--'  52  36  ~/.vim/README
-|4,39,52,36,1538930943,"~/.vim/README"
--'  52  36  ~/.vim/README
-|4,39,52,36,1538930943,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538930802,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538930802,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538930046,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1538930046,"~/.vim/README"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
-|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
--'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/README
+	*	1545884915	0
+	"	56	17
+	^	55	18
+	.	55	17
+	+	52	9
+	+	52	0
+	+	51	1
+	+	54	36
+	+	52	45
+	+	56	0
+	+	53	0
+	+	55	17
+
+> ~/.vim/.gitignore
+	*	1545884157	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
 
 > ~/.vim/files/info/viminfo
 	*	1545880945	0
@@ -529,17 +550,6 @@ $
 	^	7	41
 	.	7	40
 	+	7	40
-
-> ~/.vim/README
-	*	1538931055	0
-	"	53	36
-	^	52	45
-	.	52	45
-	+	52	9
-	+	52	0
-	+	51	1
-	+	53	36
-	+	52	45
 
 > ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
 	*	1538705593	0
@@ -4985,13 +4995,3 @@ $
 > ~/git/pmatulis_juju-docs/src/en/charms-offline.md
 	*	1542656224	0
 	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/network-spaces.md
-	*	1542203339	0
-	"	127	7
-	^	126	49
-	.	126	75
-	+	1	15
-	+	4	10
-	+	127	15
-	+	126	75
