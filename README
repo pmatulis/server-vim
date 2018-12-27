@@ -45,3 +45,9 @@ git submodule deinit pack/plugins/start/<plugin>
 git rm pack/plugins/start/<plugin>
 rm -Rf .git/modules/pack/plugins/start/<plugin>
 git commit -m "remove <plugin>"
+
+## add a server
+
+cd
+git clone git@github.com:pmatulis/server-vim .vim
+git submodule update --remote --merge

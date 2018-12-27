@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/entr
+~MSle0~/HEA
 
 # Last Substitute Search Pattern:
 ~MSle0&  
@@ -20,30 +20,16 @@
 $ 
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1545880568,,"q"
 :x
-|2,0,1545880251,,"x"
-:q!
-|2,0,1545865863,,"q!"
-:w ~/tmp/juju/contributing-writing.md
-|2,0,1540945935,,"w ~/tmp/juju/contributing-writing.md"
-:w ~/tmp/juju
-|2,0,1540945924,,"w ~/tmp/juju"
-:bd
-|2,0,1540945591,,"bd"
-:w ~/tmp/contributing-build.md
-|2,0,1540579135,,"w ~/tmp/contributing-build.md"
-:w ~/tmp/
-|2,0,1540579109,,"w ~/tmp/"
+|2,0,1545880945,,"x"
+:q
+|2,0,1538930046,,"q"
 :w
-|2,0,1545860910,,"w"
-:%s/\/en/\/devel\/en/gc
-|2,0,1545860456,,"%s/\\/en/\\/devel\\/en/gc"
-:%s/\/devel/\/devel\/en/gc
-|2,0,1545844967,,"%s/\\/devel/\\/devel\\/en/gc"
-:%s/\/en/\/devel/gc
-|2,0,1545844764,,"%s/\\/en/\\/devel/gc"
+|2,0,1538930914,,"w"
+:bd
+|2,0,1538593290,,"bd"
+:%s/k8cl/k8scl/gc
+|2,0,1538590444,,"%s/k8cl/k8scl/gc"
 :wa
 |2,0,1545843214,,"wa"
 :bd!
@@ -122,10 +108,10 @@ $
 |2,0,1541106126,,"e reference-documents.md"
 
 # Search String History (newest to oldest):
-?/entr
-|2,1,1545867530,47,"entr"
-? \/en
-|2,1,1545860456,,"\\/en"
+?/HEA
+|2,1,1545880830,47,"HEA"
+?/vim
+|2,1,1538931093,47,"vim"
 ?   
 |2,1,1545859276,,"  "
 ?/md
@@ -172,56 +158,56 @@ $
 |2,1,1544845177,47,"super"
 ?/Model access
 |2,1,1544826153,47,"Model access"
-?/HEA
-|2,1,1544822871,47,"HEA"
-?/debug
-|2,1,1544822585,47,"debug"
-??complex
-|2,1,1544820432,63,"complex"
-?/migra
-|2,1,1544820085,47,"migra"
-?/adding
-|2,1,1544818757,47,"adding"
-??adding
-|2,1,1544817922,63,"adding"
-?/works
-|2,1,1544737338,47,"works"
-?/left
-|2,1,1544736571,47,"left"
-?/ssh
-|2,1,1544735886,47,"ssh"
-?/s-ad
-|2,1,1544734652,47,"s-ad"
-?/Ext
-|2,1,1544734419,47,"Ext"
-?/juju ssh
-|2,1,1544734148,47,"juju ssh"
-??Mach
-|2,1,1544734141,63,"Mach"
-??users-au
-|2,1,1544733826,63,"users-au"
-?/\[users
-|2,1,1544731707,47,"\\[users"
-?/users-models
-|2,1,1544731699,47,"users-models"
-?/grant
-|2,1,1544731620,47,"grant"
-?/users-m
-|2,1,1544731567,47,"users-m"
-?/users-mo
-|2,1,1544731544,47,"users-mo"
-??usual
-|2,1,1544728340,63,"usual"
-?/revok
-|2,1,1544727185,47,"revok"
-?/login
-|2,1,1544725236,47,"login"
-?/admin
-|2,1,1544709386,47,"admin"
-?/170
-|2,1,1544673885,47,"170"
-?/change
-|2,1,1544670023,47,"change"
+?/advanced 
+|2,1,1538429955,47,"advanced "
+?/clus
+|2,1,1538429348,47,"clus"
+?/Advan
+|2,1,1538427650,47,"Advan"
+?/clust
+|2,1,1538427231,47,"clust"
+?/#clou
+|2,1,1537911965,47,"#clou"
+?/from a file
+|2,1,1538413633,47,"from a file"
+?/Cloud ty
+|2,1,1538054109,47,"Cloud ty"
+?/metadata-s
+|2,1,1538051357,47,"metadata-s"
+?/Impo
+|2,1,1537529871,47,"Impo"
+?/indi
+|2,1,1537529769,47,"indi"
+?/logs-si
+|2,1,1537447257,47,"logs-si"
+?/txn
+|2,1,1537447236,47,"txn"
+?/charm
+|2,1,1537446377,47,"charm"
+?/tx
+|2,1,1537445361,47,"tx"
+?/s-con
+|2,1,1537443542,47,"s-con"
+?/charmst
+|2,1,1537436260,47,"charmst"
+?/stagi
+|2,1,1537436240,47,"stagi"
+?/prun
+|2,1,1537435615,47,"prun"
+?/batc
+|2,1,1537432560,47,"batc"
+?/ppa
+|2,1,1537367219,47,"ppa"
+?/2.3.9
+|2,1,1537367214,47,"2.3.9"
+?/using the ppa
+|2,1,1537367205,47,"using the ppa"
+?/to 
+|2,1,1537358076,47,"to "
+?/na
+|2,1,1537270415,47,"na"
+?/tradit
+|2,1,1537266560,47,"tradit"
 
 # Expression History (newest to oldest):
 
@@ -238,289 +224,469 @@ $
 	alias dbentr-juju='ls src/en/*.md src/en/metadata.yaml src/en/media/*.png | entr documentation-builder --source-folder src --media-path src/en/media --output-media-path build/en/media'
 |3,0,0,1,1,0,1545867545,"alias dbentr-juju='ls src/en/*.md src/en/metadata.yaml src/en/media/*.png | entr documentation-builder --source-folder src --media-path src/en/media --output-media-path build/en/media'"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1545880249,""
+	>>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9
+|3,1,1,1,1,0,1545880944,">>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9"
 "2	LINE	0
-	name
-|3,0,2,1,1,0,1545880249,"name"
-"3	LINE	0
-	![Bundle resources in the Charm Store](media/juju2_gui_bundles_store.png)
-|3,0,3,1,1,0,1545860994,"![Bundle resources in the Charm Store](media/juju2_gui_bundles_store.png)"
-"4	LINE	0
-				href="https://docs.jujucharms.com/stable/experts-sla"></a>
-|3,0,4,1,1,0,1545860741,"			href=\"https://docs.jujucharms.com/stable/experts-sla\"></a>"
-"5	LINE	0
-				<a class="p-link--external"
-|3,0,5,1,1,0,1545860727,"			<a class=\"p-link--external\""
-"6	LINE	0
-	                        height:1.5rem;width: 1.5rem;top:
-|3,0,6,1,1,0,1545860592,"                        height:1.5rem;width: 1.5rem;top:"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1545859971,""
-"8	LINE	0
-	???????
-|3,0,8,1,1,0,1545859971,"???????"
-"9	LINE	0
 	=======
-|3,0,9,1,1,0,1545859971,"======="
+|3,0,2,1,1,0,1545880940,"======="
+"3	LINE	0
+		a	36	39
+|3,0,3,1,1,0,1545880939,"	a	36	39"
+"4	LINE	0
+		+	227	23
+|3,0,4,1,1,0,1545880939,"	+	227	23"
+"5	LINE	0
+		+	226	78
+|3,0,5,1,1,0,1545880939,"	+	226	78"
+"6	LINE	0
+		+	223	20
+|3,0,6,1,1,0,1545880938,"	+	223	20"
+"7	LINE	0
+		+	251	0
+|3,0,7,1,1,0,1545880938,"	+	251	0"
+"8	LINE	0
+		+	249	0
+|3,0,8,1,1,0,1545880938,"	+	249	0"
+"9	LINE	0
+		+	241	0
+|3,0,9,1,1,0,1545880938,"	+	241	0"
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1545880554,"o!!! Note:    "
+|3,0,10,0,1,0,1545880785,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1545880554,"o```bash```jj88k"
-"c@	CHAR	0
+|3,0,11,0,1,0,1545880785,"o```bash```jj88k"
+"c	CHAR	0
 	o```jj
-|3,2,12,0,1,0,1531256538,"o```jj"
+|3,0,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1545880554,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1545880785,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1545880554,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1545880785,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1545880554,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1545880785,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1545880554,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1545880785,"j88itable_of_contents: Truejj"
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1545880554,"oTODO:  "
+|3,0,29,0,1,0,1545880785,"oTODO:  "
 "-	CHAR	0
-	png 
-|3,0,36,0,1,0,1545867552,"png "
+	 https://github.com/pmatulis/server-vim
+|3,0,36,0,1,0,1538931103," https://github.com/pmatulis/server-vim"
 
 # File marks:
-'0  1  0  ~/.vim/README
-|4,48,1,0,1545880568,"~/.vim/README"
-'1  6  0  /etc/resolv.conf
-|4,49,6,0,1545880251,"/etc/resolv.conf"
-'2  1180  0  /var/log/syslog
-|4,50,1180,0,1545880121,"/var/log/syslog"
-'3  1  0  /var/log/syslog
-|4,51,1,0,1545879761,"/var/log/syslog"
-'4  1  0  /var/log/syslog
-|4,52,1,0,1545879761,"/var/log/syslog"
-'5  193  55  ~/.zshrc
-|4,53,193,55,1545867554,"~/.zshrc"
-'6  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,54,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
-'7  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,55,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
-'8  1  0  ~/git/backporting/bp-3249todevel/src/en/index.md
-|4,56,1,0,1545860073,"~/git/backporting/bp-3249todevel/src/en/index.md"
-'9  5  0  ~/git/backporting/bp-3249todevel/src/en/whats-new.md
-|4,57,5,0,1545859974,"~/git/backporting/bp-3249todevel/src/en/whats-new.md"
+'0  5362  1  ~/.vim/files/info/viminfo
+|4,48,5362,1,1545880945,"~/.vim/files/info/viminfo"
+'1  9  16  ~/.vim/.git/config
+|4,49,9,16,1538931107,"~/.vim/.git/config"
+'2  53  36  ~/.vim/README
+|4,50,53,36,1538931071,"~/.vim/README"
+'3  52  36  ~/.vim/README
+|4,51,52,36,1538930943,"~/.vim/README"
+'4  52  36  ~/.vim/README
+|4,52,52,36,1538930943,"~/.vim/README"
+'5  1  0  ~/.vim/README
+|4,53,1,0,1538930046,"~/.vim/README"
+'6  1  0  ~/.vim/README
+|4,54,1,0,1538930046,"~/.vim/README"
+'7  1  0  ~/.vim/README
+|4,55,1,0,1538930046,"~/.vim/README"
+'8  1  0  ~/.vim/README
+|4,56,1,0,1538930046,"~/.vim/README"
+'9  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,57,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 
 # Jumplist (newest first):
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  713  0  ~/.vim/files/info/viminfo
+|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  252  0  ~/.vim/files/info/viminfo
+|4,39,252,0,1545880870,"~/.vim/files/info/viminfo"
+-'  235  0  ~/.vim/files/info/viminfo
+|4,39,235,0,1545880860,"~/.vim/files/info/viminfo"
+-'  115  0  ~/.vim/files/info/viminfo
+|4,39,115,0,1545880836,"~/.vim/files/info/viminfo"
+-'  15  0  ~/.vim/files/info/viminfo
+|4,39,15,0,1545880830,"~/.vim/files/info/viminfo"
+-'  1  0  ~/.vim/files/info/viminfo
+|4,39,1,0,1545880797,"~/.vim/files/info/viminfo"
+-'  9  16  ~/.vim/.git/config
+|4,39,9,16,1538931107,"~/.vim/.git/config"
+-'  1  0  ~/.vim/.git/config
+|4,39,1,0,1538931093,"~/.vim/.git/config"
+-'  53  36  ~/.vim/README
+|4,39,53,36,1538931071,"~/.vim/README"
+-'  53  36  ~/.vim/README
+|4,39,53,36,1538931071,"~/.vim/README"
 -'  1  0  ~/.vim/README
-|4,39,1,0,1545880568,"~/.vim/README"
--'  6  0  /etc/resolv.conf
-|4,39,6,0,1545880251,"/etc/resolv.conf"
--'  6  0  /etc/resolv.conf
-|4,39,6,0,1545880251,"/etc/resolv.conf"
--'  1  0  /etc/resolv.conf
-|4,39,1,0,1545880220,"/etc/resolv.conf"
--'  1  0  /etc/resolv.conf
-|4,39,1,0,1545880220,"/etc/resolv.conf"
--'  1180  0  /var/log/syslog
-|4,39,1180,0,1545880121,"/var/log/syslog"
--'  1180  0  /var/log/syslog
-|4,39,1180,0,1545880121,"/var/log/syslog"
--'  1180  0  /var/log/syslog
-|4,39,1180,0,1545880121,"/var/log/syslog"
--'  1180  0  /var/log/syslog
-|4,39,1180,0,1545880121,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879773,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879773,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879773,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879773,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879761,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879761,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879761,"/var/log/syslog"
--'  1  0  /var/log/syslog
-|4,39,1,0,1545879761,"/var/log/syslog"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  193  55  ~/.zshrc
-|4,39,193,55,1545867554,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  192  55  ~/.zshrc
-|4,39,192,55,1545867543,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1545867530,"~/.zshrc"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+|4,39,1,0,1538931028,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538931028,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  52  36  ~/.vim/README
+|4,39,52,36,1538930943,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930802,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930802,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930046,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1538930046,"~/.vim/README"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  155  18  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,155,18,1538836042,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  21  5  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,21,5,1538705590,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  1  0  ~/git/pmatulis_juju-docs/src/en/help-aws.md
+|4,39,1,0,1538658741,"~/git/pmatulis_juju-docs/src/en/help-aws.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  48  3  ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
+|4,39,48,3,1538593290,"~/git/pmatulis_juju-docs/src/en/clouds-maas.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
+-'  129  2  ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+|4,39,129,2,1538590444,"~/git/pmatulis_juju-docs/src/en/clouds-k8s.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/.vim/files/info/viminfo
+	*	1545880945	0
+	"	5362	1
+	.	5363	0
+	+	26	0
+	+	35	0
+	+	14	0
+	+	15	0
+	+	113	0
+	+	115	0
+	+	162	0
+	+	235	0
+	+	252	0
+	+	302	0
+	+	306	0
+	+	713	0
+	+	5321	0
+	+	5363	0
+
+> ~/.vim/.git/config
+	*	1538931107	0
+	"	9	16
+	^	7	41
+	.	7	40
+	+	7	40
+
 > ~/.vim/README
-	*	1545880554	0
-	"	1	0
+	*	1538931055	0
+	"	53	36
+	^	52	45
+	.	52	45
+	+	52	9
+	+	52	0
+	+	51	1
+	+	53	36
+	+	52	45
+
+> ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
+	*	1538705593	0
+	"	155	18
+	^	156	0
+	.	155	77
+	+	2	7
+	+	3	0
+	+	48	13
+	+	10	47
+	+	14	0
+	+	16	69
+	+	16	66
+	+	17	0
+	+	10	11
+	+	13	4
+	+	11	30
+	+	12	11
+	+	12	78
+	+	16	56
+	+	17	0
+	+	16	66
+	+	20	0
+	+	68	91
+	+	71	63
+	+	130	0
+	+	144	19
+	+	145	0
+	+	157	0
+	+	147	9
+	+	147	0
+	+	155	0
+	+	148	0
+	+	155	0
+	+	154	0
+	+	152	15
+	+	125	0
+	+	128	0
+	+	144	8
+	+	150	0
+	+	156	20
+	+	156	4
+	+	155	77
+
+> ~/git/pmatulis_juju-docs/src/en/help-aws.md
+	*	1538658742	0
+	"	21	5
+	^	98	21
+	.	122	0
+	+	72	0
+	+	72	36
+	+	72	13
+	+	72	68
+	+	72	7
+	+	72	18
+	+	72	17
+	+	72	18
+	+	72	0
+	+	72	21
+	+	72	70
+	+	72	21
+	+	72	22
+	+	72	0
+	+	72	40
+	+	72	43
+	+	72	0
+	+	72	18
+	+	72	15
+	+	72	51
+	+	72	30
+	+	72	70
+	+	72	74
+	+	182	89
+	+	2	0
+	+	3	0
+	+	72	66
+	+	72	19
+	+	72	66
+	+	72	45
+	+	72	0
+	+	72	75
+	+	72	15
+	+	72	0
+	+	72	77
+	+	72	0
+	+	72	71
+	+	72	3
+	+	72	7
+	+	72	77
+	+	72	78
+	+	174	27
+	+	175	30
+	+	173	40
+	+	177	64
+	+	96	0
+	+	94	39
+	+	96	0
+	+	90	78
+	+	91	29
+	+	91	20
+	+	97	76
+	+	183	0
+	+	183	32
+	+	183	31
+	+	184	0
+	+	97	74
+	+	98	64
+	+	90	19
+	+	90	78
+	+	94	38
+	+	90	74
+	+	72	0
+	+	99	0
+	+	86	76
+	+	71	0
+	+	72	0
+	+	71	0
+	+	76	63
+	+	76	71
+	+	76	14
+	+	76	0
+	+	86	79
+	+	86	9
+	+	86	0
+	+	86	49
+	+	84	0
+	+	86	0
+	+	64	0
+	+	74	0
+	+	25	0
+	+	75	0
+	+	76	0
+	+	24	24
+	+	75	69
+	+	76	0
+	+	85	7
+	+	80	0
+	+	83	11
+	+	81	76
+	+	82	13
+	+	83	0
+	+	97	77
+	+	66	0
+	+	181	0
+	+	125	0
+	+	122	0
+	a	97	44
 
 > /etc/resolv.conf
 	*	1545880249	0
@@ -4829,324 +4995,3 @@ $
 	+	4	10
 	+	127	15
 	+	126	75
-
-> ~/git/backporting/bp-3179todevel/src/en/clouds.md
-	*	1541805353	0
-	"	6	0
-
-> ~/git/pmatulis_juju-docs/src/en/help-aws.md
-	*	1541786652	0
-	"	89	3
-	^	98	21
-	.	122	0
-	+	72	0
-	+	72	36
-	+	72	13
-	+	72	68
-	+	72	7
-	+	72	18
-	+	72	17
-	+	72	18
-	+	72	0
-	+	72	21
-	+	72	70
-	+	72	21
-	+	72	22
-	+	72	0
-	+	72	40
-	+	72	43
-	+	72	0
-	+	72	18
-	+	72	15
-	+	72	51
-	+	72	30
-	+	72	70
-	+	72	74
-	+	182	89
-	+	2	0
-	+	3	0
-	+	72	66
-	+	72	19
-	+	72	66
-	+	72	45
-	+	72	0
-	+	72	75
-	+	72	15
-	+	72	0
-	+	72	77
-	+	72	0
-	+	72	71
-	+	72	3
-	+	72	7
-	+	72	77
-	+	72	78
-	+	174	27
-	+	175	30
-	+	173	40
-	+	177	64
-	+	96	0
-	+	94	39
-	+	96	0
-	+	90	78
-	+	91	29
-	+	91	20
-	+	97	76
-	+	183	0
-	+	183	32
-	+	183	31
-	+	184	0
-	+	97	74
-	+	98	64
-	+	90	19
-	+	90	78
-	+	94	38
-	+	90	74
-	+	72	0
-	+	99	0
-	+	86	76
-	+	71	0
-	+	72	0
-	+	71	0
-	+	76	63
-	+	76	71
-	+	76	14
-	+	76	0
-	+	86	79
-	+	86	9
-	+	86	0
-	+	86	49
-	+	84	0
-	+	86	0
-	+	64	0
-	+	74	0
-	+	25	0
-	+	75	0
-	+	76	0
-	+	24	24
-	+	75	69
-	+	76	0
-	+	85	7
-	+	80	0
-	+	83	11
-	+	81	76
-	+	82	13
-	+	83	0
-	+	97	77
-	+	66	0
-	+	181	0
-	+	125	0
-	+	122	0
-	a	97	44
-
-> ~/git/pmatulis_juju-docs/src/en/help-google.md
-	*	1541785768	0
-	"	142	0
-	^	27	75
-	.	205	0
-	+	208	0
-	+	192	0
-	+	201	0
-	+	209	21
-	+	188	0
-	+	2	70
-	+	132	0
-	+	177	0
-	+	132	0
-	+	117	0
-	+	114	0
-	+	117	6
-	+	115	77
-	+	117	0
-	+	117	8
-	+	132	0
-	+	117	0
-	+	117	67
-	+	117	7
-	+	117	59
-	+	117	22
-	+	117	58
-	+	117	67
-	+	117	66
-	+	117	73
-	+	117	31
-	+	117	0
-	+	117	39
-	+	117	22
-	+	117	6
-	+	117	30
-	+	117	73
-	+	117	40
-	+	117	0
-	+	117	25
-	+	117	0
-	+	117	44
-	+	117	15
-	+	117	0
-	+	117	36
-	+	117	0
-	+	117	77
-	+	117	16
-	+	117	0
-	+	117	42
-	+	117	0
-	+	117	19
-	+	117	70
-	+	117	73
-	+	117	19
-	+	117	0
-	+	117	18
-	+	117	56
-	+	212	0
-	+	206	27
-	+	205	49
-	+	117	0
-	+	145	0
-	+	132	0
-	+	132	76
-	+	106	77
-	+	108	58
-	+	106	43
-	+	109	0
-	+	106	77
-	+	107	61
-	+	152	24
-	+	116	0
-	+	117	0
-	+	130	0
-	+	132	0
-	+	131	23
-	+	73	0
-	+	120	72
-	+	73	0
-	+	120	0
-	+	128	27
-	+	131	7
-	+	126	0
-	+	127	13
-	+	128	0
-	+	127	14
-	+	10	0
-	+	4	0
-	+	5	72
-	+	11	0
-	+	7	0
-	+	8	51
-	+	11	0
-	+	2	0
-	+	211	0
-	+	111	0
-	+	210	0
-	+	76	0
-	+	205	41
-	+	27	45
-	+	27	36
-	+	27	75
-	+	27	34
-	+	205	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-gce.md
-	*	1541785635	0
-	"	256	30
-	^	227	23
-	.	227	23
-	+	210	42
-	+	210	3
-	+	77	36
-	+	89	19
-	+	30	18
-	+	210	0
-	+	46	47
-	+	46	48
-	+	46	50
-	+	47	55
-	+	46	0
-	+	66	78
-	+	70	0
-	+	68	58
-	+	68	79
-	+	69	12
-	+	93	6
-	+	95	70
-	+	98	0
-	+	97	73
-	+	228	0
-	+	228	4
-	+	228	14
-	+	228	8
-	+	228	58
-	+	228	41
-	+	228	73
-	+	228	28
-	+	228	0
-	+	228	42
-	+	228	56
-	+	228	71
-	+	228	19
-	+	228	0
-	+	228	20
-	+	228	0
-	+	228	69
-	+	228	5
-	+	228	60
-	+	228	69
-	+	228	72
-	+	228	76
-	+	228	0
-	+	228	61
-	+	228	28
-	+	228	8
-	+	228	6
-	+	228	61
-	+	228	65
-	+	228	14
-	+	228	12
-	+	228	79
-	+	228	48
-	+	228	70
-	+	228	69
-	+	228	0
-	+	228	66
-	+	228	67
-	+	228	74
-	+	228	58
-	+	228	59
-	+	228	0
-	+	218	0
-	+	220	77
-	+	222	32
-	+	221	77
-	+	222	77
-	+	223	71
-	+	223	58
-	+	224	0
-	+	223	14
-	+	77	0
-	+	83	0
-	+	101	0
-	+	111	0
-	+	131	0
-	+	139	0
-	+	140	0
-	+	142	0
-	+	143	0
-	+	154	0
-	+	164	0
-	+	195	0
-	+	202	0
-	+	208	0
-	+	120	0
-	+	123	0
-	+	131	0
-	+	140	0
-	+	143	0
-	+	160	0
-	+	163	0
-	+	164	0
-	+	167	0
-	+	241	0
-	+	249	0
-	+	251	0
-	+	223	20
-	+	226	78
-	+	227	23
-	a	36	39
