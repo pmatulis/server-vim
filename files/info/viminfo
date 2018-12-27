@@ -20,10 +20,10 @@
 $ 
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1545880568,,"q"
 :x
 |2,0,1545880251,,"x"
-:q
-|2,0,1545880121,,"q"
 :q!
 |2,0,1545865863,,"q!"
 :w ~/tmp/juju/contributing-writing.md
@@ -266,67 +266,85 @@ $
 |3,0,9,1,1,0,1545859971,"======="
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1545880220,"o!!! Note:    "
+|3,0,10,0,1,0,1545880554,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1545880220,"o```bash```jj88k"
+|3,0,11,0,1,0,1545880554,"o```bash```jj88k"
 "c@	CHAR	0
 	o```jj
 |3,2,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1545880220,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1545880554,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1545880220,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1545880554,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1545880220,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1545880554,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1545880220,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1545880554,"j88itable_of_contents: Truejj"
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1545880220,"oTODO:  "
+|3,0,29,0,1,0,1545880554,"oTODO:  "
 "-	CHAR	0
 	png 
 |3,0,36,0,1,0,1545867552,"png "
 
 # File marks:
-'0  6  0  /etc/resolv.conf
-|4,48,6,0,1545880251,"/etc/resolv.conf"
-'1  1180  0  /var/log/syslog
-|4,49,1180,0,1545880121,"/var/log/syslog"
-'2  1  0  /var/log/syslog
-|4,50,1,0,1545879761,"/var/log/syslog"
+'0  1  0  ~/.vim/README
+|4,48,1,0,1545880568,"~/.vim/README"
+'1  6  0  /etc/resolv.conf
+|4,49,6,0,1545880251,"/etc/resolv.conf"
+'2  1180  0  /var/log/syslog
+|4,50,1180,0,1545880121,"/var/log/syslog"
 '3  1  0  /var/log/syslog
 |4,51,1,0,1545879761,"/var/log/syslog"
-'4  193  55  ~/.zshrc
-|4,52,193,55,1545867554,"~/.zshrc"
-'5  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,53,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
-'6  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,54,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
-'7  1  0  ~/git/backporting/bp-3249todevel/src/en/index.md
-|4,55,1,0,1545860073,"~/git/backporting/bp-3249todevel/src/en/index.md"
-'8  5  0  ~/git/backporting/bp-3249todevel/src/en/whats-new.md
-|4,56,5,0,1545859974,"~/git/backporting/bp-3249todevel/src/en/whats-new.md"
-'9  105  74  ~/git/pmatulis_juju-docs/src/en/whats-new.md
-|4,57,105,74,1545859710,"~/git/pmatulis_juju-docs/src/en/whats-new.md"
+'4  1  0  /var/log/syslog
+|4,52,1,0,1545879761,"/var/log/syslog"
+'5  193  55  ~/.zshrc
+|4,53,193,55,1545867554,"~/.zshrc"
+'6  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,54,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+'7  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
+|4,55,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
+'8  1  0  ~/git/backporting/bp-3249todevel/src/en/index.md
+|4,56,1,0,1545860073,"~/git/backporting/bp-3249todevel/src/en/index.md"
+'9  5  0  ~/git/backporting/bp-3249todevel/src/en/whats-new.md
+|4,57,5,0,1545859974,"~/git/backporting/bp-3249todevel/src/en/whats-new.md"
 
 # Jumplist (newest first):
+-'  1  0  ~/.vim/README
+|4,39,1,0,1545880568,"~/.vim/README"
 -'  6  0  /etc/resolv.conf
 |4,39,6,0,1545880251,"/etc/resolv.conf"
+-'  6  0  /etc/resolv.conf
+|4,39,6,0,1545880251,"/etc/resolv.conf"
+-'  1  0  /etc/resolv.conf
+|4,39,1,0,1545880220,"/etc/resolv.conf"
 -'  1  0  /etc/resolv.conf
 |4,39,1,0,1545880220,"/etc/resolv.conf"
 -'  1180  0  /var/log/syslog
 |4,39,1180,0,1545880121,"/var/log/syslog"
 -'  1180  0  /var/log/syslog
 |4,39,1180,0,1545880121,"/var/log/syslog"
+-'  1180  0  /var/log/syslog
+|4,39,1180,0,1545880121,"/var/log/syslog"
+-'  1180  0  /var/log/syslog
+|4,39,1180,0,1545880121,"/var/log/syslog"
 -'  1  0  /var/log/syslog
 |4,39,1,0,1545879773,"/var/log/syslog"
 -'  1  0  /var/log/syslog
 |4,39,1,0,1545879773,"/var/log/syslog"
+-'  1  0  /var/log/syslog
+|4,39,1,0,1545879773,"/var/log/syslog"
+-'  1  0  /var/log/syslog
+|4,39,1,0,1545879773,"/var/log/syslog"
+-'  1  0  /var/log/syslog
+|4,39,1,0,1545879761,"/var/log/syslog"
+-'  1  0  /var/log/syslog
+|4,39,1,0,1545879761,"/var/log/syslog"
 -'  1  0  /var/log/syslog
 |4,39,1,0,1545879761,"/var/log/syslog"
 -'  1  0  /var/log/syslog
@@ -347,6 +365,22 @@ $
 |4,39,193,55,1545867554,"~/.zshrc"
 -'  193  55  ~/.zshrc
 |4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
+-'  193  55  ~/.zshrc
+|4,39,193,55,1545867554,"~/.zshrc"
 -'  192  55  ~/.zshrc
 |4,39,192,55,1545867543,"~/.zshrc"
 -'  192  55  ~/.zshrc
@@ -363,6 +397,38 @@ $
 |4,39,192,55,1545867543,"~/.zshrc"
 -'  192  55  ~/.zshrc
 |4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  192  55  ~/.zshrc
+|4,39,192,55,1545867543,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1545867530,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1545867530,"~/.zshrc"
 -'  1  0  ~/.zshrc
@@ -411,112 +477,50 @@ $
 |4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
 -'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
 |4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
+-'  338  1  ~/git/pmatulis_maas-docs/en/contributing-writing.md
+|4,39,338,1,1545865863,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
 -'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
 |4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
 -'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
 |4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
 -'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
 |4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  316  0  ~/git/pmatulis_maas-docs/en/contributing-writing.md
-|4,39,316,0,1545865852,"~/git/pmatulis_maas-docs/en/contributing-writing.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  114  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,114,0,1545861004,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  1  0  ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-|4,39,1,0,1545860987,"~/git/pmatulis_juju-docs/src/en/charms-bundles.md"
--'  62  20  ~/git/pmatulis_juju-docs/src/en/index.md
-|4,39,62,20,1545860980,"~/git/pmatulis_juju-docs/src/en/index.md"
--'  62  20  ~/git/pmatulis_juju-docs/src/en/index.md
-|4,39,62,20,1545860980,"~/git/pmatulis_juju-docs/src/en/index.md"
--'  62  20  ~/git/pmatulis_juju-docs/src/en/index.md
-|4,39,62,20,1545860980,"~/git/pmatulis_juju-docs/src/en/index.md"
--'  62  20  ~/git/pmatulis_juju-docs/src/en/index.md
-|4,39,62,20,1545860980,"~/git/pmatulis_juju-docs/src/en/index.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/README
+	*	1545880554	0
+	"	1	0
 
 > /etc/resolv.conf
 	*	1545880249	0
@@ -5146,13 +5150,3 @@ $
 	+	226	78
 	+	227	23
 	a	36	39
-
-> ~/git/backporting/bp-3176todevel/src/en/index.md
-	*	1541707066	0
-	"	39	17
-	^	37	60
-	.	37	60
-	+	36	0
-	+	38	0
-	+	36	60
-	+	37	60
