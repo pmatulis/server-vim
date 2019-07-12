@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1545884920,,"x"
+|2,0,1562906028,,"x"
 :q
 |2,0,1545884281,,"q"
 :w
@@ -252,55 +252,61 @@ $
 |3,0,9,1,1,0,1545880938,"	+	249	0"
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1545884907,"o!!! Note:    "
+|3,0,10,0,1,0,1562906002,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1545884907,"o```bash```jj88k"
+|3,0,11,0,1,0,1562906002,"o```bash```jj88k"
 "c	CHAR	0
 	o```jj
 |3,0,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1545884907,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1562906002,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1545884907,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1562906002,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1545884907,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1562906002,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1545884907,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1562906002,"j88itable_of_contents: Truejj"
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1545884907,"oTODO:  "
+|3,0,29,0,1,0,1562906002,"oTODO:  "
 ""-	CHAR	0
 	update --remote --merge
 |3,1,36,0,1,0,1545884913,"update --remote --merge"
 
 # File marks:
-'0  56  17  ~/.vim/README
-|4,48,56,17,1545884920,"~/.vim/README"
-'1  1  0  ~/.vim/README
-|4,49,1,0,1545884281,"~/.vim/README"
-'2  1  0  ~/.vim/README
-|4,50,1,0,1545884281,"~/.vim/README"
+'0  40  21  ~/.vim/README
+|4,48,40,21,1562906028,"~/.vim/README"
+'1  58  17  ~/.vim/README
+|4,49,58,17,1545884920,"~/.vim/README"
+'2  56  17  ~/.vim/README
+|4,50,56,17,1545884920,"~/.vim/README"
 '3  1  0  ~/.vim/README
-|4,51,1,0,1545884229,"~/.vim/README"
+|4,51,1,0,1545884281,"~/.vim/README"
 '4  1  0  ~/.vim/README
-|4,52,1,0,1545884229,"~/.vim/README"
-'5  1  6  ~/.vim/.gitignore
-|4,53,1,6,1545884158,"~/.vim/.gitignore"
-'6  56  0  ~/.vim/README
-|4,54,56,0,1545884002,"~/.vim/README"
-'7  56  0  ~/.vim/README
-|4,55,56,0,1545884002,"~/.vim/README"
-'8  56  0  ~/.vim/README
-|4,56,56,0,1545884002,"~/.vim/README"
-'9  55  0  ~/.vim/README
-|4,57,55,0,1545884002,"~/.vim/README"
+|4,52,1,0,1545884281,"~/.vim/README"
+'5  1  0  ~/.vim/README
+|4,53,1,0,1545884281,"~/.vim/README"
+'6  1  0  ~/.vim/README
+|4,54,1,0,1545884281,"~/.vim/README"
+'7  1  0  ~/.vim/README
+|4,55,1,0,1545884229,"~/.vim/README"
+'8  1  0  ~/.vim/README
+|4,56,1,0,1545884229,"~/.vim/README"
+'9  1  0  ~/.vim/README
+|4,57,1,0,1545884229,"~/.vim/README"
 
 # Jumplist (newest first):
+-'  40  21  ~/.vim/README
+|4,39,40,21,1562906028,"~/.vim/README"
+-'  1  0  ~/.vim/README
+|4,39,1,0,1562906002,"~/.vim/README"
+-'  58  17  ~/.vim/README
+|4,39,58,17,1545884920,"~/.vim/README"
 -'  56  17  ~/.vim/README
 |4,39,56,17,1545884920,"~/.vim/README"
 -'  1  0  ~/.vim/README
@@ -325,6 +331,24 @@ $
 |4,39,1,6,1545884158,"~/.vim/.gitignore"
 -'  1  6  ~/.vim/.gitignore
 |4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  1  6  ~/.vim/.gitignore
+|4,39,1,6,1545884158,"~/.vim/.gitignore"
+-'  57  0  ~/.vim/README
+|4,39,57,0,1545884002,"~/.vim/README"
 -'  55  0  ~/.vim/README
 |4,39,55,0,1545884002,"~/.vim/README"
 -'  55  0  ~/.vim/README
@@ -469,54 +493,32 @@ $
 |4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
 -'  5362  1  ~/.vim/files/info/viminfo
 |4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
+-'  5362  1  ~/.vim/files/info/viminfo
+|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/README
-	*	1545884915	0
-	"	56	17
-	^	55	18
-	.	55	17
-	+	52	9
-	+	52	0
-	+	51	1
-	+	54	36
-	+	52	45
-	+	56	0
-	+	53	0
-	+	55	17
+	*	1562906027	0
+	"	40	21
+	^	41	22
+	.	41	21
+	+	54	9
+	+	54	0
+	+	53	1
+	+	56	36
+	+	54	45
+	+	58	0
+	+	55	0
+	+	57	17
+	+	39	10
+	+	41	21
 
 > ~/.vim/.gitignore
 	*	1545884157	0
