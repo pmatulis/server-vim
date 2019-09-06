@@ -11,207 +11,227 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/HEA
+~MSle0/that is
 
 # Last Substitute Search Pattern:
-~MSle0&  
+~MSle0~&  
 
 # Last Substitute String:
 $ 
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1545884920,,"x"
-:q
-|2,0,1545884281,,"q"
-:w
-|2,0,1538930914,,"w"
-:bd
-|2,0,1538593290,,"bd"
-:%s/k8cl/k8scl/gc
-|2,0,1538590444,,"%s/k8cl/k8scl/gc"
-:wa
-|2,0,1545843214,,"wa"
+|2,0,1567718716,,"x"
 :bd!
-|2,0,1545841408,,"bd!"
-:e machine-auth.md
-|2,0,1544737334,,"e machine-auth.md"
-:e mach
-|2,0,1544737323,,"e mach"
-:SDelete users
-|2,0,1544733928,,"SDelete users"
-:SSave users
-|2,0,1544729008,,"SSave users"
-:.,.+1!j
-|2,0,1544650628,,".,.+1!j"
-:e users-misc.md
-|2,0,1544643235,,"e users-misc.md"
-:w users-misc.md
-|2,0,1544643146,,"w users-misc.md"
-:e multiuser.md
-|2,0,1544562979,,"e multiuser.md"
-:w multiuser.md
-|2,0,1544562974,,"w multiuser.md"
-:e tutorial-multiuser.md
-|2,0,1544540514,,"e tutorial-multiuser.md"
-:e tmp
-|2,0,1544107623,,"e tmp"
-:e charms-storage.md
-|2,0,1543940226,,"e charms-storage.md"
-:'<,'>q
-|2,0,1543940212,,"'<,'>q"
-:e upgrading.md
-|2,0,1543866443,,"e upgrading.md"
-:%s/2.4.6/2.4.7/gc
-|2,0,1543799741,,"%s/2.4.6/2.4.7/gc"
-://assets.ubuntu.com/v1/9a34b02a-storage-pools.png
-|2,0,1543594452,,"//assets.ubuntu.com/v1/9a34b02a-storage-pools.png"
-://assets.ubuntu.com/v1/c02c2484-storage-pools.png
-|2,0,1543593683,,"//assets.ubuntu.com/v1/c02c2484-storage-pools.png"
-:SSave kubernetes
-|2,0,1543449423,,"SSave kubernetes"
-:Startify
-|2,0,1543449067,,"Startify"
-:CtrlP
-|2,0,1543449027,,"CtrlP"
-:w tutorial-k8s-static-pv.md
-|2,0,1543428937,,"w tutorial-k8s-static-pv.md"
-:%s/microk8s/MicroK8s/gc
-|2,0,1543249059,,"%s/microk8s/MicroK8s/gc"
-:e users-auth.md
-|2,0,1543079053,,"e users-auth.md"
-:e ~/tmp/juju/clouds.md
-|2,0,1543026379,,"e ~/tmp/juju/clouds.md"
-:w ~/tmp/juju/clouds.md
-|2,0,1543026371,,"w ~/tmp/juju/clouds.md"
-://www.cncf.io/certification/software-conformance/
-|2,0,1542745122,,"//www.cncf.io/certification/software-conformance/"
-://github.com/ubuntu/microk8s
-|2,0,1542744847,,"//github.com/ubuntu/microk8s"
+|2,0,1567717980,,"bd!"
+://docs.openstack.org/arch-design/design-control-plane.html
+|2,0,1567717968,,"//docs.openstack.org/arch-design/design-control-plane.html"
+:e ~/tmp/ok
+|2,0,1567717887,,"e ~/tmp/ok"
+:w
+|2,0,1567717839,,"w"
+:w! ~/tmp/app-managing-power-events.rst
+|2,0,1567645647,,"w! ~/tmp/app-managing-power-events.rst"
+:w ~/tmp/app-managing-power-events-juju-status.rst
+|2,0,1567645417,,"w ~/tmp/app-managing-power-events-juju-status.rst"
+:wa
+|2,0,1567632348,,"wa"
+:e app-managing-power-events-juju-status.rst
+|2,0,1567628832,,"e app-managing-power-events-juju-status.rst"
+:e 
+|2,0,1567628813,,"e "
+:bd
+|2,0,1567533316,,"bd"
+:e app-ceph-rbd-mirror.rst
+|2,0,1567529950,,"e app-ceph-rbd-mirror.rst"
+:e deploy-guide/source/app-ceph-rbd-mirror.rst
+|2,0,1567529861,,"e deploy-guide/source/app-ceph-rbd-mirror.rst"
 :.!
-|2,0,1542731646,,".!"
-:e test.sh
-|2,0,1542907353,,"e test.sh"
-:e tutorial-microk8s.md
-|2,0,1542656165,,"e tutorial-microk8s.md"
-:%s/2.4.5/2.4.6/gc
-|2,0,1542374917,,"%s/2.4.5/2.4.6/gc"
-:e charms-storage-k8s.md
-|2,0,1542306312,,"e charms-storage-k8s.md"
-:%s/2.4.4/2.4.5/gc
-|2,0,1541614831,,"%s/2.4.4/2.4.5/gc"
-:.!! Note: 
-|2,0,1541441667,,".!! Note: "
-:b
-|2,0,1541184084,,"b"
-:e reference-documents.md
-|2,0,1541106126,,"e reference-documents.md"
+|2,0,1567633454,,".!"
+:q
+|2,0,1567633708,,"q"
+:e READM
+|2,0,1567552321,,"e READM"
+:e ~/tmp/masakari-readme
+|2,0,1567551520,,"e ~/tmp/masakari-readme"
+:w ~/tmp/masakari-readme-filled.md
+|2,0,1567549334,,"w ~/tmp/masakari-readme-filled.md"
+:w! ~/tmp/masakari-readme
+|2,0,1567546555,,"w! ~/tmp/masakari-readme"
+:w ~/tmp/masakari-readme
+|2,0,1567546518,,"w ~/tmp/masakari-readme"
+://review.opendev.org/#/c/675734/
+|2,0,1567177308,,"//review.opendev.org/#/c/675734/"
+:e ~/git/openstack-charms/charm-ceph-rbd-mirror/src/README.md
+|2,0,1565385888,,"e ~/git/openstack-charms/charm-ceph-rbd-mirror/src/README.md"
+:e ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-masakari.rst
+|2,0,1565380990,,"e ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-masakari.rst"
+:s
+|2,0,1567088909,,"s"
+:e app.rst
+|2,0,1566850426,,"e app.rst"
+:e ~/tmp/published-charms.txt
+|2,0,1565293833,,"e ~/tmp/published-charms.txt"
+:e deploy-guide/source/install-openstack.rst
+|2,0,1565122895,,"e deploy-guide/source/install-openstack.rst"
+:w! ~/tmp/README.md
+|2,0,1564802665,,"w! ~/tmp/README.md"
+:e ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-ceph-rbd-mirror.rst
+|2,0,1564708880,,"e ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-ceph-rbd-mirror.rst"
+:w ~/tmp/README.md
+|2,0,1564694628,,"w ~/tmp/README.md"
+:q!
+|2,0,1564522683,,"q!"
+:e ../../charm-octavia/src/README.md
+|2,0,1564521973,,"e ../../charm-octavia/src/README.md"
+:e install-maas.rst
+|2,0,1564499191,,"e install-maas.rst"
+:x!
+|2,0,1564501486,,"x!"
+:w!
+|2,0,1564501458,,"w!"
+:e tools-charm-tools.md
+|2,0,1557959143,,"e tools-charm-tools.md"
+:%s/<\/code>/`/gc
+|2,0,1559756483,,"%s/<\\/code>/`/gc"
+:%s/<code>/`/gc
+|2,0,1559756469,,"%s/<code>/`/gc"
+:%s/<details> <summary>/[details=/gc
+|2,0,1559756346,,"%s/<details> <summary>/[details=/gc"
+:%s/<\/summary>/]/g
+|2,0,1559756336,,"%s/<\\/summary>/]/g"
+:%s/<\/details>/[\/details]/g
+|2,0,1559756309,,"%s/<\\/details>/[\\/details]/g"
+:%s/<p>//g
+|2,0,1559756293,,"%s/<p>//g"
+:%s/<\/p>//gc
+|2,0,1559756280,,"%s/<\\/p>//gc"
+:%s/<p>//gc
+|2,0,1559755385,,"%s/<p>//gc"
+:%s/\<p\>//gc
+|2,0,1559755356,,"%s/\\<p\\>//gc"
+:%s/<\/details>/[\/details]/gc
+|2,0,1559755297,,"%s/<\\/details>/[\\/details]/gc"
+:%s/<\/summary>/]/gc
+|2,0,1559755259,,"%s/<\\/summary>/]/gc"
+:%s/</>/gc
+|2,0,1559755161,,"%s/</>/gc"
+:%s/charm storage/workload storage/gc
+|2,0,1559330577,,"%s/charm storage/workload storage/gc"
+:e juju-k8s-temp
+|2,0,1557239805,,"e juju-k8s-temp"
 
 # Search String History (newest to oldest):
-?/HEA
-|2,1,1545880830,47,"HEA"
-?/vim
-|2,1,1538931093,47,"vim"
 ?   
-|2,1,1545859276,,"  "
-?/md
-|2,1,1545858027,47,"md"
-?/custom ch
-|2,1,1545857023,47,"custom ch"
-?/Mon
-|2,1,1545856979,47,"Mon"
-?/store
-|2,1,1545856306,47,"store"
-?/url
-|2,1,1545856273,47,"url"
-?/set-cr
-|2,1,1545856109,47,"set-cr"
-?/diff-bu
-|2,1,1545855512,47,"diff-bu"
-?/export
-|2,1,1545855327,47,"export"
-?/prof
-|2,1,1545855050,47,"prof"
-?/howt
-|2,1,1545853560,47,"howt"
-?/upgra
-|2,1,1545853551,47,"upgra"
-?/serie
-|2,1,1545853540,47,"serie"
-?/.md
-|2,1,1545851171,47,".md"
-?/Help
-|2,1,1545845772,47,"Help"
-? \/devel
-|2,1,1545844967,,"\\/devel"
-?/micr
-|2,1,1545841696,47,"micr"
-?/users
-|2,1,1545841468,47,"users"
-?/effecti
-|2,1,1544892074,47,"effecti"
-?/Notic
-|2,1,1544847160,47,"Notic"
-?/app
-|2,1,1544845261,47,"app"
-?/super
-|2,1,1544845177,47,"super"
-?/Model access
-|2,1,1544826153,47,"Model access"
-?/advanced 
-|2,1,1538429955,47,"advanced "
-?/clus
-|2,1,1538429348,47,"clus"
-?/Advan
-|2,1,1538427650,47,"Advan"
-?/clust
-|2,1,1538427231,47,"clust"
-?/#clou
-|2,1,1537911965,47,"#clou"
-?/from a file
-|2,1,1538413633,47,"from a file"
-?/Cloud ty
-|2,1,1538054109,47,"Cloud ty"
-?/metadata-s
-|2,1,1538051357,47,"metadata-s"
-?/Impo
-|2,1,1537529871,47,"Impo"
-?/indi
-|2,1,1537529769,47,"indi"
-?/logs-si
-|2,1,1537447257,47,"logs-si"
-?/txn
-|2,1,1537447236,47,"txn"
-?/charm
-|2,1,1537446377,47,"charm"
-?/tx
-|2,1,1537445361,47,"tx"
-?/s-con
-|2,1,1537443542,47,"s-con"
-?/charmst
-|2,1,1537436260,47,"charmst"
-?/stagi
-|2,1,1537436240,47,"stagi"
-?/prun
-|2,1,1537435615,47,"prun"
-?/batc
-|2,1,1537432560,47,"batc"
-?/ppa
-|2,1,1537367219,47,"ppa"
-?/2.3.9
-|2,1,1537367214,47,"2.3.9"
-?/using the ppa
-|2,1,1537367205,47,"using the ppa"
-?/to 
-|2,1,1537358076,47,"to "
-?/na
-|2,1,1537270415,47,"na"
-?/tradit
-|2,1,1537266560,47,"tradit"
+|2,1,1567717271,,"  "
+?/that is
+|2,1,1567716125,47,"that is"
+?/-api
+|2,1,1567709007,47,"-api"
+?/api
+|2,1,1567708857,47,"api"
+?/grace
+|2,1,1567707255,47,"grace"
+?/nova-clou
+|2,1,1567704128,47,"nova-clou"
+?/rabbitm
+|2,1,1567703986,47,"rabbitm"
+?/rabbit
+|2,1,1567703967,47,"rabbit"
+?/mys
+|2,1,1567701341,47,"mys"
+?/percona-cl
+|2,1,1567701335,47,"percona-cl"
+?/gate
+|2,1,1567695273,47,"gate"
+??related
+|2,1,1567648934,63,"related"
+?/vau
+|2,1,1567648319,47,"vau"
+?/18\/lxd
+|2,1,1567642743,47,"18\\/lxd"
+?/18/lxd
+|2,1,1567642725,47,"18/lxd"
+?/ 18 
+|2,1,1567642680,47," 18 "
+?/18 
+|2,1,1567642614,47,"18 "
+?/18
+|2,1,1567642565,47,"18"
+?/cloud-con
+|2,1,1567641969,47,"cloud-con"
+?/rabb
+|2,1,1567613115,47,"rabb"
+?/MA
+|2,1,1567544434,47,"MA"
+?/ceph -s
+|2,1,1567532748,47,"ceph -s"
+?/START
+|2,1,1567532669,47,"START"
+?/SH
+|2,1,1567532653,47,"SH"
+?/RAD
+|2,1,1567532120,47,"RAD"
+?/deploy
+|2,1,1567532095,47,"deploy"
+?/code
+|2,1,1567531782,47,"code"
+?/MAA
+|2,1,1567531282,47,"MAA"
+?/disast
+|2,1,1567530837,47,"disast"
+? \<Percona\>
+|2,1,1567530521,,"\\<Percona\\>"
+? \<percona\>
+|2,1,1567530481,,"\\<percona\\>"
+?/bar
+|2,1,1567195967,47,"bar"
+?/Rab
+|2,1,1567195690,47,"Rab"
+?/etc
+|2,1,1567195653,47,"etc"
+?/ our
+|2,1,1567038627,47," our"
+?/ we
+|2,1,1567037129,47," we"
+?/we
+|2,1,1567037125,47,"we"
+?/glob
+|2,1,1567633441,47,"glob"
+?/wri
+|2,1,1567633229,47,"wri"
+?/alias
+|2,1,1567633222,47,"alias"
+?/useful
+|2,1,1567127060,47,"useful"
+?/gues
+|2,1,1567134178,47,"gues"
+?/VI
+|2,1,1565399387,47,"VI"
+?/vip
+|2,1,1565399118,47,"vip"
+?/.. not
+|2,1,1567009486,47,".. not"
+?/serv
+|2,1,1566944888,47,"serv"
+?/servi
+|2,1,1566944867,47,"servi"
+?/rbd-mir
+|2,1,1566861858,47,"rbd-mir"
+?/-back
+|2,1,1565293838,47,"-back"
+?/lxd
+|2,1,1565293724,47,"lxd"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@bundle
+|2,3,1549596367,,"bundle"
+@lxd-tut
+|2,3,1548986615,,"lxd-tut"
+@aws-int
+|2,3,1548864737,,"aws-int"
 @6
 |2,3,1529412107,,"6"
 @2687_standardise-cloud-pages
@@ -221,4777 +241,2720 @@ $
 
 # Registers:
 "0	LINE	0
-	git submodule update --remote --merge
-|3,0,0,1,1,0,1545884910,"git submodule update --remote --merge"
+	- ``rabbitmq-server``
+|3,0,0,1,1,0,1567717402,"- ``rabbitmq-server``"
 "1	LINE	0
-	ln -s ~/.vim/dot_vimrc ~/.vimrc
-|3,0,1,1,1,0,1545883998,"ln -s ~/.vim/dot_vimrc ~/.vimrc"
+	
+|3,0,1,1,1,0,1567717974,""
 "2	LINE	0
-	>>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9
-|3,0,2,1,1,0,1545880944,">>>>>>> 9b0db3bc68b04028044da36f38f844ada8ddd0f9"
+	
+|3,0,2,1,1,0,1567717903,""
 "3	LINE	0
-	=======
-|3,0,3,1,1,0,1545880940,"======="
+	
+|3,0,3,1,1,0,1567717835,""
 "4	LINE	0
-		a	36	39
-|3,0,4,1,1,0,1545880939,"	a	36	39"
+	
+|3,0,4,1,1,0,1567717834,""
 "5	LINE	0
-		+	227	23
-|3,0,5,1,1,0,1545880939,"	+	227	23"
+	
+|3,0,5,1,1,0,1567717834,""
 "6	LINE	0
-		+	226	78
-|3,0,6,1,1,0,1545880939,"	+	226	78"
+	
+|3,0,6,1,1,0,1567717804,""
 "7	LINE	0
-		+	223	20
-|3,0,7,1,1,0,1545880938,"	+	223	20"
+	
+|3,0,7,1,1,0,1567717803,""
 "8	LINE	0
-		+	251	0
-|3,0,8,1,1,0,1545880938,"	+	251	0"
+	
+|3,0,8,1,1,0,1567717803,""
 "9	LINE	0
-		+	249	0
-|3,0,9,1,1,0,1545880938,"	+	249	0"
+	
+|3,0,9,1,1,0,1567717803,""
 "a	CHAR	0
 	o!!! Note:    
-|3,0,10,0,1,0,1545884907,"o!!! Note:    "
+|3,0,10,0,1,0,1567718646,"o!!! Note:    "
 "b	CHAR	0
 	o```bash```jj88k
-|3,0,11,0,1,0,1545884907,"o```bash```jj88k"
+|3,0,11,0,1,0,1567718646,"o```bash```jj88k"
 "c	CHAR	0
 	o```jj
 |3,0,12,0,1,0,1531256538,"o```jj"
 "h	CHAR	0
 	o```no-highlightjj88k
-|3,0,17,0,1,0,1545884907,"o```no-highlightjj88k"
+|3,0,17,0,1,0,1567718646,"o```no-highlightjj88k"
 "l	LINE	0
 	o<!-- LINKS -->
-|3,0,21,1,1,0,1545884907,"o<!-- LINKS -->"
+|3,0,21,1,1,0,1567718646,"o<!-- LINKS -->"
 "n	CHAR	0
 	o```no-highlight```jj88k
-|3,0,23,0,1,0,1545884907,"o```no-highlight```jj88k"
+|3,0,23,0,1,0,1567718646,"o```no-highlight```jj88k"
 "o	CHAR	0
 	j88itable_of_contents: Truejj
-|3,0,24,0,1,0,1545884907,"j88itable_of_contents: Truejj"
+|3,0,24,0,1,0,1567718646,"j88itable_of_contents: Truejj"
+"q	CHAR	0
+	
+|3,0,26,0,1,0,1548009056,""
 "t	CHAR	0
 	oTODO:  
-|3,0,29,0,1,0,1545884907,"oTODO:  "
+|3,0,29,0,1,0,1567718646,"oTODO:  "
+"x	CHAR	0
+	o```text```jj88k
+|3,0,33,0,1,0,1567718646,"o```text```jj88k"
 ""-	CHAR	0
-	update --remote --merge
-|3,1,36,0,1,0,1545884913,"update --remote --merge"
+	currently a work in progress.
+|3,1,36,0,1,0,1567718710,"currently a work in progress."
 
 # File marks:
-'0  56  17  ~/.vim/README
-|4,48,56,17,1545884920,"~/.vim/README"
-'1  1  0  ~/.vim/README
-|4,49,1,0,1545884281,"~/.vim/README"
-'2  1  0  ~/.vim/README
-|4,50,1,0,1545884281,"~/.vim/README"
-'3  1  0  ~/.vim/README
-|4,51,1,0,1545884229,"~/.vim/README"
-'4  1  0  ~/.vim/README
-|4,52,1,0,1545884229,"~/.vim/README"
-'5  1  6  ~/.vim/.gitignore
-|4,53,1,6,1545884158,"~/.vim/.gitignore"
-'6  56  0  ~/.vim/README
-|4,54,56,0,1545884002,"~/.vim/README"
-'7  56  0  ~/.vim/README
-|4,55,56,0,1545884002,"~/.vim/README"
-'8  56  0  ~/.vim/README
-|4,56,56,0,1545884002,"~/.vim/README"
-'9  55  0  ~/.vim/README
-|4,57,55,0,1545884002,"~/.vim/README"
+'0  6  9  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,48,6,9,1567718716,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+'1  392  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,49,392,0,1567717983,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+'2  6  28  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,50,6,28,1567711537,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+'3  99  53  ~/.zshrc
+|4,51,99,53,1567633913,"~/.zshrc"
+'4  354  0  ~/git/pmatulis_maas-docs/en/contributing-git.md
+|4,52,354,0,1567633708,"~/git/pmatulis_maas-docs/en/contributing-git.md"
+'5  1566  45  ~/.weechat/logs/2019/08/irc.canonical.#openstack.weechatlog
+|4,53,1566,45,1567554738,"~/.weechat/logs/2019/08/irc.canonical.#openstack.weechatlog"
+'6  1  0  ~/git/openstack-charms/charm-masakari/.git/COMMIT_EDITMSG
+|4,54,1,0,1567554147,"~/git/openstack-charms/charm-masakari/.git/COMMIT_EDITMSG"
+'7  12  43  ~/git/openstack-charms/charm-masakari/src/README.md
+|4,55,12,43,1567554127,"~/git/openstack-charms/charm-masakari/src/README.md"
+'8  1  0  ~/git/openstack-charms/charm-masakari/src/README.md
+|4,56,1,0,1567554057,"~/git/openstack-charms/charm-masakari/src/README.md"
+'9  1  0  ~/git/openstack-charms/charm-masakari/src/README.md
+|4,57,1,0,1567554057,"~/git/openstack-charms/charm-masakari/src/README.md"
 
 # Jumplist (newest first):
--'  56  17  ~/.vim/README
-|4,39,56,17,1545884920,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545884908,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545884281,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545884229,"~/.vim/README"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  1  6  ~/.vim/.gitignore
-|4,39,1,6,1545884158,"~/.vim/.gitignore"
--'  55  0  ~/.vim/README
-|4,39,55,0,1545884002,"~/.vim/README"
--'  55  0  ~/.vim/README
-|4,39,55,0,1545884002,"~/.vim/README"
--'  55  0  ~/.vim/README
-|4,39,55,0,1545884002,"~/.vim/README"
--'  55  0  ~/.vim/README
-|4,39,55,0,1545884002,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545883982,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545883982,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545883953,"~/.vim/README"
--'  1  0  ~/.vim/README
-|4,39,1,0,1545883953,"~/.vim/README"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  5362  1  ~/.vim/files/info/viminfo
-|4,39,5362,1,1545880945,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
--'  713  0  ~/.vim/files/info/viminfo
-|4,39,713,0,1545880934,"~/.vim/files/info/viminfo"
+-'  6  9  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,39,6,9,1567718716,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+-'  1  0  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,39,1,0,1567718646,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+-'  392  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,392,0,1567717983,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  392  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,392,0,1567717983,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  57  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,57,0,1567717981,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  57  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,57,0,1567717981,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  3  0  ~/tmp/ok
+|4,39,3,0,1567717980,"~/tmp/ok"
+-'  3  0  ~/tmp/ok
+|4,39,3,0,1567717980,"~/tmp/ok"
+-'  394  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,394,0,1567717973,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  394  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,394,0,1567717973,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  103  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,103,0,1567717722,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  103  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,103,0,1567717722,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  61  41  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,61,41,1567716616,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  61  41  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,61,41,1567716616,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  19  18  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,19,18,1567716125,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  60  64  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,60,64,1567716125,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  19  18  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,19,18,1567716125,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  60  64  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,60,64,1567716125,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  206  63  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,206,63,1567714823,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  206  63  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,206,63,1567714823,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  6  28  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,39,6,28,1567711537,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+-'  1  0  ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+|4,39,1,0,1567711487,"~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG"
+-'  160  31  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,160,31,1567711458,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  160  31  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,160,31,1567711458,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  193  16  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,193,16,1567711449,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  193  16  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,193,16,1567711449,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  166  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,166,0,1567711015,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  166  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,166,0,1567711015,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  131  6  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,131,6,1567710890,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  131  6  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,131,6,1567710890,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  168  3  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,168,3,1567710882,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  168  3  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,168,3,1567710882,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  78  1  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,78,1,1567710816,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  78  1  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,78,1,1567710816,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  158  19  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,158,19,1567710325,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  158  19  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,158,19,1567710325,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  382  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,382,143,1567709010,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  378  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,378,11,1567709010,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  382  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,382,143,1567709010,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  378  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,378,11,1567709010,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  377  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,377,143,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  373  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,373,11,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  372  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,372,143,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  368  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,368,11,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  377  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,377,143,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  373  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,373,11,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  372  143  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,372,143,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  368  11  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,368,11,1567709009,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  1  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,1,0,1567709007,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  1  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,1,0,1567709007,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  147  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,147,4,1567709002,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  147  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,147,4,1567709002,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  397  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,397,4,1567708854,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  397  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,397,4,1567708854,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  47  50  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,47,50,1567708850,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  47  50  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,47,50,1567708850,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  178  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,178,0,1567707259,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  178  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,178,0,1567707259,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  54  54  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,54,54,1567707255,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  54  54  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,54,54,1567707255,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  194  47  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,194,47,1567707145,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  194  47  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,194,47,1567707145,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  218  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,218,0,1567706737,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  218  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,218,0,1567706737,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  398  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,398,0,1567706281,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  398  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,398,0,1567706281,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  198  31  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,198,31,1567705919,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  198  31  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,198,31,1567705919,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  154  2  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,154,2,1567705149,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  154  2  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,154,2,1567705149,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  89  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,89,0,1567705016,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  89  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,89,0,1567705016,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  309  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,309,4,1567704128,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  309  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,309,4,1567704128,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  152  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,152,0,1567704122,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  152  0  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+|4,39,152,0,1567704122,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst"
+-'  71  69  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,71,69,1567704072,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  71  69  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,71,69,1567704072,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  51  69  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,51,69,1567704071,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  51  69  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,51,69,1567704071,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  518  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,518,136,1567704069,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  515  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,515,4,1567704069,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  518  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,518,136,1567704069,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  515  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,515,4,1567704069,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  514  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,514,136,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  511  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,511,4,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  510  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,510,136,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  514  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,514,136,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  511  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,511,4,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  510  136  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,510,136,1567704062,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  507  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,507,4,1567704061,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  507  4  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,507,4,1567704061,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  326  146  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,326,146,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  321  14  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,321,14,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  320  146  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,320,146,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  326  146  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,326,146,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  321  14  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,321,14,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  320  146  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,320,146,1567704028,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  315  14  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,315,14,1567704027,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
+-'  314  146  ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+|4,39,314,146,1567704027,"~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst"
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/README
-	*	1545884915	0
-	"	56	17
-	^	55	18
-	.	55	17
-	+	52	9
-	+	52	0
-	+	51	1
-	+	54	36
-	+	52	45
-	+	56	0
-	+	53	0
-	+	55	17
-
-> ~/.vim/.gitignore
-	*	1545884157	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
-
-> ~/.vim/files/info/viminfo
-	*	1545880945	0
-	"	5362	1
-	.	5363	0
-	+	26	0
-	+	35	0
+> ~/git/openstack-guides/charm-deployment-guide/.git/COMMIT_EDITMSG
+	*	1567718714	0
+	"	6	9
+	^	6	10
+	.	6	10
+	+	18	0
+	+	16	30
+	+	17	60
+	+	15	54
+	+	16	73
+	+	19	11
+	+	10	54
+	+	12	71
 	+	14	0
-	+	15	0
-	+	113	0
-	+	115	0
-	+	162	0
-	+	235	0
-	+	252	0
-	+	302	0
-	+	306	0
-	+	713	0
-	+	5321	0
-	+	5363	0
+	+	15	53
+	+	16	63
+	+	15	64
+	+	16	78
+	+	6	33
+	+	3	57
+	+	6	9
+	+	3	109
+	+	6	8
+	+	7	0
+	+	6	53
+	+	6	29
+	+	3	47
+	+	5	0
+	+	3	57
+	+	4	27
+	+	6	10
 
-> ~/.vim/.git/config
-	*	1538931107	0
-	"	9	16
-	^	7	41
-	.	7	40
-	+	7	40
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events.rst
+	*	1567717981	0
+	"	392	0
+	^	392	0
+	.	392	0
+	+	159	21
+	+	160	31
+	+	161	29
+	+	162	34
+	+	78	0
+	+	46	0
+	+	46	5
+	+	47	0
+	+	46	10
+	+	169	0
+	+	163	0
+	+	164	57
+	+	165	0
+	+	167	2
+	+	167	16
+	+	166	63
+	+	167	13
+	+	78	0
+	+	78	36
+	+	78	0
+	+	78	9
+	+	78	17
+	+	160	31
+	+	206	63
+	+	46	0
+	+	74	0
+	+	77	0
+	+	74	12
+	+	74	0
+	+	51	75
+	+	52	12
+	+	53	77
+	+	59	75
+	+	60	45
+	+	60	65
+	+	39	8
+	+	39	73
+	+	61	67
+	+	63	0
+	+	63	23
+	+	78	0
+	+	64	0
+	+	70	0
+	+	61	68
+	+	61	70
+	+	62	65
+	+	59	30
+	+	60	46
+	+	62	15
+	+	63	0
+	+	65	0
+	+	65	11
+	+	64	26
+	+	67	4
+	+	65	67
+	+	67	47
+	+	68	0
+	+	78	0
+	+	69	0
+	+	78	0
+	+	71	72
+	+	64	67
+	+	66	0
+	+	73	0
+	+	64	77
+	+	70	0
+	+	74	0
+	+	65	60
+	+	72	25
+	+	73	0
+	+	74	0
+	+	75	19
+	+	76	12
+	+	72	45
+	+	61	42
+	+	78	0
+	+	391	31
+	+	392	0
+	+	391	31
+	+	392	0
+	+	391	32
+	+	381	0
+	+	391	32
+	+	392	0
+	+	394	0
+	+	392	0
+	a	53	59
 
-> ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-	*	1538705593	0
-	"	155	18
-	^	156	0
-	.	155	77
-	+	2	7
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-managing-power-events-juju-status.rst
+	*	1567717980	0
+	"	57	0
+	^	2	0
+	.	519	0
+	+	595	69
+	+	596	0
+	+	595	72
+	+	10	1
+	+	14	118
+	+	78	134
+	+	83	134
+	+	88	134
+	+	93	134
+	+	98	134
+	+	103	134
+	+	108	134
+	+	112	134
+	+	116	134
+	+	147	134
+	+	152	134
+	+	157	134
+	+	163	134
+	+	169	134
+	+	175	134
+	+	180	134
+	+	184	134
+	+	188	134
+	+	193	134
+	+	198	134
+	+	204	134
+	+	210	134
+	+	215	134
+	+	220	134
+	+	225	134
+	+	230	134
+	+	235	134
+	+	240	134
+	+	246	134
+	+	251	134
+	+	260	134
+	+	275	134
+	+	281	134
+	+	287	134
+	+	292	93
+	+	293	134
+	+	299	134
+	+	305	134
+	+	311	134
+	+	317	134
+	+	323	134
+	+	327	76
+	+	329	134
+	+	333	76
+	+	335	134
+	+	339	76
+	+	341	134
+	+	348	134
+	+	353	134
+	+	358	134
+	+	364	134
+	+	367	76
+	+	369	134
+	+	374	134
+	+	379	134
+	+	385	134
+	+	392	134
+	+	398	134
+	+	403	134
+	+	408	134
+	+	415	134
+	+	424	134
+	+	433	134
+	+	442	134
+	+	451	134
+	+	460	134
+	+	469	134
+	+	476	134
+	+	481	134
+	+	486	134
+	+	491	134
+	+	495	134
+	+	499	134
+	+	503	134
+	+	508	134
+	+	512	134
+	+	516	134
+	+	9	0
+	+	11	0
+	+	5	0
+	+	7	0
+	+	6	28
 	+	3	0
-	+	48	13
-	+	10	47
-	+	14	0
-	+	16	69
-	+	16	66
-	+	17	0
-	+	10	11
-	+	13	4
-	+	11	30
-	+	12	11
-	+	12	78
-	+	16	56
-	+	17	0
-	+	16	66
-	+	20	0
-	+	68	91
-	+	71	63
-	+	130	0
-	+	144	19
-	+	145	0
-	+	157	0
-	+	147	9
-	+	147	0
-	+	155	0
-	+	148	0
-	+	155	0
-	+	154	0
-	+	152	15
-	+	125	0
-	+	128	0
-	+	144	8
-	+	150	0
-	+	156	20
-	+	156	4
-	+	155	77
+	+	4	0
+	+	3	33
+	+	1	8
+	+	2	0
+	+	12	0
+	+	75	0
+	+	519	0
 
-> ~/git/pmatulis_juju-docs/src/en/help-aws.md
-	*	1538658742	0
-	"	21	5
-	^	98	21
-	.	122	0
-	+	72	0
-	+	72	36
-	+	72	13
-	+	72	68
-	+	72	7
-	+	72	18
-	+	72	17
-	+	72	18
-	+	72	0
-	+	72	21
-	+	72	70
-	+	72	21
-	+	72	22
-	+	72	0
-	+	72	40
-	+	72	43
-	+	72	0
-	+	72	18
-	+	72	15
-	+	72	51
-	+	72	30
-	+	72	70
-	+	72	74
-	+	182	89
+> ~/tmp/ok
+	*	1567717977	0
+	"	3	0
+	^	1	0
+	.	3	0
 	+	2	0
 	+	3	0
-	+	72	66
-	+	72	19
-	+	72	66
-	+	72	45
-	+	72	0
-	+	72	75
-	+	72	15
-	+	72	0
-	+	72	77
-	+	72	0
-	+	72	71
-	+	72	3
-	+	72	7
-	+	72	77
-	+	72	78
-	+	174	27
-	+	175	30
-	+	173	40
-	+	177	64
-	+	96	0
-	+	94	39
-	+	96	0
-	+	90	78
-	+	91	29
-	+	91	20
-	+	97	76
-	+	183	0
-	+	183	32
-	+	183	31
-	+	184	0
-	+	97	74
-	+	98	64
-	+	90	19
-	+	90	78
-	+	94	38
-	+	90	74
-	+	72	0
-	+	99	0
-	+	86	76
-	+	71	0
-	+	72	0
-	+	71	0
-	+	76	63
-	+	76	71
-	+	76	14
-	+	76	0
-	+	86	79
-	+	86	9
-	+	86	0
-	+	86	49
-	+	84	0
-	+	86	0
-	+	64	0
-	+	74	0
-	+	25	0
-	+	75	0
-	+	76	0
-	+	24	24
-	+	75	69
-	+	76	0
-	+	85	7
-	+	80	0
-	+	83	11
-	+	81	76
-	+	82	13
-	+	83	0
-	+	97	77
-	+	66	0
-	+	181	0
-	+	125	0
-	+	122	0
-	a	97	44
-
-> /etc/resolv.conf
-	*	1545880249	0
-	"	6	0
-	^	7	19
-	.	6	0
-	+	7	18
-	+	6	0
-
-> /var/log/syslog
-	*	1545880118	0
-	"	1180	0
 
 > ~/.zshrc
-	*	1545867552	0
-	"	193	55
-	^	192	1
-	.	193	55
-	+	192	0
+	*	1567633910	0
+	"	99	53
+	^	99	83
+	.	99	83
+	+	183	43
+	+	65	166
+	+	184	36
+	+	65	7
+	+	65	0
+	+	56	0
+	+	189	0
+	+	136	27
+	+	96	23
+	+	95	21
+	+	198	51
+	+	199	57
+	+	197	43
+	+	206	1
+	+	206	0
+	+	213	0
+	+	205	0
+	+	205	23
+	+	205	0
+	+	99	83
+
+> ~/git/pmatulis_maas-docs/en/contributing-git.md
+	*	1567633703	0
+	"	354	0
+
+> ~/git/openstack-charms/charm-masakari/.git/COMMIT_EDITMSG
+	*	1567554135	0
+	"	1	0
+
+> ~/git/openstack-charms/charm-masakari/src/README.md
+	*	1567554125	0
+	"	12	43
+	^	5	44
+	.	5	44
+	+	170	0
+	+	171	33
+	+	173	39
+	+	181	0
+	+	174	163
+	+	180	157
+	+	174	0
+	+	185	6
+	+	190	64
+	+	191	56
+	+	142	64
+	+	135	8
+	+	132	42
+	+	132	50
+	+	132	49
+	+	132	67
+	+	132	66
+	+	133	21
+	+	132	67
+	+	133	21
+	+	134	0
+	+	133	36
+	+	132	42
+	+	133	34
+	+	159	69
+	+	159	74
+	+	160	78
+	+	161	40
+	+	191	58
+	+	192	62
+	+	191	65
+	+	190	65
+	+	191	70
+	+	218	76
+	+	219	0
+	+	218	76
+	+	16	25
+	+	20	51
+	+	20	19
+	+	28	23
+	+	16	29
+	+	16	45
+	+	16	31
+	+	16	78
+	+	30	61
+	+	129	0
+	+	130	0
+	+	129	4
+	+	155	0
+	+	153	0
+	+	154	0
+	+	153	43
+	+	3	0
+	+	16	0
+	+	20	35
+	+	20	70
+	+	20	72
+	+	20	34
+	+	20	4
+	+	27	0
+	+	25	21
+	+	26	22
+	+	27	0
+	+	25	0
+	+	20	59
+	+	25	19
+	+	25	114
+	+	26	0
+	+	20	72
+	+	3	37
+	+	4	71
+	+	17	68
+	+	3	76
+	+	4	79
+	+	18	36
+	+	18	67
+	+	23	61
+	+	24	52
+	+	19	44
+	+	23	1
+	+	24	4
+	+	19	20
+	+	19	66
+	+	19	16
+	+	19	42
+	+	20	0
+	+	18	70
+	+	20	0
+	+	18	29
+	+	19	37
+	+	18	34
+	+	19	66
+	+	18	50
+	+	19	78
+	+	19	38
+	+	18	76
+	+	20	0
+	+	13	0
+	+	20	0
+	+	5	44
+
+> ~/git/openstack-charms/charm-masakari-monitors/README.md
+	*	1567553912	0
+	"	11	0
+	^	5	44
+	.	5	44
+	+	1	0
+	+	24	0
+	+	11	0
+	+	9	69
+	+	7	72
+	+	8	54
+	+	9	4
+	+	8	78
+	+	8	1
+	+	7	75
+	+	8	78
+	+	7	59
+	+	5	44
+
+> ~/tmp/masakari-readme
+	*	1567553685	0
+	"	9	4
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-ceph-rbd-mirror.rst
+	*	1567533314	0
+	"	23	4
+	^	27	0
+	.	27	0
+	+	22	78
+	+	23	78
+	+	25	0
+	+	28	0
+	+	162	4
+	+	205	0
+	+	10	68
+	+	13	76
+	+	15	98
+	+	19	32
+	+	19	0
+	+	15	126
+	+	19	0
+	+	7	0
+	+	10	69
+	+	10	71
+	+	13	0
+	+	11	55
+	+	13	0
+	+	11	1
+	+	13	0
+	+	11	70
+	+	12	11
+	+	11	53
+	+	13	0
+	+	11	52
+	+	11	79
+	+	15	117
+	+	31	68
+	+	31	78
+	+	14	69
+	+	15	36
+	+	15	113
+	+	15	64
+	+	15	90
+	+	15	130
+	+	15	112
+	+	19	0
+	+	15	117
+	+	14	0
+	+	15	40
+	+	15	113
+	+	15	140
+	+	19	0
+	+	15	157
+	+	15	122
+	+	19	0
+	+	19	34
+	+	19	0
+	+	15	137
+	+	15	143
+	+	19	0
+	+	19	26
+	+	16	59
+	+	15	136
+	+	14	70
+	+	15	143
+	+	14	74
+	+	15	143
+	+	14	74
+	+	15	0
+	+	15	65
+	+	15	120
+	+	14	74
+	+	15	120
+	+	15	76
+	+	19	0
+	+	25	0
+	+	19	0
+	+	25	0
+	+	205	0
+	+	207	0
+	+	205	0
+	+	15	156
+	+	17	21
+	+	17	0
+	+	19	0
+	+	17	17
+	+	15	58
+	+	15	55
+	+	15	58
+	+	15	77
+	+	16	59
+	+	15	98
+	+	16	58
+	+	16	72
+	+	18	29
+	+	16	72
+	+	17	78
+	+	206	7
+	+	210	49
+	+	211	0
+	+	210	2
+	+	26	77
+	+	27	0
+
+> deploy-guide/source/app-ceph-rbd-mirror.rst
+	*	1567529861	0
+	"	1	0
+
+> ~/.weechat/logs/2019/08/irc.canonical.#openstack.weechatlog
+	*	1567127061	0
+	"	1566	45
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-masakari.rst
+	*	1567125771	0
+	"	109	4
+
+> ~/bin/git-review.sh
+	*	1567089720	0
+	"	8	9
+	^	11	39
+	.	11	38
+	+	13	10
+	+	5	0
+	+	5	25
+	+	3	29
+	+	4	0
+	+	10	0
+	+	8	2
+	+	6	0
+	+	13	1
+	+	7	8
+	+	8	9
+	+	12	7
+	+	8	10
+	+	11	8
+	+	1	8
+	+	11	5
+	+	13	0
+	+	11	28
+	+	13	0
+	+	1	2
+	+	13	0
+	+	11	38
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-critical-cloud-procedures.rst
+	*	1566944971	0
+	"	17	0
+	^	8	35
+	.	9	67
+	+	15	38
+	+	17	17
+	+	17	0
+	+	16	18
+	+	16	25
+	+	16	24
+	+	16	60
+	+	16	23
+	+	16	66
+	+	16	48
+	+	16	74
+	+	16	19
+	+	16	18
+	+	16	0
+	+	17	0
+	+	16	75
+	+	17	0
+	+	15	0
+	+	15	37
+	+	17	13
+	+	17	0
+	+	17	9
+	+	17	18
+	+	17	0
+	+	17	22
+	+	17	0
+	+	17	12
+	+	17	0
+	+	17	76
+	+	17	55
+	+	17	66
+	+	17	14
+	+	17	77
+	+	17	38
+	+	17	56
+	+	17	0
+	+	17	18
+	+	17	17
+	+	17	0
+	+	17	3
+	+	17	0
+	+	18	0
+	+	68	0
+	+	67	0
+	+	69	0
+	+	74	0
+	+	71	0
+	+	73	2
+	+	67	13
+	+	73	16
+	+	68	0
+	+	73	16
+	+	74	0
+	+	73	4
+	+	74	0
+	+	68	0
+	+	74	70
+	+	68	17
+	+	68	0
+	+	74	15
+	+	68	0
+	+	66	0
+	+	74	0
+	+	72	0
+	+	66	2
+	+	68	0
+	+	67	2
+	+	28	5
+	+	14	19
+	+	15	0
+	+	12	68
+	+	13	72
+	+	1	33
+	+	10	12
+	+	13	46
+	+	23	66
+	+	7	72
+	+	9	67
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app.rst
+	*	1566944969	0
+	"	19	4
+	^	21	28
+	.	21	28
+	+	21	28
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/ControlP
+	*	1566861802	0
+	"	10	0
+	.	2	0
+	+	2	0
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-pci-passthrough-gpu.rst
+	*	1566849698	0
+	"	1	0
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-nova-cells.rst
+	*	1566848224	0
+	"	1	0
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/app-certificate-management.rst
+	*	1566848198	0
+	"	1	0
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/index.rst
+	*	1566848165	0
+	"	1	0
+
+> ~/git/openstack-guides/charm-guide/doc/source/1907.rst
+	*	1565636014	0
+	"	1	0
+	^	211	9
+	.	232	0
+	+	4	4
+	+	110	0
+	+	211	9
+	+	232	0
+
+> ~/git/openstack-guides/charm-guide/doc/source/1904.rst
+	*	1565636001	0
+	"	1	0
+
+> ~/git/openstack-charms/charm-ceph-rbd-mirror/src/README.md
+	*	1565385924	0
+	"	213	0
+	^	177	1
+	.	177	0
+	+	149	34
+	+	149	70
+	+	149	0
+	+	46	0
+	+	54	0
+	+	21	0
+	+	19	2
+	+	19	70
+	+	19	13
+	+	22	2
+	+	22	66
+	+	22	65
+	+	22	76
+	+	19	78
+	+	24	72
+	+	27	2
+	+	27	66
+	+	27	65
+	+	28	76
+	+	27	38
+	+	46	0
+	+	31	2
+	+	31	48
+	+	31	77
+	+	54	0
+	+	33	0
+	+	34	2
+	+	34	63
+	+	34	62
+	+	36	75
+	+	46	0
+	+	17	33
+	+	39	17
+	+	32	42
+	+	33	0
+	+	32	55
+	+	85	8
+	+	98	61
+	+	106	60
+	+	106	79
+	+	107	70
+	+	106	75
+	+	106	79
+	+	121	66
+	+	122	75
+	+	183	5
+	+	185	69
+	+	187	43
+	+	152	79
+	+	187	50
 	+	193	0
-	+	192	1
-	+	193	55
+	+	67	24
+	+	72	54
+	+	67	0
+	+	72	59
+	+	72	79
+	+	73	49
+	+	74	0
+	+	185	69
+	+	187	42
+	+	186	44
+	+	187	36
+	+	186	2
+	+	187	43
+	+	186	43
+	+	187	50
+	+	193	0
+	+	190	0
+	+	189	0
+	+	191	4
+	+	190	50
+	+	191	3
+	+	192	0
+	+	186	37
+	+	186	0
+	+	188	23
+	+	5	8
+	+	6	4
+	+	5	8
+	+	5	76
+	+	11	0
+	+	52	0
+	+	39	16
+	+	39	17
+	+	41	67
+	+	39	29
+	+	41	66
+	+	44	78
+	+	47	2
+	+	47	65
+	+	47	64
+	+	50	71
+	+	53	2
+	+	54	0
+	+	53	15
+	+	177	0
 
-> ~/git/pmatulis_maas-docs/en/contributing-writing.md
-	*	1545865861	0
-	"	338	1
-	^	338	1
-	.	338	0
-	+	338	0
+> ~/git/openstack-guides/charm-guide/doc/source/openstack-charms.rst
+	*	1565294038	0
+	"	1	0
+	^	100	57
+	.	11	0
+	+	23	0
+	+	38	0
+	+	39	0
+	+	38	93
+	+	51	0
+	+	49	0
+	+	60	0
+	+	53	0
+	+	54	91
+	+	60	0
+	+	55	0
+	+	49	0
+	+	57	0
+	+	49	0
+	+	59	0
+	+	103	0
+	+	101	0
+	+	100	57
+	+	11	0
 
-> ~/git/pmatulis_juju-docs/src/en/charms-bundles.md
-	*	1545860994	0
-	"	114	0
-	^	114	105
-	.	114	0
-	+	54	74
+> ~/git/openstack-guides/charm-guide/.git/COMMIT_EDITMSG
+	*	1565293867	0
+	"	14	0
+	^	13	7
+	.	13	7
+	+	3	0
+	+	1	0
+	+	3	24
+	+	10	24
+	+	21	0
+	+	10	2
+	+	16	2
+	+	5	0
+	+	4	0
+	+	5	2
+	+	7	0
+	+	9	0
+	+	5	2
+	+	10	2
+	+	16	0
+	+	8	29
+	+	3	7
+	+	5	38
+	+	8	7
+	+	10	37
+	+	6	24
+	+	16	0
+	+	17	7
+	+	11	25
+	+	17	24
+	+	19	20
+	+	3	0
+	+	8	0
+	+	17	0
+	+	20	0
+	+	10	23
+	+	12	0
+	+	10	0
+	+	13	7
+
+> ~/tmp/published-charms.txt
+	*	1565293847	0
+	"	63	4
+	.	14	0
+	+	22	18
+	+	57	9
+	+	20	17
+	+	57	7
+	+	57	9
+	+	57	16
+	+	57	11
+	+	57	14
+	+	57	12
+	+	57	10
+	+	57	5
+	+	56	17
+	+	55	14
+	+	56	14
+	+	57	2
+	+	57	7
+	+	57	9
+	+	57	11
+	+	57	8
+	+	57	13
+	+	57	6
+	+	57	4
+	+	18	3
+	+	19	7
+	+	20	13
+	+	21	9
+	+	22	15
+	+	51	27
+	+	71	9
+	+	71	17
+	+	71	8
+	+	71	14
+	+	39	28
+	+	71	18
+	+	71	9
+	+	57	0
+	+	46	0
+	+	48	0
+	+	46	0
+	+	57	0
 	+	54	0
-	+	54	26
-	+	54	72
+	+	57	0
+	+	53	0
+	+	57	0
+	+	26	0
+	+	50	0
+	+	57	0
+	+	52	0
+	+	60	0
+	+	71	3
+	+	71	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	44	0
+	+	46	0
+	+	18	0
+	+	18	12
+	+	20	0
+	+	61	0
+	+	71	0
+	+	58	0
+	+	59	17
+	+	61	15
+	+	46	0
+	+	62	6
+	+	24	0
+	+	63	52
+	+	18	13
+	+	64	17
+	+	71	0
+	+	65	5
+	+	66	13
+	+	71	0
+	+	67	7
+	+	68	16
+	+	71	0
+	+	69	15
+	+	71	0
+	+	70	6
+	+	71	0
+	+	18	0
+	+	16	0
+	+	1	0
+	+	15	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	14	0
+
+> ~/tmp/supported-charms.txt
+	*	1565290704	0
+	"	46	10
+	^	46	11
+	.	46	11
+	+	47	5
+	+	1	6
+	+	2	10
+	+	3	18
+	+	4	16
+	+	5	12
+	+	6	18
+	+	7	9
+	+	8	10
+	+	9	10
+	+	10	12
+	+	11	14
+	+	12	17
+	+	13	8
+	+	14	15
+	+	15	13
+	+	16	11
+	+	17	16
+	+	18	8
+	+	19	27
+	+	20	9
+	+	21	11
+	+	22	6
+	+	23	10
+	+	24	15
+	+	25	5
+	+	26	10
+	+	27	19
+	+	28	8
+	+	29	16
+	+	30	13
+	+	31	25
+	+	32	17
+	+	33	21
+	+	34	22
+	+	35	23
+	+	36	14
+	+	37	9
+	+	38	19
+	+	39	28
+	+	40	18
+	+	41	21
+	+	42	17
+	+	43	17
+	+	44	13
+	+	45	15
+	+	46	9
+	+	47	7
+	+	3	19
+	+	7	11
+	+	19	29
+	+	26	12
+	+	28	10
+	+	27	21
+	+	29	18
+	+	39	30
+	+	40	20
+	+	46	11
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/install-openstack.rst
+	*	1565231877	0
+	"	221	24
+	^	221	103
+	.	222	0
+	+	214	22
+	+	231	0
+	+	218	49
+	+	224	0
+	+	218	64
+	+	218	45
+	+	218	22
+	+	218	50
+	+	218	70
+	+	218	60
+	+	218	52
+	+	218	31
+	+	218	43
+	+	218	70
+	+	224	0
+	+	218	43
+	+	218	36
+	+	218	58
+	+	224	0
+	+	218	76
+	+	218	58
+	+	218	46
+	+	218	50
+	+	218	59
+	+	218	76
+	+	218	59
+	+	218	77
+	+	218	59
+	+	225	77
+	+	225	99
+	+	225	4
+	+	225	77
+	+	225	65
+	+	225	0
+	+	225	81
+	+	225	4
+	+	225	22
+	+	225	50
+	+	218	68
+	+	218	47
+	+	218	50
+	+	218	67
+	+	218	47
+	+	224	0
+	+	218	14
+	+	225	0
+	+	218	18
+	+	225	42
+	+	218	2
+	+	218	19
+	+	218	78
+	+	218	73
+	+	218	42
+	+	218	78
+	+	218	13
+	+	218	17
+	+	218	23
+	+	218	36
+	+	218	64
+	+	224	0
+	+	218	46
+	+	224	0
+	+	218	54
+	+	224	0
+	+	218	8
+	+	225	0
+	+	218	38
+	+	218	0
+	+	219	77
+	+	220	48
+	+	220	64
+	+	218	78
+	+	224	2
+	+	225	0
+	+	224	29
+	+	221	63
+	+	223	32
+	+	224	0
+	+	221	56
+	+	223	0
+	+	223	22
+	+	221	4
+	+	221	63
+	+	220	61
+	+	221	24
+	+	221	103
+	+	222	77
+	+	222	0
+
+> ~/git/openstack-guides/charm-deployment-guide/deploy-guide/source/install-maas.rst
+	*	1565213748	0
+	"	306	0
+	^	307	48
+	.	306	54
+	+	290	78
+	+	290	0
+	+	291	11
+	+	291	38
+	+	291	76
+	+	291	61
+	+	292	0
+	+	288	46
+	+	289	0
+	+	288	0
+	+	290	50
+	+	291	56
+	+	291	58
+	+	291	60
+	+	291	10
+	+	291	67
+	+	291	31
+	+	309	41
+	+	306	36
+	+	307	37
+	+	310	37
+	+	311	37
+	+	312	37
+	+	313	37
+	+	314	0
+	+	312	36
+	+	314	37
+	+	315	37
+	+	316	37
+	+	317	37
+	+	318	37
+	+	306	44
+	+	307	44
+	+	308	44
+	+	309	44
+	+	310	43
+	+	311	43
+	+	312	43
+	+	313	43
+	+	314	43
+	+	315	43
+	+	316	43
+	+	317	43
+	+	318	43
+	+	307	0
+	+	308	0
+	+	291	0
+	+	306	0
+	+	307	47
+	+	317	45
+	+	306	54
+	a	290	50
+
+> ~/.weechat/logs/2019/06/irc.canonical.thedac.weechatlog
+	*	1565124822	0
+	"	13	52
+
+> ~/git/openstack-guides/charm-deployment-guide/ControlP
+	*	1565122777	0
+	"	10	0
+	.	2	0
+	+	2	0
+
+> ~/git/openstack-charms/charm-percona-cluster/README.md
+	*	1564758400	0
+	"	345	0
+	^	125	2
+	.	173	0
+	+	271	0
+	+	279	0
+	+	272	0
+	+	296	0
+	+	288	4
+	+	289	0
+	+	302	0
+	+	303	0
+	+	302	4
+	+	310	0
+	+	318	0
+	+	311	0
+	+	331	0
+	+	332	0
+	+	331	4
+	+	333	32
+	+	336	0
+	+	344	0
+	+	337	0
+	+	346	0
+	+	241	0
+	+	242	0
+	+	244	0
+	+	243	0
+	+	246	0
+	+	197	0
+	+	199	0
+	+	198	4
+	+	196	0
+	+	197	0
+	+	195	0
+	+	194	4
+	+	209	0
+	+	211	0
+	+	210	4
+	+	207	0
+	+	205	0
+	+	204	0
+	+	206	0
+	+	218	0
+	+	220	0
+	+	219	4
+	+	199	0
+	+	196	49
+	+	237	0
+	+	239	0
+	+	238	4
+	+	234	0
+	+	224	0
+	+	121	0
+	+	122	2
+	+	123	2
+	+	124	2
+	+	125	2
+	+	183	0
+	+	178	74
+	+	174	71
+	+	202	76
+	+	73	0
+	+	173	0
+
+> ~/.vimrc
+	*	1564711005	0
+	"	176	15
+	^	32	6
+	.	32	6
+	+	39	0
+	+	35	38
+	+	39	0
+	+	51	0
+	+	35	44
+	+	39	0
+	+	36	12
+	+	39	0
+	+	37	42
+	+	37	24
+	+	39	0
+	+	37	25
+	+	38	12
+	+	36	0
+	+	224	45
+	+	35	0
+	+	42	0
+	+	47	0
+	+	45	0
+	+	46	0
+	+	45	1
+	+	35	0
+	+	46	0
+	+	35	0
+	+	43	0
+	+	44	0
+	+	43	5
+	+	35	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	29	0
+	+	32	0
+	+	29	2
+	+	32	6
+
+> /etc/nginx/sites-available/pmatulis_charm-guide
+	*	1564600874	0
+	"	3	48
+	^	3	49
+	.	3	49
+	+	3	49
+
+> /etc/nginx/sites-available/pmatulis_charm-deploy-guide
+	*	1564600859	0
+	"	4	24
+	^	3	49
+	.	3	48
+	+	1	9
+	+	1	87
+	+	1	24
+	+	1	8
+	+	13	0
+	+	3	48
+
+> ~/git/openstack-charms/charm-ceph-rbd-mirror/src/tests/bundles/bionic-rocky.yaml
+	*	1564598670	0
+	"	1	0
+
+> /etc/nginx/sites-enabled/pmatulis_charm-guide
+	*	1564541167	0
+	"	6	0
+	^	3	47
+	.	5	21
+	+	3	47
+	+	5	21
+
+> ~/git/charm-ceph-rbd-mirror/.git/COMMIT_EDITMSG
+	*	1564528009	0
+	"	2	0
+
+> ~/git/charm-ceph-rbd-mirror/src/README.md
+	*	1564526780	0
+	"	68	0
+	^	63	35
+	.	64	0
+	+	66	0
+	+	69	0
+	+	62	0
+	+	63	28
+	+	63	129
+	+	63	21
+	+	66	0
+	+	63	83
+	+	64	215
+	+	63	71
+	+	64	73
+	+	64	117
+	+	66	0
+	+	63	50
+	+	63	46
+	+	64	68
+	+	63	98
+	+	63	42
+	+	63	97
+	+	66	0
+	+	65	0
+	+	67	0
+	+	66	22
+	+	66	123
+	+	63	96
+	+	63	98
+	+	67	0
+	+	68	0
+	+	67	103
+	+	64	50
+	+	64	28
+	+	63	45
+	+	63	66
+	+	63	112
+	+	64	17
+	+	65	0
+	+	63	87
+	+	66	1
+	+	64	43
+	+	67	8
+	+	63	78
+	+	66	1
+	+	63	93
+	+	66	0
+	+	63	57
+	+	50	61
+	+	63	56
+	+	64	0
+
+> ~/git/charm-octavia/src/README.md
+	*	1564522698	0
+	"	13	4
+
+> ~/git/charm-ceph-rbd-mirror/src/ControlP
+	*	1564521959	0
+	"	10	0
+	.	2	0
+	+	2	0
+
+> ~/tmp/review/deploy-guide/source/install-maas.rst
+	*	1564506499	0
+	"	265	4
+
+> ~/tmp/review/deploy-guide/source/install-juju.rst
+	*	1564506494	0
+	"	112	0
+
+> ~/tmp/review/setup.py
+	*	1564497933	0
+	"	1	0
+
+> ~/tmp/review/README.rst
+	*	1564495604	0
+	"	1	0
+
+> ~/.weechat/logs/2019/07/irc.canonical.coreycb.weechatlog
+	*	1564162920	0
+	"	1	0
+
+> ~/.weechat/logs/2019/06/irc.canonical.coreycb.weechatlog
+	*	1564161643	0
+	"	102	0
+
+> ~/.weechat/logs/2019/07/irc.canonical.#openstack.weechatlog
+	*	1563589720	0
+	"	4106	52
+
+> ~/git/charm-swift-storage/tests/tests.yaml
+	*	1563300981	0
+	"	1	0
+
+> ~/tmp/charm-deployment-guide.log
+	*	1563216760	0
+	"	377	0
+
+> ~/tmp/charm-guide.log
+	*	1563215778	0
+	"	172	0
+
+> ~/tmp/charm-guide2.log
+	*	1563215652	0
+	"	1	0
+
+> ~/.weechat/logs/2019/06/core.weechat.weechatlog
+	*	1562866253	0
+	"	85	0
+
+> ~/discourse/all/1448-appendix-installing-a-gke-cluster.md
+	*	1561660866	0
+	"	121	0
+
+> ~/git/pmatulis_openstack-bundles/stable/overlays/openstack-base-virt-overlay.yaml
+	*	1561042652	0
+	"	57	4
+	^	57	23
+	.	57	23
+	+	57	23
+
+> ~/git/pmatulis_openstack-bundles/stable/openstack-base/openstack-base-spaces-overlay.yaml
+	*	1560824301	0
+	"	31	0
+
+> ~/bzr/scripts/git/git_new_tutorials_branch.sh
+	*	1560267281	0
+	"	34	0
+	^	17	36
+	.	18	0
+	+	11	48
+	+	17	36
+	+	18	0
+
+> ~/bzr/scripts/git/git_new_docs_branch.sh
+	*	1560261312	0
+	"	1	0
+
+> ~/git/pmatulis_juju-docs/src/en/authors-charm-actions.md
+	*	1560260793	0
+	"	1	0
+
+> ~/git/pmatulis_juju-docs/src/en/tools.md
+	*	1560260783	0
+	"	48	0
+
+> ~/git/pmatulis_juju-docs/src/en/tools-charm-helpers.md
+	*	1560260776	0
+	"	1	0
+
+> ~/git/charm-keystone/README.md
+	*	1559953906	0
+	"	108	0
+	^	72	31
+	.	74	76
+	+	73	10
+	+	74	76
+
+> ~/discourse/all/1180-charm-tools.md
+	*	1559764602	0
+	"	101	0
+
+> ~/discourse/work/1155-models.md
+	*	1559757688	0
+	"	1	314
+	^	77	312
+	.	77	311
+	+	15	0
+	+	13	0
+	+	91	0
+	+	90	0
+	+	86	0
+	+	82	0
+	+	78	0
+	+	74	0
+	+	70	0
+	+	65	0
+	+	61	0
+	+	57	0
+	+	53	0
+	+	49	0
+	+	45	0
+	+	41	0
+	+	37	0
+	+	33	0
+	+	15	0
+	+	14	123
+	+	14	125
+	+	15	0
+	+	18	0
+	+	20	0
+	+	18	0
+	+	20	0
+	+	90	0
+	+	18	63
+	+	20	0
+	+	19	0
+	+	20	0
+	+	24	0
+	+	27	0
+	+	30	0
+	+	33	0
+	+	20	0
+	+	18	154
+	+	18	61
+	+	18	63
+	+	19	0
+	+	18	61
+	+	21	18
+	+	25	19
+	+	28	22
+	+	31	19
+	+	36	144
+	+	36	195
+	+	37	0
+	+	36	240
+	+	40	142
+	+	40	154
+	+	41	0
+	+	40	163
+	+	44	151
+	+	44	68
+	+	44	221
+	+	44	258
+	+	44	256
+	+	45	0
+	+	44	256
+	+	44	114
+	+	44	310
+	+	49	0
+	+	48	212
+	+	53	0
+	+	52	79
+	+	57	0
+	+	61	0
+	+	64	167
+	+	64	92
+	+	64	0
+	+	64	169
+	+	65	0
+	+	69	53
+	+	73	85
+	+	74	0
+	+	73	141
+	+	77	148
+	+	77	210
+	+	77	240
+	+	77	210
+	+	77	0
+	+	78	0
+	+	77	243
+	+	77	0
+	+	77	335
+	+	77	276
+	+	81	146
+	+	81	217
+	+	81	219
+	+	81	227
+	+	82	0
+	+	81	250
+	+	85	138
+	+	85	215
+	+	85	229
+	+	86	0
+	+	85	268
+	+	77	311
+
+> ~/discourse/work/1111-controllers.md
+	*	1559756064	0
+	"	23	9
+	^	52	226
+	.	52	215
+	+	14	0
+	+	18	0
+	+	22	0
+	+	26	0
+	+	30	0
+	+	35	0
+	+	39	0
+	+	47	0
+	+	51	0
+	+	14	0
+	+	18	0
+	+	22	0
+	+	26	0
+	+	30	0
+	+	35	0
+	+	39	0
+	+	47	0
+	+	51	0
+	+	16	0
+	+	20	0
+	+	24	0
+	+	28	0
+	+	33	0
+	+	37	0
+	+	41	0
+	+	49	0
+	+	53	0
+	+	49	0
+	+	41	0
+	+	37	0
+	+	33	0
+	+	28	0
+	+	24	0
+	+	16	0
+	+	20	0
+	+	15	0
+	+	15	214
+	+	19	0
+	+	19	278
+	+	23	0
+	+	27	0
+	+	27	90
+	+	31	0
+	+	32	0
+	+	36	0
+	+	15	0
+	+	15	144
+	+	15	214
+	+	15	220
+	+	15	153
+	+	15	220
+	+	16	0
+	+	19	211
+	+	19	278
+	+	19	0
+	+	19	276
+	+	19	313
+	+	19	315
+	+	20	0
+	+	23	135
+	+	24	0
+	+	27	88
+	+	28	0
+	+	27	88
+	+	32	0
+	+	36	109
+	+	37	0
+	+	36	109
+	+	40	0
+	+	40	87
+	+	52	145
+	+	52	147
+	+	52	181
+	+	53	0
+	+	52	181
 	+	54	0
-	+	54	7
-	+	54	16
-	+	54	0
-	+	54	1
-	+	54	42
-	+	54	0
-	+	54	7
-	+	54	3
-	+	54	12
-	+	54	37
-	+	54	1
-	+	54	64
-	+	54	18
-	+	54	0
-	+	54	69
-	+	54	0
-	+	54	68
-	+	54	0
-	+	54	27
-	+	54	75
-	+	54	57
-	+	54	0
-	+	54	3
-	+	54	62
-	+	54	12
-	+	54	18
-	+	54	1
-	+	54	22
-	+	54	7
-	+	54	12
-	+	54	18
-	+	54	1
-	+	54	0
-	+	54	61
-	+	54	73
-	+	54	77
-	+	54	55
-	+	54	30
-	+	54	0
-	+	54	74
-	+	54	10
-	+	54	0
-	+	54	30
-	+	54	0
-	+	54	57
-	+	54	27
-	+	54	78
-	+	54	0
-	+	54	7
-	+	54	3
-	+	54	0
-	+	54	18
-	+	54	0
-	+	54	70
-	+	54	37
-	+	54	9
-	+	54	42
-	+	54	0
-	+	54	40
-	+	54	0
-	+	54	34
-	+	54	65
-	+	54	6
-	+	54	75
-	+	54	0
-	+	54	72
-	+	54	68
-	+	54	57
-	+	54	55
-	+	54	0
-	+	54	54
-	+	54	0
-	+	54	79
-	+	54	42
-	+	54	69
-	+	54	0
-	+	481	0
-	+	647	10
-	+	652	63
-	+	709	17
-	+	114	31
+	+	48	146
+	+	48	148
+	+	49	0
+	+	40	87
+	+	40	148
+	+	40	150
+	+	41	0
+	+	15	218
+	+	15	0
+	+	15	212
+	+	19	374
+	+	23	167
+	+	27	93
+	+	32	50
+	+	36	187
+	+	40	20
+	+	48	24
+	+	48	147
+	+	52	215
+
+> ~/discourse/all/1186-troubleshooting-model-upgrades.md
+	*	1559531940	0
+	"	1	0
+	.	75	0
+	+	76	0
+	+	75	0
+
+> ~/discourse/all/1144-concepts-and-terms.md
+	*	1559530859	0
+	"	153	0
+
+> ~/discourse/all/1144
+	*	1559530854	0
+	"	1	0
+
+> ~/discourse/work/1033-working-with-actions.md
+	*	1559358800	0
+	"	227	56
+	^	198	72
+	.	227	56
+	+	9	23
+	+	10	23
+	+	11	0
+	+	2	0
+	+	13	33
+	+	13	0
+	+	26	3
+	+	51	3
+	+	18	3
+	+	13	0
+	+	16	80
+	+	22	14
+	+	41	105
+	+	46	0
+	+	47	0
+	+	46	38
+	+	50	0
+	+	49	9
+	+	63	0
+	+	41	91
+	+	43	0
+	+	42	0
+	+	70	0
+	+	14	44
+	+	77	3
+	+	83	3
+	+	89	3
+	+	95	3
+	+	93	93
+	+	99	122
+	+	101	12
+	+	103	3
+	+	107	14
+	+	109	3
+	+	123	51
+	+	123	174
+	+	123	344
+	+	125	3
+	+	131	3
+	+	138	141
+	+	139	0
+	+	138	154
+	+	140	3
+	+	145	64
+	+	147	3
+	+	138	154
+	+	151	133
+	+	151	0
+	+	151	188
+	+	153	4
+	+	162	30
+	+	164	7
+	+	151	136
+	+	153	4
+	+	176	3
+	+	176	0
+	+	176	24
+	+	176	0
+	+	178	66
+	+	180	3
+	+	184	14
+	+	188	3
+	+	199	0
+	+	202	70
+	+	204	3
+	+	221	14
+	+	222	14
+	+	223	16
+	+	224	13
+	+	225	16
+	+	221	12
+	+	222	12
+	+	223	14
+	+	224	11
+	+	225	5
+	+	224	5
+	+	223	5
+	+	222	5
+	+	221	2
+	+	222	11
+	+	223	13
+	+	224	10
+	+	225	13
+	+	219	23
+	+	231	3
+	+	235	67
+	+	237	3
+	+	242	0
+	+	241	94
+	+	232	18
+	+	12	2
+	+	13	0
+	+	69	56
+	+	70	0
+	+	173	0
+	+	174	72
+	+	176	0
+	+	198	72
+	+	199	0
+	+	227	56
+
+> ~/git/pmatulis_discli/siteerrors.log
+	*	1559337973	0
+	"	19	0
+
+> ~/discourse/work/1202-whats-new-in-2-6.md
+	*	1559337264	0
+	"	7	262
+	^	7	372
+	.	7	372
+	+	7	372
+
+> ~/discourse/work/1156-working-with-multiple-users.md
+	*	1559337037	0
+	"	112	0
+	^	113	49
+	.	113	49
+	+	113	49
+
+> ~/discourse/work/1125-metric-collecting-charms.md
+	*	1559336632	0
+	"	96	0
+	^	5	124
+	.	97	0
+	+	5	109
+	+	96	138
+	+	97	0
+
+> ~/discourse/work/1038-components-of-a-charm.md
+	*	1559335798	0
+	"	25	0
+	^	25	0
+	.	25	0
+	+	19	279
+	+	19	67
+	+	21	0
+	+	21	211
+	+	22	0
+	+	22	159
+	+	23	0
+	+	23	157
+	+	24	0
+	+	24	107
+	+	25	0
+
+> ~/discourse/work/1144-concepts-and-terms.md
+	*	1559335457	0
+	"	141	27
+	^	39	102
+	.	39	101
+	+	39	101
+
+> ~/discourse/work/1263-understanding-kubernetes-charms-tutorial.md
+	*	1559330592	0
+	"	559	0
+	^	558	35
+	.	558	35
+	+	558	35
+
+> ~/discourse/work/1465-tutorial-multi-cloud-controller-with-gke-and-auto-configured-storage.md
+	*	1559330536	0
+	"	115	0
+	.	115	0
+	+	44	0
 	+	115	0
-	+	114	0
-	a	127	49
 
-> ~/git/pmatulis_juju-docs/src/en/ControlP
-	*	1545860980	0
+> ~/discourse/work/1469-tutorial-installing-kubernetes-with-cdk-and-using-auto-configured-storage.md
+	*	1559330486	0
+	"	183	0
+	.	183	0
+	+	113	0
+	+	183	0
+
+> ~/discourse/work/1194-using-juju-with-microk8s-tutorial.md
+	*	1559330438	0
+	"	98	0
+	.	98	0
+	+	89	0
+	+	98	0
+
+> ~/discourse/work/1192-using-the-aws-integrator-charm-tutorial.md
+	*	1559330386	0
+	"	126	0
+	.	126	0
+	+	106	0
+	+	126	0
+
+> ~/discourse/work/1193-setting-up-static-kubernetes-storage-tutorial.md
+	*	1559330326	0
+	"	109	69
+	^	109	238
+	.	109	69
+	+	109	0
+	+	109	238
+	+	115	0
+	+	205	0
+	+	231	0
+	+	252	0
+	+	109	69
+
+> ~/discourse/work/1078-persistent-storage-and-kubernetes.md
+	*	1559330169	0
+	"	11	0
+	.	10	257
+	+	12	3
+	+	10	0
+	+	21	0
+	+	54	0
+	+	76	0
+	+	78	0
+	+	117	0
+	+	122	0
+	+	130	0
+	+	146	0
+	+	191	0
+	+	193	0
+	+	222	0
+	+	234	0
+	+	10	257
+
+> ~/discourse/work/1090-using-kubernetes-with-juju.md
+	*	1559328521	0
+	"	107	104
+	.	42	2
+	+	82	0
+	+	86	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	42	2
+
+> ~/discourse/juju-k8s-temp
+	*	1559328092	0
 	"	2	0
 	.	2	0
-	+	1	0
 	+	2	0
 
-> ~/git/pmatulis_juju-docs/src/en/index.md
-	*	1545860910	0
-	"	62	20
-	^	61	54
-	.	62	0
-	+	30	54
-	+	36	54
-	+	37	54
-	+	77	48
-	+	54	86
-	+	54	57
-	+	54	59
-	+	54	84
-	+	55	3
-	+	54	72
-	+	17	34
-	+	28	58
-	+	29	54
-	+	30	54
-	+	36	54
-	+	37	54
-	+	17	28
-	+	79	58
-	+	56	0
-	+	55	45
-	+	55	3
-	+	54	86
-	+	55	5
-	+	55	30
-	+	56	0
-	+	55	0
-	+	28	91
-	+	36	77
-	+	37	0
-	+	36	76
-	+	37	0
-	+	37	67
-	+	43	0
-	+	31	96
-	+	31	0
-	+	31	68
-	+	44	104
-	+	32	0
-	+	43	83
-	+	37	0
-	+	28	60
-	+	30	0
-	+	17	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	37	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	43	0
-	+	44	0
-	+	87	0
-	+	17	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	37	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	43	0
-	+	44	0
-	+	87	0
-	+	88	0
-	+	87	117
-	+	87	47
-	+	87	82
-	+	88	0
-	+	87	0
-	+	59	78
-	+	59	0
-	+	62	56
-	+	62	9
-	+	59	23
-	+	59	0
-	+	43	80
-	+	44	75
-	+	17	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	37	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	43	0
-	+	44	0
-	+	89	48
-	+	60	0
-	+	62	5
-	+	62	0
-	+	61	54
-	+	62	57
-	+	61	73
-	+	62	0
-	+	61	76
-	+	62	0
-
-> ~/git/backporting/bp-3249todevel/src/en/index.md
-	*	1545860070	0
-	"	1	0
-
-> ~/git/backporting/bp-3249todevel/src/en/whats-new.md
-	*	1545859972	0
-	"	5	0
-	.	5	0
-	+	5	0
-	+	83	0
-	+	5	0
-
-> ~/git/pmatulis_juju-docs/src/en/whats-new.md
-	*	1545859633	0
-	"	105	74
-	^	106	73
-	.	105	73
-	+	13	63
-	+	13	22
-	+	28	5
-	+	105	46
-	+	28	37
-	+	34	72
-	+	36	7
-	+	36	0
-	+	36	7
-	+	34	73
-	+	35	13
-	+	36	0
-	+	34	73
-	+	35	24
-	+	37	5
-	+	38	0
-	+	107	0
-	+	37	33
-	+	58	0
-	+	108	0
-	+	104	0
-	+	8	48
-	+	8	0
-	+	108	0
-	+	103	0
-	+	50	47
-	+	108	20
-	+	59	30
-	+	109	0
-	+	64	78
-	+	65	0
-	+	66	36
-	+	110	53
-	+	74	5
-	+	111	0
-	+	110	22
-	+	111	20
-	+	66	43
-	+	110	22
-	+	111	43
-	+	74	36
-	+	84	55
-	+	112	72
-	+	91	73
-	+	113	47
-	+	98	66
-	+	114	84
-	+	114	0
-	+	114	65
-	+	5	60
-	+	5	62
-	+	7	0
-	+	5	0
-	+	6	7
-	+	5	60
-	+	5	59
-	+	5	60
-	+	5	68
-	+	6	4
-	+	7	0
-	+	8	0
-	+	104	0
-	+	10	67
-	+	10	0
-	+	10	76
-	+	13	63
-	+	12	24
-	+	12	41
-	+	13	16
-	+	12	34
-	+	12	38
-	+	13	48
-	+	13	3
-	+	13	52
-	+	13	33
-	+	12	68
-	+	13	25
-	+	13	33
-	+	13	24
-	+	14	0
-	+	13	18
-	+	13	66
-	+	14	0
-	+	13	11
-	+	13	52
-	+	12	68
-	+	19	77
-	+	23	0
-	+	28	73
-	+	28	128
-	+	28	0
-	+	28	79
-	+	30	0
-	+	28	63
-	+	29	0
-	+	107	0
-	+	105	55
-	+	106	73
-	+	105	73
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-lxd-advanced.md
-	*	1545859564	0
-	"	49	3
-	^	220	25
-	.	76	0
-	+	224	65
-	+	223	15
-	+	225	17
-	+	241	19
-	+	240	56
-	+	240	63
-	+	271	0
-	+	225	8
-	+	222	0
-	+	240	3
-	+	218	29
-	+	218	71
-	+	218	22
-	+	222	74
-	+	223	76
-	+	225	6
-	+	243	66
-	+	243	62
-	+	241	17
-	+	225	20
-	+	218	23
-	+	218	16
-	+	222	59
-	+	225	22
-	+	222	23
-	+	240	24
-	+	241	19
-	+	240	24
-	+	242	24
-	+	243	64
-	+	218	74
-	+	268	0
-	+	248	0
-	+	266	27
-	+	267	0
-	+	248	0
-	+	244	10
-	+	245	14
-	+	244	11
-	+	245	12
-	+	244	15
-	+	244	40
-	+	244	67
-	+	282	71
-	+	269	0
-	+	270	0
-	+	269	40
-	+	218	6
-	+	218	14
-	+	52	63
-	+	226	3
-	+	239	0
-	+	228	35
-	+	237	3
-	+	238	3
-	+	228	5
-	+	230	0
-	+	232	0
-	+	235	0
-	+	229	0
-	+	227	0
-	+	233	6
-	+	225	22
-	+	223	77
-	+	224	15
-	+	225	35
-	+	224	79
-	+	226	0
-	+	242	0
-	+	245	37
-	+	244	66
-	+	244	67
-	+	246	0
-	+	244	12
-	+	244	15
-	+	245	8
-	+	244	71
-	+	243	66
-	+	244	71
-	+	244	70
-	+	245	14
-	+	245	3
-	+	244	79
-	+	246	0
-	+	243	70
-	+	243	17
-	+	244	79
-	+	242	66
-	+	244	79
-	+	240	56
-	+	240	0
-	+	221	0
-	+	218	15
-	+	220	13
-	+	220	27
-	+	219	73
-	+	218	0
-	+	220	25
-	+	75	0
-	+	76	0
-	a	38	65
-
-> ~/git/pmatulis_juju-docs/src/en/reference-release-notes.md
-	*	1545858511	0
-	"	10	2
-	^	10	14
-	.	10	14
-	+	99	9
-	+	96	0
-	+	102	77
-	+	96	78
-	+	97	34
-	+	98	0
-	+	107	9
-	+	114	4
-	+	107	4
-	+	137	24
-	+	152	0
-	+	153	62
-	+	152	0
-	+	107	33
-	+	124	66
-	+	116	73
-	+	116	24
-	+	116	67
-	+	116	33
-	+	116	21
-	+	130	0
-	+	126	14
-	+	116	15
-	+	116	0
-	+	121	77
-	+	118	15
-	+	121	77
-	+	134	74
-	+	116	48
-	+	139	71
-	+	141	76
-	+	145	2
-	+	148	18
-	+	149	18
-	+	150	18
-	+	148	18
-	+	149	18
-	+	150	18
-	+	148	70
-	+	149	70
-	+	150	70
-	+	148	66
-	+	149	66
-	+	150	66
-	+	106	2
-	+	144	15
-	+	59	0
-	+	60	12
-	+	65	0
-	+	69	62
-	+	65	0
-	+	65	80
-	+	65	16
-	+	67	0
-	+	66	16
-	+	65	66
-	+	66	66
-	+	65	69
-	+	66	69
-	+	65	70
-	+	65	0
-	+	66	70
-	+	65	0
-	+	93	0
-	+	11	0
-	+	12	12
-	+	38	0
-	+	14	52
-	+	36	10
-	+	22	0
-	+	25	0
-	+	27	12
-	+	33	4
-	+	34	0
-	+	16	67
-	+	17	67
-	+	21	0
-	+	18	0
-	+	21	0
-	+	38	0
-	+	25	0
-	+	20	62
-	+	21	0
-	+	36	2
-	+	42	6
-	+	36	40
-	+	35	59
-	+	35	75
-	+	30	0
-	+	26	15
-	+	28	58
-	+	25	75
-	+	30	0
-	+	14	40
-	+	24	34
-	+	25	0
-	+	24	34
-	+	7	0
-	+	8	13
-	+	10	14
-	a	843	19
-
-> ~/git/pmatulis_juju-docs/src/en/controllers-config.md
-	*	1545858039	0
-	"	2	4
-	^	63	111
-	.	77	28
-	+	38	65
-	+	35	66
-	+	36	45
-	+	36	60
-	+	38	63
-	+	39	0
-	+	39	11
-	+	38	75
-	+	39	8
-	+	42	59
-	+	55	76
-	+	55	78
-	+	55	0
-	+	212	0
-	+	55	0
-	+	36	14
-	+	35	78
-	+	45	0
-	+	44	0
-	+	45	3
-	+	55	0
-	+	46	39
-	+	45	62
-	+	46	20
-	+	55	0
-	+	47	0
-	+	48	66
-	+	53	0
-	+	52	62
-	+	53	0
-	+	52	62
-	+	53	0
-	+	64	46
-	+	58	41
-	+	58	51
-	+	64	25
-	+	62	11
-	+	64	0
-	+	62	0
-	+	58	15
-	+	65	0
-	+	66	34
-	+	85	24
-	+	86	29
-	+	85	33
-	+	9	64
-	+	55	0
-	+	57	47
-	+	57	76
-	+	76	0
-	+	76	79
-	+	76	0
-	+	76	80
-	+	76	0
-	+	3	33
-	+	2	34
-	+	3	34
-	+	4	0
-	+	6	22
-	+	79	77
-	+	80	0
-	+	79	77
-	+	80	0
-	+	79	29
-	+	63	19
-	+	62	78
-	+	63	0
-	+	63	154
-	+	64	0
-	+	63	60
-	+	77	19
-	+	63	38
-	+	77	79
-	+	77	144
-	+	78	0
-	+	77	79
-	+	78	0
-	+	62	78
-	+	63	0
-	+	62	78
-	+	63	0
-	+	77	77
-	+	78	0
-	+	62	149
-	+	63	0
-	+	62	149
-	+	63	0
-	+	77	76
-	+	63	78
-	+	64	0
-	+	62	194
-	+	77	147
-	+	78	82
-	+	92	108
-	+	95	147
-	+	63	28
-	+	77	28
-
-> ~/git/pmatulis_juju-docs/src/en/controllers-creating.md
-	*	1545858030	0
-	"	134	4
-	^	138	17
-	.	138	17
-	+	242	0
-	+	243	54
-	+	244	0
-	+	246	9
-	+	245	77
-	+	248	0
-	+	246	12
-	+	245	67
-	+	246	11
-	+	248	0
-	+	245	68
-	+	246	79
-	+	248	0
-	+	273	0
-	+	257	47
-	+	39	54
-	+	273	106
-	+	39	108
-	+	39	63
-	+	243	11
-	+	273	61
-	+	39	55
-	+	3	72
-	+	32	44
-	+	33	0
-	+	32	37
-	+	266	35
-	+	134	0
-	+	133	0
-	+	135	0
-	+	134	4
-	+	32	36
-	+	140	12
-	+	145	0
-	+	143	23
-	+	144	0
-	+	136	74
-	+	138	65
-	+	136	74
-	+	138	63
-	+	143	23
-	+	144	0
-	+	138	63
-	+	139	58
-	+	141	0
-	+	140	3
-	+	138	71
-	+	139	14
-	+	138	58
-	+	139	14
-	+	139	76
-	+	138	17
-	a	32	8
-
-> ~/git/pmatulis_juju-docs/src/en/credentials.md
-	*	1545856181	0
-	"	496	4
-	^	224	31
-	.	207	37
-	+	21	38
-	+	18	59
-	+	20	0
-	+	21	66
-	+	20	58
-	+	21	40
-	+	21	38
-	+	21	37
-	+	21	54
-	+	24	0
-	+	21	73
-	+	22	46
-	+	23	0
-	+	21	73
-	+	11	53
-	+	13	4
-	+	13	46
-	+	14	0
-	+	13	46
-	+	11	54
-	+	13	57
-	+	14	0
-	+	24	76
-	+	25	69
-	+	243	56
-	+	243	75
-	+	245	75
-	+	242	77
-	+	245	13
-	+	242	77
-	+	245	13
-	+	247	0
-	+	246	0
-	+	247	79
-	+	248	77
-	+	249	9
-	+	249	64
-	+	249	7
-	+	250	0
-	+	243	78
-	+	244	24
-	+	244	75
-	+	249	58
-	+	250	0
-	+	249	58
-	+	15	70
-	+	376	56
-	+	384	40
-	+	384	73
-	+	381	37
-	+	380	25
-	+	382	24
-	+	382	68
-	+	381	73
-	+	384	67
-	+	384	73
-	+	386	0
-	+	384	67
-	+	384	79
-	+	400	0
-	+	394	76
-	+	395	78
-	+	400	52
-	+	396	35
-	+	360	0
-	+	361	0
-	+	360	19
-	+	391	79
-	+	392	11
-	+	392	20
-	+	391	79
-	+	372	64
-	+	373	0
-	+	473	0
-	+	470	61
-	+	471	45
-	+	471	44
-	+	470	79
-	+	471	78
-	+	519	32
-	+	519	0
-	+	187	8
-	+	225	0
-	+	224	0
-	+	223	6
-	+	219	11
-	+	218	15
-	+	215	19
-	+	212	21
-	+	194	0
-	+	197	0
-	+	194	8
-	+	195	8
-	+	194	0
-	+	197	0
-	+	196	0
-	+	224	26
-	+	200	26
-	+	201	36
-	+	207	37
-
-> ~/git/pmatulis_juju-docs/src/en/help-openstack.md
-	*	1545856086	0
-	"	5	4
-	.	50	0
-	+	99	70
-	+	101	69
-	+	99	70
-	+	100	7
-	+	101	69
-	+	94	29
-	+	15	37
-	+	16	12
-	+	17	0
-	+	35	0
-	+	130	0
-	+	76	0
-	+	75	57
-	+	45	1
-	+	46	0
-	+	61	2
-	+	62	2
-	+	47	0
-	+	76	0
-	+	66	23
-	+	54	0
-	+	94	0
-	+	95	0
-	+	94	11
-	+	73	6
-	+	74	48
-	+	20	8
-	+	24	0
-	+	24	66
-	+	24	0
-	+	20	79
-	+	21	78
-	+	24	0
-	+	46	0
-	+	20	0
-	+	24	0
-	+	23	0
-	+	29	0
-	+	21	78
-	+	24	39
-	+	29	0
-	+	27	0
-	+	24	73
-	+	24	58
-	+	24	35
-	+	27	0
-	+	34	0
-	+	32	0
-	+	31	0
-	+	33	20
-	+	33	55
-	+	32	61
-	+	33	55
-	+	24	4
-	+	29	14
-	+	33	25
-	+	33	15
-	+	32	57
-	+	25	24
-	+	24	61
-	+	24	77
-	+	25	48
-	+	28	35
-	+	26	46
-	+	24	77
-	+	26	12
-	+	29	48
-	+	30	28
-	+	28	24
-	+	32	55
-	+	26	12
-	+	25	66
-	+	33	8
-	+	136	47
-	+	186	0
-	+	185	23
-	+	245	0
-	+	197	34
-	+	245	0
-	+	248	0
-	+	191	0
-	+	199	0
-	+	215	0
-	+	230	25
-	+	231	0
-	+	232	0
-	+	230	27
-	+	231	0
-	+	234	1
-	+	235	0
-	+	243	78
-	+	229	4
-	+	225	0
-	+	227	0
-	+	225	72
-	+	226	1
-	+	226	0
-	+	50	0
-	+	49	0
-	+	50	0
-	a	105	38
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-LXD.md
-	*	1545855407	0
-	"	208	0
-	^	24	15
-	.	179	0
-	+	212	0
-	+	179	15
-	+	179	48
-	+	179	0
-	+	18	0
-	+	18	75
-	+	19	45
-	+	21	70
-	+	19	10
-	+	20	2
-	+	20	65
-	+	18	76
-	+	20	62
-	+	20	67
-	+	21	20
-	+	29	0
-	+	198	0
-	+	29	0
-	+	17	0
-	+	18	65
-	+	18	75
-	+	29	0
-	+	8	0
-	+	9	79
-	+	12	77
-	+	114	0
-	+	140	0
-	+	127	0
-	+	129	36
-	+	140	0
-	+	126	52
-	+	131	0
-	+	140	0
-	+	139	0
-	+	135	49
-	+	140	0
-	+	132	12
-	+	34	75
-	+	34	30
-	+	34	66
-	+	34	58
-	+	34	0
-	+	37	17
-	+	37	44
-	+	37	0
-	+	3	0
-	+	179	98
-	+	179	43
-	+	179	0
-	+	179	71
-	+	179	7
-	+	179	71
-	+	179	6
-	+	179	0
-	+	179	65
-	+	179	0
-	+	179	68
-	+	179	17
-	+	179	0
-	+	179	14
-	+	179	20
-	+	206	44
-	+	179	23
-	+	179	26
-	+	179	28
-	+	179	48
-	+	179	4
-	+	179	0
-	+	179	57
-	+	206	70
-	+	207	55
-	+	206	0
-	+	18	0
-	+	12	69
-	+	12	72
-	+	14	50
-	+	14	70
-	+	15	56
-	+	14	49
-	+	15	20
-	+	15	74
-	+	16	23
-	+	17	0
-	+	16	55
-	+	10	14
-	+	12	0
-	+	11	91
-	+	10	58
-	+	11	46
-	+	9	79
-	+	10	76
-	+	179	57
-	+	208	31
-	+	209	0
-	+	179	0
-	+	22	0
-	+	24	5
-	+	179	0
-	a	14	49
-
-> ~/git/pmatulis_juju-docs/src/en/clouds.md
-	*	1545855402	0
-	"	212	0
-	.	14	0
-	+	12	22
-	+	12	8
-	+	12	22
-	+	11	70
-	+	12	22
-	+	215	0
-	+	11	70
-	+	12	22
-	+	215	0
-	+	13	32
-	+	6	0
-	+	6	75
-	+	6	0
-	+	19	28
-	+	207	29
-	+	19	31
-	+	183	22
-	+	200	0
-	+	197	0
-	+	221	64
-	+	179	39
-	+	6	0
-	+	11	38
-	+	12	22
-	+	11	74
-	+	13	73
-	+	13	77
-	+	30	10
-	+	203	0
-	+	6	0
-	+	12	5
-	+	13	0
-	+	24	26
-	+	25	0
-	+	61	0
-	+	60	73
-	+	49	1
-	+	61	0
-	+	63	70
-	+	64	79
-	+	103	0
-	+	212	0
-	+	203	0
-	+	227	0
-	+	126	45
-	+	126	55
-	+	127	79
-	+	126	54
-	+	128	22
-	+	143	22
-	+	145	0
-	+	143	75
-	+	143	44
-	+	143	15
-	+	143	14
-	+	126	78
-	+	127	22
-	+	127	79
-	+	143	36
-	+	143	38
-	+	143	0
-	+	168	21
-	+	134	104
-	+	135	0
-	+	134	37
-	+	169	31
-	+	127	67
-	+	128	0
-	+	143	38
-	+	143	79
-	+	21	0
-	+	22	34
-	+	23	30
-	+	24	27
-	+	25	32
-	+	26	26
-	+	27	20
-	+	11	30
-	+	11	22
-	+	11	70
-	+	12	46
-	+	11	19
-	+	35	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	11	22
-	+	12	22
-	+	11	0
-	+	28	29
-	+	27	27
-	+	35	54
-	+	24	10
-	+	35	56
-	+	24	14
-	+	29	26
-	+	221	0
-	+	220	26
-	+	14	76
-	+	14	0
-	a	19	18
-
-> ~/git/pmatulis_juju-docs/src/en/tutorial-microk8s.md
-	*	1545854977	0
-	"	239	4
-	^	216	32
-	.	217	0
-	+	213	0
-	+	214	0
-	+	218	28
-	+	218	32
-	+	223	42
-	+	223	32
-	+	209	38
-	+	211	41
-	+	223	0
-	+	223	27
-	+	223	0
-	+	223	20
-	+	223	21
-	+	223	44
-	+	223	0
-	+	218	18
-	+	223	27
-	+	2	64
-	+	2	7
-	+	3	0
-	+	218	14
-	+	17	72
-	+	17	77
-	+	25	5
-	+	27	74
-	+	144	0
-	+	4	23
-	+	1	28
-	+	17	0
+> ~/discourse/1034-applications.md
+	*	1559241836	0
+	"	101	38
+	^	101	66
+	.	101	66
+	+	19	0
 	+	26	0
-	+	37	0
-	+	126	0
-	+	211	0
-	+	227	0
-	+	228	27
-	+	126	37
-	+	10	34
-	+	218	15
-	+	227	73
-	+	227	69
-	+	228	2
-	+	227	77
-	+	7	55
-	+	15	28
-	+	140	11
-	+	235	0
-	+	245	0
-	+	232	0
-	+	232	9
-	+	231	58
-	+	232	67
-	+	235	0
-	+	228	32
-	+	228	27
-	+	231	54
-	+	231	71
-	+	233	21
-	+	234	6
-	+	160	74
-	+	223	74
-	+	223	71
-	+	223	24
-	+	228	26
-	+	228	27
-	+	230	0
-	+	228	26
-	+	229	0
-	+	232	48
-	+	235	0
-	+	233	62
-	+	232	55
-	+	233	18
-	+	233	69
-	+	235	0
-	+	233	77
-	+	235	0
-	+	21	0
-	+	126	76
-	+	127	75
-	+	151	48
-	+	194	74
-	+	195	79
-	+	198	71
-	+	195	35
-	+	223	59
-	+	223	74
-	+	223	0
-	+	218	0
-	+	216	0
-	+	223	0
-	+	215	0
-	+	212	8
-	+	223	0
-	+	219	0
-	+	223	0
-	+	215	29
-	+	216	0
-	+	217	0
-
-> ~/git/pmatulis_juju-docs/src/en/howto-updateseries.md
-	*	1545853565	0
-	"	179	0
-
-> ~/git/pmatulis_juju-docs/src/en/metadata.yaml
-	*	1545853562	0
-	"	97	18
-	^	27	24
-	.	27	24
-	+	98	0
-	+	78	11
-	+	78	0
-	+	69	0
-	+	78	0
-	+	98	0
-	+	37	0
-	+	69	0
-	+	40	0
-	+	42	30
-	+	69	0
-	+	55	0
-	+	68	0
-	+	69	0
-	+	38	0
-	+	68	0
-	+	69	0
-	+	40	0
-	+	55	0
-	+	37	2
-	+	55	2
-	+	69	0
-	+	68	0
-	+	98	0
-	+	69	2
-	+	78	0
-	+	98	0
-	+	66	0
-	+	67	26
-	+	8	0
-	+	98	0
-	+	8	0
-	+	12	28
-	+	12	0
-	+	13	18
-	+	13	0
-	+	98	0
-	+	107	0
-	+	110	0
-	+	98	20
-	+	98	26
-	+	98	25
-	+	98	0
-	+	54	0
-	+	90	34
-	+	96	33
-	+	92	15
-	+	90	25
-	+	84	25
-	+	64	27
-	+	98	34
-	+	98	0
-	+	98	28
-	+	98	77
-	+	78	0
-	+	78	26
-	+	54	0
-	+	78	0
-	+	78	41
-	+	78	24
-	+	78	38
-	+	40	0
-	+	54	0
-	+	40	35
-	+	82	19
-	+	104	0
-	+	42	21
-	+	40	0
 	+	32	0
-	+	54	25
-	+	98	0
-	+	78	0
-	+	50	29
+	+	39	0
 	+	54	0
-	+	48	0
-	+	101	0
-	+	102	30
-	+	103	33
-	+	98	0
-	+	99	0
-	+	98	0
-	+	99	2
-	+	100	2
-	+	98	0
-	+	55	0
-	+	153	0
-	+	141	0
-	+	42	31
-	+	42	0
-	+	40	23
-	+	41	18
-	+	48	44
-	+	49	23
-	+	48	23
-	+	60	37
-	+	61	30
-	+	62	31
-	+	63	32
-	+	26	33
-	+	27	24
-
-> ~/git/pmatulis_juju-docs/src/en/upgrade-series.md
-	*	1545853459	0
-	"	6	0
-	^	78	93
-	.	5	0
-	+	67	73
-	+	23	60
-	+	24	0
-	+	25	0
-	+	35	47
-	+	34	75
-	+	35	49
-	+	37	0
-	+	83	74
-	+	84	74
-	+	51	0
-	+	50	34
-	+	64	0
-	+	63	42
-	+	63	3
-	+	34	75
-	+	35	71
-	+	63	1
-	+	71	5
-	+	117	0
-	+	116	30
-	+	116	57
-	+	117	0
-	+	116	3
-	+	117	0
-	+	116	8
-	+	116	28
-	+	69	78
-	+	70	79
-	+	119	28
-	+	120	5
-	+	3	65
-	+	4	65
-	+	5	65
-	+	5	64
-	+	47	72
-	+	47	77
-	+	11	77
-	+	11	75
-	+	13	63
-	+	11	1
-	+	11	75
-	+	13	63
-	+	13	62
-	+	11	0
-	+	11	74
-	+	13	62
-	+	13	71
-	+	23	41
-	+	34	74
-	+	34	70
-	+	35	79
-	+	21	74
-	+	23	0
-	+	29	52
-	+	21	63
-	+	44	30
-	+	42	0
-	+	40	46
-	+	42	0
-	+	40	72
-	+	40	71
-	+	40	44
-	+	40	71
-	+	40	49
-	+	40	76
-	+	103	29
-	+	11	78
-	+	14	8
-	+	12	58
-	+	13	12
-	+	13	76
-	+	63	0
-	+	62	21
-	+	53	2
-	+	63	0
-	+	116	0
-	+	115	57
-	+	111	8
-	+	112	8
-	+	116	0
-	+	22	7
-	+	73	72
-	+	80	0
-	+	73	41
-	+	74	24
-	+	80	0
-	+	79	3
-	+	80	0
-	+	78	75
-	+	79	0
-	+	73	79
-	+	78	0
+	+	93	0
+	+	108	0
+	+	118	0
+	+	119	0
+	+	5	73
+	+	7	29
+	+	3	0
 	+	2	0
 	+	4	0
-	+	5	0
-	a	53	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-k8s.md
-	*	1545853201	0
-	"	13	4
-	^	16	63
-	.	17	76
-	+	154	34
-	+	14	62
-	+	19	0
-	+	12	78
-	+	12	0
-	+	14	73
-	+	24	0
-	+	21	12
-	+	24	44
-	+	24	56
-	+	22	57
-	+	24	0
-	+	31	4
-	+	42	22
-	+	21	12
-	+	24	21
-	+	21	12
-	+	24	21
-	+	21	13
-	+	22	51
-	+	24	18
-	+	21	64
-	+	21	34
-	+	22	53
-	+	24	0
-	+	22	1
-	+	24	8
-	+	24	0
-	+	55	0
-	+	54	0
-	+	55	3
-	+	61	0
-	+	55	59
-	+	241	0
-	+	201	41
-	+	168	9
-	+	251	0
-	+	168	3
-	+	169	63
-	+	168	0
-	+	169	63
-	+	168	48
-	+	169	62
-	+	170	0
-	+	169	62
-	+	185	54
-	+	186	0
-	+	251	0
-	+	185	52
-	+	21	13
-	+	24	0
-	+	20	65
-	+	22	49
-	+	56	0
-	+	248	0
-	+	98	34
-	+	16	0
-	+	15	0
-	+	16	67
-	+	18	83
-	+	21	13
-	+	20	66
-	+	21	32
-	+	21	13
-	+	23	1
-	+	19	0
-	+	16	30
-	+	16	52
-	+	18	39
-	+	17	37
-	+	18	12
-	+	18	55
-	+	16	74
-	+	18	15
-	+	21	48
-	+	20	47
-	+	23	1
-	+	20	57
-	+	21	46
-	+	20	73
-	+	21	10
-	+	21	5
-	+	21	4
-	+	21	17
-	+	20	52
-	+	22	49
-	+	21	3
-	+	20	76
-	+	22	65
-	+	24	0
-	+	21	71
-	+	23	17
-	+	16	74
-	+	18	14
-	+	18	25
-	+	17	21
-	+	18	5
-	+	17	18
-	+	16	74
-	+	17	76
-	a	94	30
-
-> ~/git/pmatulis_juju-docs/src/en/getting-started.md
-	*	1545853112	0
-	"	46	0
-	.	317	0
-	+	317	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-oci.md
-	*	1545853008	0
-	"	3	0
-	^	229	47
-	.	229	47
-	+	76	5
-	+	81	0
-	+	71	0
-	+	2	78
-	+	2	0
-	+	2	70
-	+	2	0
-	+	73	3
-	+	73	0
-	+	70	63
-	+	72	71
-	+	73	0
-	+	122	68
-	+	122	75
-	+	122	78
-	+	163	6
-	+	151	25
-	+	151	26
-	+	151	28
-	+	152	33
-	+	151	0
-	+	177	37
-	+	180	24
-	+	179	71
-	+	180	24
-	+	60	58
-	+	72	0
-	+	66	73
-	+	68	39
-	+	70	51
-	+	71	0
-	+	72	67
-	+	72	78
-	+	80	29
-	+	75	71
-	+	76	22
-	+	77	0
-	+	76	46
-	+	172	0
-	+	173	3
-	+	171	3
-	+	172	7
-	+	173	3
-	+	174	7
-	+	173	65
-	+	174	7
-	+	175	0
-	+	169	5
-	+	171	56
-	+	173	8
-	+	174	24
-	+	173	21
-	+	171	0
-	+	172	0
-	+	171	7
-	+	67	9
-	+	66	76
-	+	67	73
-	+	68	15
-	+	79	30
-	+	160	30
-	+	2	0
-	+	202	0
-	+	200	82
-	+	200	84
-	+	200	104
-	+	200	79
-	+	200	104
-	+	200	79
-	+	200	82
-	+	198	5
-	+	198	36
-	+	200	81
-	+	202	0
-	+	198	0
-	+	202	0
-	+	200	81
-	+	200	79
-	+	202	0
-	+	200	79
-	+	200	47
-	+	200	60
-	+	198	75
-	+	200	48
-	+	198	60
-	+	200	14
-	+	200	48
-	+	200	158
-	+	200	79
-	+	202	0
-	+	201	0
-	+	198	71
-	+	198	19
-	+	199	33
-	+	198	77
-	+	200	73
-	+	201	0
-	+	195	76
-	+	229	47
-
-> ~/git/backporting/bp-3247todevel/src/en/index.md
-	*	1545843668	0
-	"	28	0
-
-> ~/git/pmatulis_juju-docs/src/en/tutorial-k8s-static-pv.md
-	*	1545842239	0
-	"	3	4
-	.	370	0
-	+	265	15
-	+	264	72
-	+	271	51
-	+	273	75
-	+	276	21
-	+	283	0
-	+	282	0
-	+	284	5
-	+	285	0
-	+	287	0
-	+	293	24
-	+	293	26
-	+	294	0
-	+	293	24
-	+	259	46
-	+	261	0
-	+	296	0
-	+	414	0
-	+	413	0
-	+	414	17
-	+	414	16
-	+	414	17
-	+	415	0
-	+	297	0
-	+	414	0
-	+	415	0
-	+	414	17
-	+	415	13
-	+	350	0
-	+	349	0
-	+	351	0
-	+	350	14
-	+	352	0
-	+	297	0
-	+	295	7
-	+	350	23
-	+	238	0
-	+	239	0
-	+	238	51
-	+	240	0
-	+	416	11
-	+	411	0
-	+	412	11
-	+	37	0
-	+	40	0
-	+	39	0
-	+	37	0
-	+	40	61
-	+	50	74
-	+	130	4
-	+	411	0
-	+	34	21
-	+	391	56
-	+	391	65
-	+	391	66
-	+	394	0
-	+	391	65
-	+	392	11
-	+	394	0
-	+	393	0
-	+	398	0
-	+	411	0
-	+	342	5
-	+	323	14
-	+	321	74
-	+	321	76
-	+	325	0
-	+	321	77
-	+	324	0
-	+	330	0
-	+	339	0
-	+	326	11
-	+	334	0
-	+	339	0
-	+	326	0
-	+	339	0
-	+	321	74
-	+	323	9
-	+	324	0
-	+	323	27
-	+	336	61
-	+	338	0
-	+	336	16
-	+	323	51
-	+	336	77
-	+	337	12
-	+	337	4
-	+	336	78
-	+	363	40
-	+	359	12
-	+	359	52
-	+	360	44
-	+	362	50
-	+	362	0
-	+	396	58
-	+	9	63
-	+	13	77
-	+	17	79
-	+	370	0
-	a	295	16
-
-> ~/git/pmatulis_juju-docs/src/en/tut-lxd.md
-	*	1545841320	0
-	"	6	23
-	^	7	20
-	.	7	23
-	+	155	76
-	+	156	0
-	+	154	1
-	+	155	78
-	+	156	0
-	+	160	20
-	+	161	0
-	+	108	14
-	+	109	0
-	+	111	37
-	+	80	0
-	+	130	42
-	+	130	75
-	+	137	0
-	+	187	41
-	+	188	52
-	+	188	8
-	+	189	0
-	+	188	49
-	+	189	0
-	+	187	78
-	+	188	57
-	+	190	40
-	+	191	0
-	+	190	62
-	+	196	30
-	+	197	0
-	+	213	0
-	+	199	0
-	+	215	18
-	+	225	49
-	+	213	0
-	+	199	0
-	+	213	0
-	+	221	13
-	+	228	22
-	+	235	63
-	+	235	59
-	+	65	65
-	+	65	69
-	+	66	43
-	+	65	44
-	+	66	41
-	+	65	0
-	+	5	0
-	+	75	29
-	+	75	74
-	+	76	72
-	+	235	35
-	+	235	57
-	+	235	0
-	+	3	46
-	+	86	62
-	+	108	9
-	+	111	30
-	+	217	72
-	+	230	22
-	+	231	38
-	+	207	36
-	+	208	36
-	+	211	18
-	+	212	18
-	+	207	46
-	+	208	0
-	+	211	28
-	+	212	28
-	+	221	11
-	+	207	49
-	+	208	48
-	+	211	31
-	+	212	31
-	+	208	52
-	+	221	11
-	+	223	55
-	+	230	44
-	+	231	41
-	+	229	71
-	+	230	21
-	+	231	46
-	+	221	67
-	+	225	63
-	+	229	72
-	+	230	42
-	+	230	44
-	+	230	20
-	+	231	7
-	+	230	62
-	+	3	46
-	+	4	67
-	+	1	31
-	+	6	25
-	+	237	0
-	+	251	0
-	+	250	10
-	+	237	0
-	+	6	28
-	+	1	31
-	+	6	26
-	+	1	31
-	+	7	23
-
-> ~/git/pmatulis_juju-docs/.git/MERGE_MSG
-	*	1545841111	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/users.md
-	*	1544926829	0
-	"	5	25
-	^	3	60
-	.	3	59
-	+	59	5
-	+	60	0
-	+	61	77
-	+	61	70
-	+	61	4
-	+	64	0
-	+	61	77
-	+	65	11
-	+	66	23
-	+	61	77
-	+	62	71
-	+	69	62
-	+	70	2
-	+	69	79
-	+	48	33
-	+	67	35
-	+	85	17
+	+	3	7
+	+	10	0
+	+	14	0
+	+	41	0
+	+	44	0
+	+	43	10
+	+	41	20
+	+	10	0
+	+	42	0
+	+	104	0
+	+	94	0
+	+	95	24
+	+	10	0
 	+	96	0
 	+	97	0
-	+	95	73
-	+	96	19
-	+	21	38
-	+	24	77
-	+	24	12
-	+	95	74
-	+	96	7
-	+	15	8
-	+	16	49
-	+	17	76
-	+	7	73
-	+	7	72
-	+	7	78
-	+	18	54
-	+	14	52
-	+	18	65
-	+	16	16
-	+	18	75
-	+	19	52
-	+	15	0
-	+	22	5
-	+	22	41
-	+	22	67
-	+	24	0
-	+	22	41
-	+	25	52
-	+	28	0
-	+	26	76
-	+	14	78
-	+	18	19
-	+	18	78
-	+	27	11
-	+	31	72
-	+	32	0
-	+	14	51
-	+	12	37
-	+	12	48
-	+	13	0
-	+	31	19
-	+	90	66
-	+	91	50
-	+	90	58
-	+	91	50
-	+	90	57
-	+	90	76
-	+	30	4
-	+	31	7
-	+	30	78
-	+	33	0
-	+	37	0
-	+	59	0
-	+	72	0
-	+	88	0
-	+	93	0
-	+	5	26
-	+	1	18
-	+	11	29
-	+	11	79
-	+	14	0
-	+	22	71
-	+	23	3
-	+	24	2
-	+	23	9
-	+	24	13
-	+	23	35
-	+	24	55
-	+	22	38
-	+	22	39
-	+	24	0
-	+	23	12
-	+	23	58
-	+	24	0
-	+	23	12
-	+	23	19
-	+	22	18
-	+	22	63
-	+	23	9
-	+	22	75
-	+	23	30
-	+	2	60
-	+	3	59
-
-> ~/git/pmatulis_juju-docs/src/en/machine-auth.md
-	*	1544921524	0
-	"	44	0
-	^	53	4
-	.	45	67
-	+	63	79
-	+	63	76
-	+	48	26
-	+	63	39
-	+	66	10
-	+	71	75
-	+	71	36
-	+	65	70
-	+	65	73
-	+	67	0
-	+	65	74
-	+	72	97
-	+	72	75
-	+	72	79
-	+	72	52
-	+	34	20
-	+	37	0
-	+	34	41
-	+	35	36
-	+	37	0
-	+	35	72
-	+	71	35
-	+	72	0
-	+	52	44
-	+	54	0
-	+	50	29
-	+	51	0
-	+	48	23
-	+	50	26
-	+	52	69
-	+	53	1
-	+	50	74
-	+	54	0
-	+	53	19
-	+	63	0
-	+	58	44
-	+	57	0
-	+	58	73
-	+	59	14
-	+	55	77
-	+	58	65
-	+	58	44
-	+	59	13
-	+	63	0
-	+	55	77
-	+	58	65
-	+	58	52
-	+	62	0
-	+	55	77
-	+	59	42
-	+	63	0
-	+	36	27
-	+	37	0
-	+	63	39
-	+	58	44
-	+	58	46
-	+	114	35
-	+	57	60
-	+	57	70
-	+	60	60
-	+	58	60
-	+	60	77
-	+	63	52
-	+	75	50
-	+	72	53
-	+	78	58
-	+	77	65
-	+	72	52
-	+	74	0
-	+	73	1
-	+	77	26
-	+	78	3
-	+	77	65
-	+	77	52
-	+	71	34
-	+	77	9
-	+	75	77
-	+	77	65
-	+	78	57
-	+	77	26
-	+	78	57
-	+	80	53
-	+	81	0
-	+	57	57
-	+	66	9
-	+	65	75
-	+	69	22
-	+	78	46
-	+	60	78
-	+	60	75
-	+	60	71
-	+	77	0
-	+	77	21
-	+	79	0
-	+	51	71
-	+	52	14
-	+	52	0
-	+	53	4
-	+	55	0
-	+	45	67
-
-> ~/git/pmatulis_juju-docs/src/en/multiuser.md
-	*	1544921509	0
-	"	237	0
-	^	263	7
-	.	263	7
-	+	339	0
-	+	342	77
-	+	343	43
-	+	344	0
-	+	354	0
-	+	346	21
-	+	351	0
-	+	350	0
-	+	351	70
-	+	353	0
-	+	351	74
-	+	352	7
-	+	329	0
-	+	351	61
-	+	352	16
-	+	339	0
-	+	340	25
-	+	341	0
-	+	340	50
-	+	341	0
-	+	348	0
-	+	349	51
-	+	9	67
-	+	18	0
-	+	10	1
-	+	18	15
-	+	10	2
-	+	10	27
-	+	9	71
-	+	18	0
-	+	9	75
-	+	10	46
-	+	4	54
-	+	10	69
-	+	12	47
-	+	11	79
-	+	13	10
-	+	12	62
-	+	11	44
-	+	12	45
-	+	18	0
-	+	13	37
-	+	358	25
-	+	18	9
-	+	237	59
-	+	18	0
-	+	237	105
-	+	238	25
-	+	18	0
-	+	44	0
-	+	359	37
-	+	360	0
-	+	4	32
-	+	44	0
-	+	237	30
-	+	238	0
-	+	237	30
-	+	359	0
-	+	297	66
-	+	298	0
-	+	359	0
-	+	30	76
-	+	33	10
-	+	33	77
-	+	43	8
-	+	44	0
-	+	22	0
-	+	14	0
-	+	16	76
-	+	17	50
-	+	14	0
-	+	20	4
-	+	20	78
-	+	14	0
-	+	20	69
-	+	21	0
-	+	361	35
-	+	361	0
-	+	210	50
-	+	211	15
-	+	212	14
-	+	218	9
-	+	221	34
-	+	217	63
-	+	221	26
-	+	218	9
-	+	221	26
-	+	111	4
-	+	111	24
-	+	111	0
-	+	107	0
-	+	108	72
-	+	108	73
-	+	109	16
-	+	262	67
-	+	264	0
-	+	263	45
-	+	263	10
-	+	264	0
-	+	263	7
-
-> ~/git/pmatulis_juju-docs/src/en/models-adding.md
-	*	1544855870	0
-	"	1	0
-	^	81	43
-	.	81	55
-	+	8	8
-	+	7	68
-	+	9	0
-	+	7	68
-	+	8	0
-	+	6	66
-	+	7	17
-	+	9	0
-	+	28	0
-	+	5	0
-	+	18	54
-	+	18	43
-	+	18	50
-	+	18	51
-	+	18	40
-	+	18	50
-	+	18	45
-	+	11	45
-	+	11	46
-	+	18	51
-	+	11	77
-	+	59	66
-	+	60	15
-	+	66	0
-	+	72	74
-	+	72	79
-	+	73	73
-	+	75	0
-	+	30	23
-	+	33	19
-	+	40	26
-	+	43	62
-	+	43	76
-	+	44	32
-	+	47	46
-	+	58	10
-	+	61	0
-	+	58	78
-	+	69	0
-	+	68	0
-	+	2	7
-	+	2	0
-	+	7	57
-	+	7	77
-	+	43	37
-	+	36	75
-	+	36	0
-	+	25	74
-	+	27	0
-	+	25	71
-	+	78	35
-	+	25	18
-	+	78	40
-	+	18	0
-	+	11	44
-	+	27	0
-	+	27	33
-	+	27	10
-	+	27	0
-	+	12	0
-	+	15	28
-	+	49	0
-	+	52	0
-	+	50	62
-	+	51	69
-	+	50	29
-	+	54	31
-	+	51	63
-	+	54	48
-	+	50	27
-	+	54	15
-	+	16	59
-	+	10	68
-	+	10	74
-	+	2	0
-	+	8	58
+	+	96	0
 	+	10	0
-	+	13	74
-	+	15	58
-	+	13	35
-	+	14	23
-	+	79	49
-	+	80	31
-	+	8	70
-	+	18	0
-	+	17	0
-	+	18	0
-	+	18	79
-	+	24	0
-	+	19	77
-	+	20	51
-	+	24	0
-	+	20	69
-	+	21	45
-	+	20	71
-	+	21	13
-	+	22	72
-	+	19	42
-	+	20	8
-	+	81	55
-
-> ~/git/backporting/bp-3239todevel/src/en/models-migrate.md
-	*	1544822871	0
-	"	5	0
-	.	5	0
-	+	4	0
-	+	5	0
-
-> ~/git/pmatulis_juju-docs/src/en/models.md
-	*	1544822633	0
-	"	186	3
-	^	182	18
-	.	185	79
-	+	48	12
-	+	38	0
-	+	39	12
-	+	27	12
-	+	18	12
-	+	96	37
-	+	121	0
-	+	120	57
-	+	125	70
-	+	126	0
-	+	131	71
-	+	220	0
-	+	215	0
-	+	213	0
-	+	218	0
-	+	131	75
-	+	132	3
-	+	131	38
-	+	128	0
-	+	132	0
-	+	129	58
-	+	136	69
-	+	136	79
-	+	148	0
-	+	148	33
-	+	149	0
-	+	148	7
-	+	144	0
-	+	145	79
-	+	146	20
-	+	145	67
-	+	146	13
-	+	147	0
-	+	148	0
-	+	145	66
-	+	207	74
-	+	207	72
-	+	207	69
-	+	220	0
-	+	218	0
-	+	212	0
-	+	207	67
-	+	208	0
-	+	198	0
-	+	203	40
-	+	217	20
-	+	203	38
-	+	205	9
-	+	204	66
-	+	206	0
-	+	204	67
-	+	204	70
-	+	197	43
-	+	216	18
-	+	197	41
-	+	189	0
-	+	188	46
-	+	188	65
-	+	220	38
-	+	188	46
-	+	189	0
-	+	175	9
-	+	221	27
-	+	174	36
-	+	174	65
-	+	176	0
-	+	175	15
-	+	184	45
-	+	174	11
-	+	176	0
-	+	173	3
-	+	174	66
-	+	174	71
-	+	173	63
-	+	173	69
-	+	174	71
-	+	169	0
-	+	163	73
-	+	169	0
-	+	168	67
-	+	169	0
-	+	159	0
-	+	153	67
-	+	153	77
-	+	159	0
-	+	157	0
-	+	158	59
-	+	222	0
-	+	179	0
-	+	180	68
-	+	181	0
-	+	182	0
-	+	183	0
-	+	182	18
-	+	184	28
-	+	185	79
-	a	131	53
-
-> ~/git/pmatulis_juju-docs/src/en/troubleshooting-logs.md
-	*	1544822466	0
-	"	1	0
-	^	248	19
-	.	59	29
-	+	239	27
-	+	248	19
-	+	239	27
-	+	248	19
-	+	239	27
-	+	248	19
-	+	60	0
-	+	59	29
-
-> ~/git/pmatulis_juju-docs/src/en/controllers.md
-	*	1544822325	0
-	"	45	0
-	^	26	9
-	.	25	72
-	+	3	0
-	+	25	20
-	+	25	19
-	+	26	4
-	+	26	6
-	+	27	0
-	+	26	6
-	+	167	0
-	+	26	9
-	+	27	0
-	+	25	72
-
-> ~/git/pmatulis_juju-docs/src/en/models-migrate.md
-	*	1544820256	0
-	"	5	0
-	^	4	33
-	.	4	33
-	+	2	6
-	+	3	65
-	+	4	33
-
-> ~/git/pmatulis_juju-docs/src/en/mach
-	*	1544737324	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/models-config.md
-	*	1544736018	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/tut-users.md
-	*	1544733904	0
-	"	66	0
-	^	5	60
-	.	5	60
-	+	7	18
-	+	1	10
-	+	7	5
-	+	1	10
-	+	7	5
-	+	4	42
-	+	5	60
-
-> ~/git/pmatulis_juju-docs/src/en/users-workflows.md
-	*	1544733901	0
-	"	94	0
-
-> ~/git/pmatulis_juju-docs/src/en/users-auth.md
-	*	1544733860	0
-	"	6	0
-	^	108	55
-	.	7	0
-	+	17	78
-	+	17	0
-	+	14	74
-	+	17	78
-	+	22	27
-	+	32	8
-	+	33	0
-	+	32	8
-	+	53	0
-	+	53	29
-	+	57	73
-	+	67	15
-	+	68	18
-	+	69	17
-	+	68	18
-	+	70	37
-	+	71	57
-	+	72	3
-	+	107	49
-	+	107	31
-	+	107	19
-	+	108	21
-	+	108	33
-	+	7	50
-	+	7	22
-	+	7	48
-	+	7	26
-	+	7	0
-	+	68	0
-	+	61	49
-	+	36	21
-	+	39	50
-	+	40	0
-	+	6	67
-	+	7	63
-	+	7	64
-	+	7	58
-	+	7	0
-	+	7	60
-	+	7	13
-	+	7	53
-	+	7	7
-	+	7	60
-	+	7	22
-	+	7	73
-	+	7	60
-	+	7	73
-	+	7	79
-	+	7	50
-	+	7	32
-	+	7	31
-	+	7	58
-	+	7	50
-	+	7	57
-	+	7	40
-	+	7	54
-	+	7	0
-	+	7	73
-	+	7	64
-	+	7	0
-	+	7	14
-	+	7	59
-	+	7	78
-	+	6	66
-	+	7	0
-	+	6	71
-	+	4	2
-	+	1	42
-	+	3	0
-	+	4	8
-	+	1	13
-	+	7	0
-	+	4	6
-	+	7	0
-	+	1	33
-	+	6	38
-	+	4	19
-	+	1	23
-	+	4	2
-	+	1	7
-	+	6	70
-	+	6	74
-	+	7	0
-	+	68	19
-	+	71	25
-	+	73	53
-	+	107	0
-	+	108	0
-	+	75	43
-	+	108	0
-	+	4	10
-	+	1	15
-	+	6	66
-	+	7	0
-
-> ~/git/pmatulis_juju-docs/src/en/users-models.md
-	*	1544728891	0
-	"	1	0
-	^	74	0
-	.	81	0
-	+	1	0
-	+	2	0
-	+	84	0
-	+	81	0
-	+	90	0
-	+	1	0
-	+	1	76
-	+	2	77
-	+	2	73
-	+	1	0
-	+	1	34
-	+	1	0
-	+	85	35
-	+	86	31
-	+	54	38
-	+	1	0
-	+	1	52
-	+	1	22
-	+	2	78
-	+	1	20
-	+	1	33
-	+	1	69
-	+	1	0
-	+	2	0
-	+	3	2
-	+	12	58
-	+	14	36
-	+	12	0
-	+	14	27
-	+	14	15
-	+	15	69
-	+	15	41
-	+	15	13
-	+	15	76
-	+	15	25
-	+	15	62
-	+	14	66
-	+	10	73
-	+	8	40
-	+	37	64
-	+	38	5
-	+	15	48
-	+	38	22
-	+	39	58
-	+	41	40
-	+	39	73
-	+	40	39
-	+	41	0
-	+	10	47
-	+	12	77
-	+	13	31
-	+	14	3
-	+	13	32
-	+	12	79
-	+	13	11
-	+	14	3
-	+	15	0
-	+	16	0
-	+	15	0
-	+	19	0
-	+	16	26
-	+	18	0
-	+	16	27
-	+	17	0
-	+	18	58
-	+	14	25
-	+	15	28
-	+	15	42
-	+	15	0
-	+	11	5
-	+	11	39
-	+	12	0
-	+	11	67
-	+	15	0
-	+	10	69
-	+	10	74
-	+	11	33
-	+	8	9
-	+	6	50
-	+	7	0
-	+	8	0
-	+	6	50
-	+	81	0
-	+	72	0
-	+	74	0
-	+	81	0
-
-> ~/git/pmatulis_juju-docs/src/en/users-misc.md
-	*	1544673588	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	68
-	+	1	77
-	+	1	78
-	+	1	25
-	+	1	0
-	+	1	23
-	+	1	64
-	+	1	78
-	+	1	36
-	+	1	28
-	+	1	74
-	+	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/users-manage.md
-	*	1544671435	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	70
-	+	1	11
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	3
-	+	1	22
-	+	1	0
-	+	1	22
-	+	1	57
-	+	1	28
-	+	1	1
-	+	1	42
-	+	1	45
-	+	1	66
-	+	1	1
-	+	1	64
-	+	1	31
-	+	1	57
-	+	1	64
-	+	1	65
-	+	1	78
-	+	1	8
-	+	1	73
-	+	1	60
-	+	1	39
-	+	1	7
-	+	1	77
-	+	1	31
-	+	1	69
-	+	1	72
-	+	1	0
-	+	1	12
-	+	1	29
-	+	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/users-creating.md
-	*	1544643155	0
-	"	5	0
-	^	5	0
-	.	5	0
-	+	4	49
-	+	4	77
-	+	4	0
-	+	4	6
-	+	4	0
-	+	4	6
-	+	4	77
-	+	4	7
-	+	4	0
-	+	4	20
-	+	4	32
-	+	4	35
-	+	4	36
-	+	4	0
-	+	4	14
-	+	4	37
-	+	4	0
-	+	5	32
-	+	5	4
-	+	5	41
-	+	5	0
-	+	5	62
-	+	5	0
-	+	16	0
-	+	24	11
-	+	25	0
-	+	10	0
-	+	22	0
-	+	23	79
-	+	49	0
-	+	5	0
-	+	5	19
-	+	5	0
-	+	6	0
-	+	5	3
-	+	5	0
-
-> ~/git/pmatulis_juju-docs/src/en/commands.md
-	*	1544636201	0
-	"	8950	3
-
-> ~/git/pmatulis_juju-docs/src/en/charms-offline-strategies.md
-	*	1544563251	0
-	"	6	3
-
-> ~/git/pmatulis_juju-docs/src/en/users-sample-commands.md
-	*	1544562568	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/models-upgrade.md
-	*	1544562551	0
-	"	22	0
-	^	1	18
-	.	80	0
-	+	1	22
-	+	3	0
-	+	13	0
-	+	80	0
-
-> ~/git/pmatulis_juju-docs/src/en/controllers-backup.md
-	*	1544562549	0
-	"	106	4
-	.	106	4
-	+	102	4
-	+	103	4
-	+	104	4
-	+	105	4
-	+	106	4
-
-> ~/git/pmatulis_juju-docs/src/en/tutorial-multiuser.md
-	*	1544541346	0
-	"	1	0
-	^	5	75
-	.	6	0
-	+	1	44
-	+	3	2
-	+	2	0
-	+	4	0
-	+	5	0
-	+	10	0
-	+	3	2
-	+	1	7
-	+	5	78
-	+	5	75
-	+	5	65
-	+	6	0
-
-> ~/tmp/get-docker.sh
-	*	1544494012	0
-	"	52	19
-	^	50	20
-	.	50	19
-	+	50	19
-
-> /var/lib/docker/nuke-graph-directory.sh
-	*	1544493748	0
-	"	3	0
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/git/pmatulis_juju-docs/src/en/tools-charm-tools.md
-	*	1544199087	0
-	"	18	0
-	^	16	33
-	.	16	33
-	+	16	33
-
-> ~/git/pmatulis_juju-docs/src/en/developer-debugging.md
-	*	1544126216	0
-	"	5	0
-	^	2	37
-	.	2	37
-	+	339	23
-	+	338	0
-	+	104	41
-	+	2	37
-
-> ~/git/pmatulis_juju-docs/src/en/actions.md
-	*	1544126170	0
-	"	1	0
-	^	108	16
-	.	108	16
-	+	73	75
-	+	75	63
-	+	73	69
-	+	74	53
-	+	75	12
-	+	75	70
-	+	73	69
-	+	283	42
-	+	285	36
-	+	280	0
-	+	1	26
-	+	3	21
-	+	278	71
-	+	285	14
-	+	278	73
-	+	10	53
-	+	10	70
-	+	283	0
-	+	284	0
-	+	52	0
-	+	54	36
-	+	55	12
-	+	54	0
-	+	73	62
-	+	89	0
-	+	93	0
-	+	153	0
-	+	168	0
-	+	173	0
-	+	197	0
-	+	219	0
-	+	223	0
-	+	232	0
-	+	248	0
-	+	223	0
-	+	23	5
-	+	25	5
-	+	78	5
-	+	82	60
-	+	83	39
-	+	83	45
-	+	85	0
-	+	208	5
-	+	213	14
-	+	233	5
-	+	237	52
-	+	235	79
-	+	243	0
-	+	258	0
-	+	257	16
-	+	258	16
-	+	259	18
-	+	260	15
-	+	261	18
-	+	278	27
-	+	80	19
-	+	82	51
-	+	83	73
-	+	84	5
-	+	85	0
-	+	154	73
-	+	183	75
-	+	210	60
-	+	212	17
-	+	212	78
-	+	235	32
-	+	237	46
-	+	237	79
-	+	148	48
-	+	165	26
-	+	113	0
-	+	111	78
-	+	107	69
-	+	108	23
-	+	113	0
-	+	118	0
-	+	107	42
-	+	108	16
-
-> ~/git/pmatulis_juju-docs/src/en/charms-working-with-units.md
-	*	1544123671	0
-	"	1	0
-	^	4	15
-	.	4	15
-	+	2	30
-	+	4	15
-
-> ~/git/pmatulis_juju-docs/src/en/tmp
-	*	1544117292	0
-	"	1	0
-	.	1	0
-	+	1	2
-	+	1	0
-	+	1	39
-	+	1	54
-	+	1	59
-	+	1	9
-	+	1	28
-	+	1	73
-	+	1	67
-	+	1	8
-	+	1	1
-	+	1	0
-	+	1	40
-	+	1	44
-	+	1	15
-	+	1	68
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	72
-	+	1	0
-	+	1	60
-	+	1	23
-	+	1	1
-	+	1	0
-	+	1	68
-	+	1	40
-	+	1	1
-	+	1	51
-	+	1	49
-	+	1	0
-	+	1	40
-	+	1	1
-	+	1	51
-	+	1	45
-	+	1	60
-	+	1	23
-	+	1	0
-	+	1	71
-	+	1	51
-	+	1	59
-	+	1	0
-	+	1	95
-	+	1	96
-	+	1	0
-	+	1	80
-	+	1	0
-	+	1	73
-	+	1	77
-	+	1	0
-	+	1	73
-	+	1	0
-	+	1	132
-	+	1	0
-	+	1	121
-	+	1	117
-	+	1	0
-	+	1	138
-	+	1	132
-	+	1	0
-	+	1	94
-	+	1	90
-	+	1	0
-	+	1	7
-	+	1	0
-	+	1	73
-	+	1	0
-	+	1	74
-	+	1	70
-	+	1	96
-	+	1	117
-	+	1	0
-	+	1	123
-	+	1	68
-	+	1	72
-	+	1	0
-	+	1	73
-	+	1	18
-	+	1	77
-	+	1	35
-	+	1	134
-	+	1	0
-	+	1	34
-	+	1	0
-	+	1	40
-	+	1	113
-	+	1	0
-	+	1	75
-	+	1	0
-	+	1	101
-	+	1	162
-	+	1	0
-	+	1	34
-	+	1	72
-	+	1	64
-	+	1	70
-	+	1	66
-	+	1	71
-	+	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/charms-scaling.md
-	*	1544039035	0
-	"	58	0
-	^	75	63
-	.	78	33
-	+	3	45
-	+	23	71
-	+	23	0
-	+	25	0
-	+	23	71
-	+	24	69
-	+	23	70
-	+	166	52
-	+	168	0
-	+	199	13
-	+	206	0
-	+	201	0
-	+	200	3
-	+	199	79
-	+	206	0
-	+	205	0
-	+	206	0
-	+	203	34
-	+	200	67
-	+	71	0
-	+	81	0
-	+	198	0
-	+	72	14
-	+	74	11
-	+	75	63
-	+	78	33
-	a	166	51
-
-> ~/git/pmatulis_juju-docs/src/en/tut-charms.md
-	*	1544035412	0
-	"	66	0
-	^	93	10
-	.	94	76
-	+	224	23
-	+	222	2
-	+	210	46
-	+	210	53
-	+	210	77
-	+	183	18
-	+	184	15
-	+	182	79
-	+	186	0
-	+	184	59
-	+	184	76
-	+	174	24
-	+	177	72
-	+	174	51
-	+	197	74
-	+	197	78
-	+	206	26
-	+	210	76
-	+	210	57
-	+	211	0
-	+	206	12
-	+	221	29
-	+	223	0
-	+	8	0
-	+	2	6
-	+	3	0
-	+	9	47
-	+	1	51
-	+	11	37
-	+	11	26
-	+	14	0
-	+	12	26
-	+	13	65
-	+	11	66
-	+	12	53
-	+	11	32
-	+	12	45
-	+	13	61
-	+	14	1
-	+	12	3
-	+	13	53
-	+	12	16
-	+	13	22
-	+	13	45
-	+	13	34
-	+	14	0
-	+	13	34
-	+	13	18
-	+	14	11
-	+	13	18
-	+	11	70
-	+	13	11
-	+	12	1
-	+	12	70
-	+	33	72
-	+	11	62
-	+	11	71
-	+	13	75
-	+	14	0
-	+	16	30
-	+	18	13
-	+	208	0
-	+	180	31
-	+	19	3
-	+	208	46
-	+	20	44
-	+	21	0
-	+	91	42
-	+	115	26
-	+	165	28
-	+	244	18
-	+	9	37
-	+	13	9
-	+	1	42
-	+	2	54
-	+	44	3
-	+	51	4
-	+	50	78
-	+	33	65
-	+	33	51
-	+	33	0
-	+	22	0
-	+	23	0
-	+	33	0
-	+	36	72
-	+	36	57
-	+	36	63
-	+	38	0
-	+	36	63
-	+	38	0
-	+	37	0
-	+	43	62
-	+	43	74
-	+	57	73
-	+	63	22
-	+	93	75
-	+	94	76
-	a	93	11
-
-> ~/git/pmatulis_juju-docs/src/en/charms-storage-k8s.md
-	*	1544026147	0
-	"	52	0
-	.	52	0
-	+	194	77
-	+	54	78
-	+	53	4
-	+	52	13
-	+	53	76
-	+	55	4
-	+	55	48
-	+	53	73
-	+	55	29
-	+	54	48
-	+	49	44
-	+	255	75
-	+	255	0
-	+	254	1
-	+	256	1
-	+	255	23
-	+	254	1
-	+	64	69
-	+	64	78
-	+	50	8
-	+	255	23
-	+	254	36
-	+	255	22
-	+	256	0
-	+	254	36
-	+	255	0
-	+	49	61
-	+	49	73
-	+	57	55
-	+	260	41
-	+	57	74
-	+	60	0
-	+	57	38
-	+	58	75
-	+	57	39
-	+	49	0
-	+	57	0
-	+	50	36
-	+	52	0
-	+	52	22
-	+	52	0
-	+	52	54
-	+	49	73
-	+	50	72
-	+	52	0
-	+	52	5
-	+	54	78
-	+	247	66
-	+	248	76
-	+	2	7
-	+	2	0
-	+	2	7
-	+	3	0
-	+	52	12
-	+	52	10
-	+	65	30
-	+	66	0
-	+	65	43
-	+	122	0
-	+	112	0
-	+	140	0
-	+	163	5
-	+	179	9
-	+	37	0
-	+	61	0
-	+	123	0
-	+	197	0
-	+	149	0
-	+	221	0
-	+	248	56
-	+	248	48
-	+	249	0
-	+	248	48
-	+	34	66
-	+	35	11
-	+	36	0
-	+	37	0
-	+	36	47
-	+	36	16
-	+	36	17
-	+	36	0
-	+	36	12
-	+	36	72
-	+	36	25
-	+	259	52
-	+	36	25
-	+	36	57
-	+	36	18
-	+	36	76
-	+	121	22
-	+	36	0
-	+	259	0
-	+	52	53
-	+	52	0
-	+	52	54
-	+	52	22
-	+	52	0
-	a	57	57
-
-> ~/git/pmatulis_juju-docs/src/en/charms-fan-aws-vpc.md
-	*	1543956293	0
-	"	39	0
-
-> ~/git/pmatulis_juju-docs/src/en/charms-storage.md
-	*	1543945399	0
-	"	571	4
-	^	571	19
-	.	571	19
-	+	6	13
-	+	1	18
-	+	20	67
-	+	20	0
-	+	20	43
-	+	20	23
-	+	20	0
-	+	20	54
-	+	647	44
-	+	20	47
-	+	20	0
-	+	572	0
-	+	575	0
-	+	418	0
-	+	544	0
-	+	545	16
-	+	547	59
-	+	547	0
-	+	550	14
-	+	572	0
-	+	549	4
-	+	549	6
-	+	549	0
-	+	549	4
-	+	547	75
-	+	549	5
-	+	549	0
-	+	549	6
-	+	550	0
-	+	547	73
-	+	549	0
-	+	547	75
-	+	548	13
-	+	547	72
-	+	549	0
-	+	547	79
-	+	573	0
-	+	567	0
-	+	550	17
-	+	558	23
-	+	566	0
-	+	565	0
-	+	566	19
-	+	554	0
-	+	572	0
-	+	554	0
-	+	555	10
-	+	556	0
-	+	557	0
-	+	552	68
-	+	553	0
-	+	554	6
-	+	555	6
-	+	556	6
-	+	560	52
-	+	562	6
-	+	552	55
-	+	550	2
-	+	558	2
-	+	554	7
-	+	556	0
-	+	555	6
-	+	557	0
-	+	556	6
-	+	554	25
-	+	555	25
-	+	556	24
-	+	562	6
-	+	566	18
-	+	550	4
-	+	558	25
-	+	566	4
-	+	563	29
-	+	564	0
-	+	565	0
-	+	564	27
-	+	571	19
-	a	552	57
-
-> ~/git/pmatulis_juju-docs/src/en/upgrading.md
-	*	1543934550	0
-	"	22	8
-	^	23	6
-	.	23	51
-	+	9	0
-	+	9	2
-	+	9	0
-	+	29	20
-	+	9	21
-	+	9	31
-	+	26	15
-	+	28	20
-	+	9	31
-	+	27	0
-	+	9	13
-	+	9	47
-	+	9	49
-	+	9	47
-	+	9	44
-	+	9	14
-	+	9	32
-	+	9	23
-	+	30	19
-	+	9	39
-	+	9	18
-	+	9	39
-	+	9	69
-	+	31	30
-	+	9	35
-	+	9	36
-	+	29	1
-	+	9	24
-	+	7	9
-	+	7	0
-	+	9	72
-	+	9	49
-	+	9	0
-	+	10	16
-	+	13	0
-	+	16	0
-	+	18	16
-	+	16	16
-	+	13	16
-	+	10	76
-	+	14	18
-	+	30	35
-	+	15	48
-	+	30	21
-	+	21	5
-	+	21	51
-	+	21	7
-	+	20	72
-	+	21	75
-	+	23	10
-	+	24	0
-	+	22	58
-	+	23	50
-	+	2	71
-	+	3	0
-	+	23	73
-	+	22	41
-	+	23	113
-	+	23	20
-	+	23	96
-	+	22	69
-	+	23	59
-	+	24	0
-	+	23	30
-	+	23	18
-	+	24	0
-	+	23	75
-	+	22	60
-	+	23	53
-	+	22	77
-	+	23	6
-	+	22	77
-	+	23	51
-
-> ~/git/pmatulis_juju-docs/src/en/client.md
-	*	1543867314	0
-	"	85	4
-	.	112	58
-	+	1	7
-	+	3	2
-	+	113	0
-	+	112	58
-
-> ~/git/pmatulis_juju-docs/src/en/developer-upgrade-charm.md
-	*	1543867010	0
-	"	5	0
-	^	4	11
-	.	4	14
-	+	4	14
-
-> ~/git/pmatulis_juju-docs/src/en/reference-install.md
-	*	1543866076	0
-	"	171	4
-	^	171	59
-	.	173	0
-	+	10	16
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	164	47
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	170	55
-	+	171	59
-	+	172	42
-	+	173	55
-	+	172	51
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-	+	10	0
-	+	12	0
-	+	82	0
-	+	103	0
-	+	170	0
-	+	171	0
-	+	172	0
-	+	173	0
-
-> ~/git/backporting/bp-3210to2.4/src/en/metadata.yaml
-	*	1543763551	0
-	"	2	0
-
-> ~/git/pmatulis_juju-docs/src/en/models-upgrade-notes.md
-	*	1543762973	0
-	"	11	17
-	.	7	17
-	+	7	17
-
-> ~/git/pmatulis_juju-docs/src/en/troubleshooting-upgrade.md
-	*	1543762823	0
-	"	6	4
-	.	6	40
-	+	6	40
-
-> ~/git/pmatulis_juju-docs/src/en/charms-deploying-advanced.md
-	*	1543422410	0
-	"	244	0
-	^	79	51
-	.	88	0
-	+	82	71
-	+	88	0
-	+	82	77
-	+	88	65
-	+	88	0
-	+	191	0
-	+	192	30
-	+	193	0
-	+	196	0
-	+	194	35
-	+	192	25
-	+	194	59
-	+	195	15
-	+	194	79
-	+	101	24
-	+	197	73
-	+	198	44
-	+	200	0
-	+	198	0
-	+	200	0
-	+	198	78
-	+	199	19
-	+	221	0
-	+	202	0
-	+	204	0
-	+	205	0
-	+	204	0
-	+	206	0
-	+	210	0
-	+	219	13
-	+	210	18
-	+	219	20
-	+	209	0
-	+	217	0
-	+	216	0
-	+	212	0
-	+	211	0
-	+	220	0
-	+	208	0
-	+	216	0
-	+	213	19
-	+	207	15
-	+	215	42
-	+	207	0
-	+	213	0
-	+	207	30
-	+	213	65
-	+	213	75
-	+	219	11
-	+	215	19
-	+	214	21
-	+	215	7
-	+	215	28
-	+	218	27
-	+	219	23
-	+	215	69
-	+	213	42
-	+	215	31
-	+	213	66
-	+	215	18
-	+	216	0
-	+	214	75
-	+	215	17
-	+	214	17
-	+	215	17
-	+	213	56
-	+	214	19
-	+	213	77
-	+	215	3
-	+	214	15
-	+	214	71
-	+	213	74
-	+	214	75
-	+	224	0
-	+	223	56
-	+	195	48
-	+	223	16
-	+	222	13
-	+	81	76
-	+	81	51
-	+	82	0
-	+	81	68
-	+	82	0
-	+	82	54
-	+	82	0
-	+	82	67
-	+	88	0
-	+	88	8
-	+	84	0
-	+	88	4
-	+	88	0
-	+	82	0
-	+	81	67
-	+	78	76
-	+	79	0
-	+	81	0
-	+	88	0
-
-> ~/git/pmatulis_juju-docs/src/en/charms-constraints.md
-	*	1543422360	0
-	"	134	0
-	^	125	3
-	.	132	38
-	+	62	0
-	+	66	9
-	+	66	11
-	+	68	0
-	+	66	11
-	+	66	15
-	+	66	11
-	+	66	15
-	+	66	63
-	+	66	61
-	+	67	63
-	+	67	34
-	+	66	55
-	+	67	63
-	+	67	11
-	+	67	63
-	+	67	0
-	+	67	74
-	+	66	61
-	+	67	30
-	+	67	14
-	+	66	9
-	+	66	10
-	+	67	14
-	+	66	8
-	+	67	0
-	+	9	49
-	+	85	47
-	+	30	4
-	+	30	0
-	+	30	20
-	+	30	51
-	+	30	52
-	+	30	44
-	+	30	4
-	+	30	2
-	+	67	35
-	+	30	0
-	+	222	56
-	+	227	0
-	+	223	0
-	+	227	0
-	+	225	47
-	+	31	75
-	+	32	39
-	+	30	42
-	+	30	0
-	+	30	75
-	+	30	65
-	+	30	3
-	+	30	72
-	+	30	64
-	+	127	65
-	+	225	59
-	+	222	36
-	+	225	23
-	+	290	78
-	+	296	0
-	+	292	0
-	+	296	0
-	+	294	20
-	+	290	12
-	+	294	100
-	+	290	77
-	+	30	67
-	+	30	51
-	+	127	71
-	+	82	45
-	+	64	65
-	+	26	0
-	+	15	0
-	+	30	0
-	+	15	0
-	+	26	71
-	+	30	0
-	+	16	71
-	+	16	0
-	+	24	40
-	+	25	0
-	+	16	1
-	+	26	0
-	+	16	0
-	+	49	65
-	+	67	47
-	+	126	0
-	+	125	3
-	+	126	0
-	+	127	0
-	+	124	0
-	+	132	38
-
-> ~/git/pmatulis_juju-docs/src/en/charms-deploying.md
-	*	1543421543	0
-	"	1	4
-	^	171	8
-	.	171	8
-	+	115	45
-	+	115	36
-	+	115	71
-	+	118	0
-	+	126	0
-	+	129	0
-	+	129	45
-	+	129	67
-	+	129	78
-	+	129	49
-	+	129	0
-	+	129	4
-	+	129	0
-	+	129	27
-	+	129	0
-	+	133	0
-	+	129	66
-	+	105	1
-	+	105	0
-	+	105	25
-	+	114	43
-	+	115	75
-	+	115	0
-	+	115	5
-	+	115	75
-	+	114	68
-	+	115	75
-	+	114	67
-	+	115	52
-	+	114	56
-	+	115	4
-	+	115	78
-	+	114	70
-	+	115	78
-	+	126	0
-	+	125	62
-	+	126	0
-	+	119	1
-	+	116	36
-	+	129	6
-	+	129	0
-	+	22	77
-	+	24	74
-	+	103	78
-	+	103	0
-	+	128	76
-	+	129	0
-	+	128	46
-	+	108	28
-	+	105	26
-	+	107	36
-	+	107	74
-	+	108	69
-	+	107	79
-	+	108	6
 	+	109	0
-	+	108	4
-	+	103	78
-	+	104	75
-	+	101	21
-	+	26	52
-	+	209	53
-	+	187	36
-	+	199	35
-	+	201	41
-	+	202	57
-	+	203	35
-	+	204	37
-	+	205	37
-	+	206	63
-	+	207	64
-	+	208	61
-	+	16	28
-	+	139	0
-	+	140	25
-	+	143	68
-	+	143	63
-	+	142	73
-	+	143	19
-	+	143	21
-	+	143	0
-	+	210	29
-	+	4	33
-	+	166	0
-	+	165	0
-	+	172	0
-	+	166	3
-	+	200	30
-	+	201	0
-	+	167	0
-	+	168	77
-	+	169	94
-	+	168	77
-	+	169	14
-	+	170	72
-	+	169	17
-	+	170	71
-	+	170	75
-	+	171	8
-	a	103	0
-
-> ~/git/pmatulis_juju-docs/src/en/reference-constraints.md
-	*	1543421482	0
-	"	54	0
-	^	74	33
-	.	54	0
-	+	28	19
-	+	27	79
-	+	29	41
-	+	72	0
-	+	73	9
-	+	73	31
-	+	74	61
-	+	74	75
-	+	80	0
-	+	75	20
-	+	80	0
-	+	73	56
-	+	74	61
-	+	77	40
-	+	74	61
-	+	78	0
-	+	52	0
-	+	73	12
-	+	73	0
-	+	74	46
-	+	74	74
-	+	76	4
-	+	74	61
-	+	75	19
-	+	75	4
-	+	74	60
-	+	76	0
-	+	75	32
-	+	75	67
-	+	75	4
-	+	76	0
-	+	75	35
-	+	74	33
-	+	52	0
-	+	54	0
-
-> ~/bzr/scripts/dstack/dstack-delete.sh
-	*	1543264906	0
-	"	4	0
-	^	3	7
-	.	3	5
-	+	10	27
-	+	3	5
-
-> /etc/hosts
-	*	1543256124	0
-	"	11	0
-	.	12	0
-	+	11	36
-	+	11	0
+	+	110	16
 	+	10	0
-	+	11	34
-	+	11	35
-	+	11	0
+	+	111	0
+	+	112	0
+	+	95	28
+	+	10	0
+	+	11	16
+	+	10	0
 	+	12	0
-
-> ~/git/pmatulis_juju-docs/src/en/authors-hook-environment.md
-	*	1543080450	0
-	"	70	3
-
-> ~/git/pmatulis_juju-docs/src/en/developer-network-primitives.md
-	*	1543078773	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/tut-google.md
-	*	1543027161	0
-	"	42	0
-	^	20	30
-	.	45	0
-	+	20	59
-	+	19	68
-	+	19	0
-	+	20	30
-	+	33	0
-	+	45	0
-
-> ~/git/pmatulis_juju-docs/src/en/help-vmware.md
-	*	1543026847	0
-	"	35	2
-	^	31	5
-	.	35	0
-	+	31	5
-	+	35	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-manual.md
-	*	1543026781	0
-	"	87	0
-	^	78	5
-	.	82	0
-	+	78	5
-	+	82	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-maas.md
-	*	1543026760	0
-	"	30	4
-	^	29	5
-	.	29	5
-	+	101	9
-	+	130	13
-	+	101	31
-	+	101	0
-	+	141	0
-	+	143	0
-	+	142	50
-	+	143	0
-	+	141	74
-	+	142	11
-	+	143	0
-	+	141	13
-	+	162	49
-	+	161	38
-	+	163	21
-	+	138	71
-	+	138	0
-	+	132	68
-	+	145	0
-	+	154	0
-	+	164	21
-	+	101	19
-	+	101	0
-	+	155	37
-	+	156	64
-	+	157	20
-	+	158	20
-	+	101	77
-	+	101	0
-	+	101	73
-	+	101	0
-	+	101	53
-	+	101	44
-	+	159	35
-	+	101	43
-	+	101	0
-	+	147	0
-	+	101	0
-	+	101	22
-	+	173	0
-	+	177	0
-	+	2	23
-	+	177	49
-	+	15	10
-	+	15	11
-	+	16	2
-	+	15	74
-	+	20	0
-	+	14	74
-	+	15	77
-	+	15	2
-	+	15	77
-	+	101	48
-	+	101	64
-	+	176	23
-	+	101	24
-	+	63	0
-	+	71	0
-	+	169	0
-	+	101	0
-	+	17	0
-	+	19	31
-	+	70	0
-	+	101	0
-	+	70	0
-	+	66	76
-	+	67	54
-	+	66	61
-	+	66	76
-	+	66	61
-	+	68	7
-	+	66	61
-	+	67	14
-	+	68	76
-	+	178	0
-	+	70	0
-	+	90	76
-	+	6	59
-	+	170	14
-	+	6	44
-	+	6	59
-	+	6	0
-	+	12	0
-	+	10	8
-	+	11	0
-	+	7	22
-	+	8	0
-	+	6	0
-	+	6	21
-	+	6	0
-	+	6	79
-	+	106	0
-	+	102	0
-	+	179	0
-	+	103	6
-	+	173	0
-	+	33	0
-	+	29	5
-
-> ~/git/backporting/bp-3197to2.3/src/en/clouds.md
-	*	1543026466	0
-	"	29	0
-	^	25	18
-	.	6	0
-	+	9	0
-	+	36	0
-	+	25	18
-	+	6	0
-
-> ~/tmp/juju/clouds.md
-	*	1543026387	0
-	"	12	0
-
-> ~/git/backporting/bp-3197to2.4/src/en/clouds.md
-	*	1543026246	0
-	"	29	17
-	^	28	18
-	.	28	18
-	+	28	25
-	+	32	0
-	+	25	0
-	+	15	49
-	+	17	0
-	+	14	0
-	+	15	47
-	+	16	20
-	+	15	0
-	+	16	17
-	+	17	0
-	+	28	18
-
-> ~/git/backporting/bp-3197to2.4/clouds.m
-	*	1543026231	0
-	"	1	0
-
-> ~/git/pmatulis_juju-docs/src/en/clouds-maas-manual.md
-	*	1543024433	0
-	"	69	0
-
-> ~/bzr/scripts/dstack/dstack-create.sh
-	*	1542907666	0
-	"	58	57
-	^	57	57
-	.	57	57
-	+	15	1
-	+	18	0
-	+	12	1
 	+	13	0
-	+	14	0
-	+	13	1
-	+	15	49
-	+	14	29
-	+	13	30
-	+	12	31
-	+	15	0
-	+	14	24
-	+	15	0
-	+	14	0
-	+	13	1
-	+	14	0
-	+	57	57
+	+	98	0
+	+	99	18
+	+	10	0
+	+	101	0
+	+	102	0
+	+	12	177
+	+	42	157
+	+	42	53
+	+	96	114
+	+	100	118
+	+	101	66
 
-> ~/bzr/scripts/dstack/test.sh
-	*	1542907648	0
-	"	3	32
-	^	2	6
-	.	4	57
-	+	2	6
-	+	4	57
-
-> ~/bzr/candoctools/dstack/imp/test.sh
-	*	1542907574	0
-	"	2	5
-	^	2	6
-	.	2	6
-	+	4	103
+> ~/discourse/1082-charms.md
+	*	1559240044	0
+	"	1	0
+	.	1	0
 	+	1	0
-	+	5	6
-	+	3	33
-	+	2	6
 
-> ~/git/pmatulis_juju-docs/src/en/charms.md
-	*	1542906082	0
-	"	22	0
-	^	27	30
-	.	38	0
-	+	48	0
-	+	24	41
-	+	25	4
-	+	25	28
-	+	25	27
-	+	26	5
-	+	25	27
-	+	48	0
-	+	25	45
-	+	26	4
-	+	26	19
-	+	26	18
-	+	26	5
-	+	26	18
-	+	48	0
-	+	26	34
-	+	26	4
-	+	26	38
-	+	26	37
-	+	27	5
-	+	26	37
-	+	48	0
-	+	26	53
-	+	27	4
-	+	27	21
-	+	27	20
-	+	27	5
-	+	27	20
-	+	48	0
-	+	27	36
-	+	27	4
-	+	27	25
-	+	27	24
-	+	30	0
-	+	27	24
-	+	48	0
-	+	27	39
-	+	29	0
-	+	28	0
-	+	31	0
-	+	23	0
-	+	27	0
-	+	17	0
-	+	18	0
-	+	27	0
-	+	19	0
-	+	26	0
-	+	20	0
-	+	28	0
-	+	22	0
-	+	2	0
-	+	2	24
-	+	11	20
-	+	11	0
-	+	2	0
-	+	8	78
-	+	35	0
-	+	32	0
-	+	35	0
-	+	33	0
-	+	47	0
-	+	38	0
-	+	48	0
-	+	39	0
-	+	48	0
-	+	41	0
-	+	48	0
-	+	42	0
-	+	48	0
-	+	43	0
-	+	48	0
-	+	44	0
-	+	48	0
-	+	45	0
-	+	48	0
-	+	46	0
-	+	33	22
-	+	34	22
-	+	35	17
-	+	36	20
-	+	37	19
-	+	37	18
-	+	38	18
-	+	38	20
-	+	39	18
-	+	40	18
-	+	41	18
-	+	42	13
-	+	43	29
-	+	44	18
-	+	45	20
-	+	46	18
-	+	47	25
-	+	17	19
-	+	26	23
-	+	27	4
-	+	17	0
+> ~/discourse/1191-basic-client-usage-tutorial.md
+	*	1559235691	0
+	"	291	0
+	^	280	64
+	.	291	0
+	+	13	1
+	+	29	3
+	+	43	3
+	+	58	3
+	+	49	3
+	+	233	3
+	+	239	3
+	+	221	3
+	+	300	3
+	+	308	3
+	+	237	0
+	+	242	0
+	+	244	0
+	+	295	0
+	+	243	58
+	+	249	0
+	+	248	0
+	+	249	24
+	+	252	0
+	+	253	0
+	+	252	24
+	+	252	0
+	+	249	38
+	+	255	0
+	+	254	0
+	+	295	0
+	+	260	0
+	+	258	0
+	+	255	62
+	+	261	118
+	+	295	0
+	+	255	138
+	+	249	114
+	+	262	0
+	+	263	77
+	+	264	0
+	+	265	154
+	+	295	4
+	+	295	0
+	+	279	0
+	+	280	64
+	+	285	0
+	+	291	0
+
+> ~/discourse/1146-machine-authentication.md
+	*	1559235689	0
+	"	37	4
+	^	37	228
+	.	37	266
+	+	5	0
+	+	12	1
+	+	13	1
+	+	25	3
+	+	21	48
+	+	68	0
 	+	37	0
-	+	17	0
 	+	38	0
-	a	16	23
+	+	37	156
+	+	40	0
+	+	46	0
+	+	38	0
+	+	39	35
+	+	41	58
+	+	43	0
+	+	67	0
+	+	65	242
+	+	80	1
+	+	94	0
+	+	93	2
+	+	98	3
+	+	110	3
+	+	113	0
+	+	30	0
+	+	34	0
+	+	29	18
+	+	37	204
+	+	37	0
+	+	37	266
 
-> ~/git/pmatulis_juju-docs/src/en/charms-offline.md
-	*	1542656224	0
+> ~/discourse/1081-working-with-units.md
+	*	1559235681	0
+	"	1	0
+	^	24	126
+	.	24	130
+	+	18	9
+	+	24	130
+
+> ~/discourse/1085-using-microsoft-azure-with-juju-advanced.md
+	*	1558492204	0
+	"	151	0
+	^	141	59
+	.	141	59
+	+	59	0
+	+	34	3
+	+	58	1
+	+	59	0
+	+	42	37
+	+	54	0
+	+	55	0
+	+	61	40
+	+	25	27
+	+	26	0
+	+	25	35
+	+	31	3
+	+	61	178
+	+	64	42
+	+	61	180
+	+	90	0
+	+	89	1
+	+	90	0
+	+	83	0
+	+	90	0
+	+	92	0
+	+	93	0
+	+	99	7
+	+	100	45
+	+	101	13
+	+	98	3
+	+	106	8
+	+	114	3
+	+	108	3
+	+	128	0
+	+	115	3
+	+	127	1
+	+	137	11
+	+	134	3
+	+	132	74
+	+	145	0
+	+	132	133
+	+	144	80
+	+	146	3
+	+	147	38
+	+	144	26
+	+	139	57
+	+	140	58
+	+	141	63
+	+	36	41
+	+	48	41
+	+	52	47
+	+	40	0
+	+	41	0
+	+	64	42
+	+	84	43
+	+	87	46
+	+	88	44
+	+	99	38
+	+	100	41
+	+	101	43
+	+	117	42
+	+	121	48
+	+	139	53
+	+	140	54
+	+	141	59
+
+> ~/discourse/1162-juju-environment-variables.md
+	*	1558057386	0
+	"	92	202
+	^	86	157
+	.	92	202
+	+	86	157
+	+	92	202
+
+> ~/discourse/1120-writing-a-layer-by-example.md
+	*	1558057211	0
+	"	42	377
+	^	184	160
+	.	184	160
+	+	39	150
+	+	40	0
+	+	184	160
+
+> ~/discourse/links
+	*	1558056931	0
+	"	72	47
+	^	99	116
+	.	58	0
+	+	91	0
+	+	90	0
+	+	91	0
+	+	90	77
+	+	91	0
+	+	92	0
+	+	91	114
+	+	92	0
+	+	94	0
+	+	92	83
+	+	94	0
+	+	93	62
+	+	94	0
+	+	94	61
+	+	94	0
+	+	69	0
+	+	70	96
+	+	94	0
+	+	73	0
+	+	94	0
+	+	94	102
+	+	94	0
+	+	95	0
+	+	94	88
+	+	94	97
+	+	94	0
+	+	95	0
+	+	96	0
+	+	95	100
+	+	96	0
+	+	94	0
+	+	96	0
+	+	96	86
+	+	84	0
+	+	65	0
+	+	81	0
+	+	67	0
+	+	81	0
+	+	67	0
+	+	62	0
+	+	81	0
+	+	63	0
+	+	62	71
+	+	67	114
+	+	67	90
+	+	67	0
+	+	67	81
+	+	81	0
+	+	64	0
+	+	67	0
+	+	65	0
+	+	66	0
+	+	61	0
+	+	68	0
+	+	74	0
+	+	90	0
+	+	71	0
+	+	71	100
+	+	96	0
+	+	73	0
+	+	74	0
+	+	72	0
+	+	96	0
+	+	97	0
+	+	96	79
+	+	97	0
+	+	98	0
+	+	97	91
+	+	98	0
+	+	99	0
+	+	98	89
+	+	99	116
+	+	58	0
+
+> ~/discourse/1118-getting-started-with-charm-development.md
+	*	1558056815	0
+	"	125	657
+	^	125	704
+	.	125	657
+	+	47	3
+	+	48	0
+	+	49	0
+	+	50	0
+	+	54	0
+	+	78	0
+	+	90	0
+	+	98	0
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	29	115
+	+	78	242
+	+	125	657
+
+> ~/discourse/1117-event-cycle.md
+	*	1558030674	0
+	"	71	0
+	^	62	56
+	.	70	58
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	69	0
+	+	70	0
+	+	72	73
+	+	69	1
+	+	62	1
+	+	51	1
+	+	62	60
+	+	63	48
+	+	64	49
+	+	65	47
+	+	69	48
+	+	70	49
+	+	63	57
+	+	64	58
+	+	65	56
+	+	69	57
+	+	70	58
+	+	78	2
+	+	79	0
+	+	80	0
+	+	81	0
+	+	82	0
+	+	88	2
+	+	94	2
+	+	95	0
+	+	100	2
+	+	99	2
+	+	107	2
+	+	106	2
+	+	107	0
+	+	63	57
+	+	64	58
+	+	65	56
+	+	69	57
+	+	70	58
+
+> ~/discourse/1040-charm-hooks.md
+	*	1558030661	0
+	"	76	4
+
+> ~/discourse/1087-juju-documentation.md
+	*	1558029911	0
+	"	86	57
+	^	71	123
+	.	71	123
+	+	6	0
+	+	1	0
+	+	3	0
+	+	59	0
+	+	60	0
+	+	62	0
+	+	64	0
+	+	65	0
+	+	69	0
+	+	81	0
+	+	82	0
+	+	86	0
+	+	87	0
+	+	88	0
+	+	89	0
+	+	90	0
+	+	91	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	103	0
+	+	62	0
+	+	64	0
+	+	65	0
+	+	88	0
+	+	62	0
+	+	62	56
+	+	63	71
+	+	64	69
+	+	66	65
+	+	67	63
+	+	68	0
+	+	57	0
+	+	58	0
+	+	69	68
+	+	69	0
+	+	63	86
+	+	64	84
+	+	66	80
+	+	68	0
+	+	68	102
+	+	69	0
+	+	81	0
+	+	86	0
+	+	70	0
+	+	86	0
+	+	71	0
+	+	86	0
+	+	73	0
+	+	88	0
+	+	72	0
+	+	88	0
+	+	74	0
+	+	89	0
+	+	75	0
+	+	94	0
+	+	76	0
+	+	94	0
+	+	77	0
+	+	94	0
+	+	78	0
+	+	86	0
+	+	93	0
+	+	82	0
+	+	81	97
+	+	71	125
+	+	82	0
+	+	86	0
+	+	81	0
+	+	82	122
+	+	80	83
+	+	77	129
+	+	69	94
+	+	63	92
+	+	86	0
+	+	83	0
+	+	86	0
+	+	83	96
+	+	83	0
+	+	83	96
+	+	86	0
+	+	84	0
+	+	85	0
+	+	84	94
+	+	70	81
+	+	71	123
+
+> ~/git/pmatulis_juju-docs/src/en/interface-mysql.md
+	*	1558026307	0
 	"	1	0

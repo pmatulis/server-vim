@@ -14,8 +14,8 @@
 :set autoindent
 :set viminfo='100,n$HOME/.vim/files/info/viminfo
 
-:highlight Search ctermfg=White
-:highlight Search ctermbg=Red
+" :highlight Search ctermfg=White
+" :highlight Search ctermbg=Red
 " :highlight Comment ctermfg=LightGray
 
 " Visual queue when auto-wrapping is disabled
@@ -26,16 +26,27 @@ augroup END
 " See http://vim.wikia.com/wiki/Project_specific_settings
 function! Environment()
   let l:path = expand('%:p')
-  if l:path =~ '/home/pmatulis/git/pmatulis_tutorials'
-    setlocal textwidth=99 colorcolumn=+1
-    autocmd BufEnter * match OverLength /\%100v.*/
-    "colorscheme wuye
-  elseif l:path =~ '/home/pmatulis/git'
+  if l:path =~ '/home/pmatulis/git'
     setlocal textwidth=79 colorcolumn=+1
     autocmd BufEnter * match OverLength /\%80v.*/
+  elseif l:path =~ '/home/pmatulis/git/pmatulis_tutorials'
+    setlocal textwidth=99 colorcolumn=+1
+    autocmd BufEnter * match OverLength /\%100v.*/
+  else
+    setlocal wrap linebreak nolist
+    setlocal textwidth=0 wrapmargin=0
+    setlocal formatoptions-=t
   endif
 endfunction
 autocmd! BufReadPost,BufNewFile * call Environment()
+
+"    colorscheme wuye
+
+"  elseif l:path =~ '/home/pmatulis/discourse'
+
+"   elseif l:path =~ '/home/pmatulis/git'
+"     setlocal textwidth=79 colorcolumn=+1
+"     autocmd BufEnter * match OverLength /\%80v.*/
 
 let mapleader = ","
 
@@ -133,6 +144,12 @@ nmap <silent> <leader>w :set nolist!<CR>
 map <leader>f :set fo+=t<CR> " ON"
 map <leader>g :set fo-=t<CR> " OFF"
 
+" Toggle with ",c"
+" cursor column
+:highlight CursorColumn cterm=NONE ctermfg=darkgrey
+map <silent> <leader>c :set cursorcolumn!<CR>
+imap <silent> <leader>c <Esc>:set cursorcolumn!<CR>i
+
 " Add a line above, "99"
 " (w/o entering Insert mode)
 nnoremap 99 O<Esc>j
@@ -204,6 +221,7 @@ colorscheme jellybeans
 let @b = 'o```bash```jj88k'		  " insert bash syntax highlighting
 let @n = 'o```no-highlight```jj88k'	  " insert no-highlight syntax highlighting
 let @h = 'o```no-highlightjj88k'	  " insert no-highlight syntax highlighting
+let @x = 'o```text```jj88k'		  " insert text syntax highlighting
 let @t = 'o```jj'		  	  " insert backticks
 let @a = 'o!!! Note:    '	      	  " insert a Note admonishment
 let @t = 'oTODO:  '		     	  " insert a TODO line
