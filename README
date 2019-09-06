@@ -36,7 +36,9 @@ git push -u origin master
 
 cd ~/.vim
 git submodule update --remote --merge
+git add -A
 git commit -m "update plugins"
+git push origin master
 
 ## removing a plugin
 
