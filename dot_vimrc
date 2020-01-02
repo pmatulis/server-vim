@@ -12,7 +12,7 @@
 :set hidden
 ":set nofoldenable
 :set autoindent
-:set viminfo='100,n$HOME/.vim/files/info/viminfo
+":set viminfo='100,n$HOME/.vim/files/info/viminfo
 
 " :highlight Search ctermfg=White
 " :highlight Search ctermbg=Red

@@ -1,0 +1,220 @@
+" ACTIVE PLUGINS:
+" 	vim-vinegar (hit "-")
+" 	vim-mru (type ":MRU")
+
+" pathogen
+filetype off
+call pathogen#incubate()
+call pathogen#helptags()
+filetype plugin indent on
+
+:syntax on
+
+" :set background=dark			" use theme below instead
+" :set statusline=%F\ (%l/%L)\ %p%%	" use airline below instead
+" :set modeline
+:set ignorecase
+:set smartcase
+:set incsearch
+:set laststatus=2
+:set t_Co=256
+:set wildmenu
+:set wildmode=list:longest,full
+:set nofoldenable
+:set hidden
+:set noswapfile 
+
+" remap the ESC key to 'jj'
+:imap jj <Esc>
+
+" encryption stuff
+:set cryptmethod=blowfish
+autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
+
+" macros
+let @a = 'o```bashjj'
+let @b = 'o```jj'
+let @c = 'o```no-highlightjj'
+
+" vim-airline stuff
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_theme = 'laederon'
+
+" GFM markdown
+augroup markdown
+    au!
+    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
+
+" Enable the internal manpage viewer.
+" See ~/.zshrc for function 'man'; vim is now the manpage viewer ($ man blah)
+" (and no split window!)
+runtime ftplugin/man.vim
+
+let mapleader = ","
+
+" start of VIMWIKI -----------------------------------
+:set nocompatible 
+let g:vimwiki_list = [{'path': '~/data/goblin/bzr/pmwiki/',
+		     \ 'index': 'index',
+		     \ 'ext': '.txt',
+		     \ 'diary_header': 'journal',
+          	     \ 'diary_link_count': '1',
+		     \ 'path_html': '~/data/btsync-goblin/pmwiki_html/',
+		     \ 'auto_export': '0',
+          	     \ 'template_path': '~/data/btsync-goblin/pmwiki_html/templates/',
+          	     \ 'template_default': 'def_template',
+          	     \ 'template_ext': '.html'}]
+
+let g:vimwiki_folding = 0
+let g:vimwiki_global_ext = 0
+let g:vimwiki_hl_headers = 1
+let g:vimwiki_hl_cb_checked = 1
+" what to do when opening a directory
+let g:vimwiki_dir_link = 'index'
+
+" rename link with ",rl newlink"
+:map <Leader>rl <Plug>VimwikiRenameLink
+" go to link with ",gt link"
+:map <Leader>gt :VimwikiGoto 
+" go to link in a new tab with "\ENTER"
+:map <Leader><CR> :VimwikiTabnewLink<CR>
+" delete current page with "\wd"
+:map <Leader>wd :VimwikiDeleteLink
+" add a WikiWord one line down with ",]"
+:map <Leader>] o[[]]<Esc>hi
+" add formatting for a command with ",c"
+:map <Leader>c I`<Esc>A`<Esc>
+" Begin a todo list with ",*"
+:map <Leader>* Go<Esc>^C<space><space>* [ ]<space>
+" Split window for a link (doesn't work)
+:nmap <silent><buffer> <Leader><BS> <Plug>VimwikiSplitLink
+
+function SavePmwikiSession()
+	 if confirm('Really save to ~/.vim/other/pmwiki_session.vim ?', "&Yes\n&No", 1)==1
+	   :mks! ~/.vim/other/pmwiki_session.vim
+	 endif
+endfunction
+
+" save vimwiki session with "F7"
+nnoremap <F7> :call SavePmwikiSession()<CR>
+" end of VIMWIKI -----------------------------------
+
+" set a text width depending on file extension
+if has('autocmd')
+	au BufRead,BufNewFile *.xml set tw=150
+	au BufRead,BufNewFile *.sh set tw=135
+endif
+
+" navigate windows
+nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
+nmap <silent> <space>j :wincmd j<CR> " go Down with "SPACE, j"
+nmap <silent> <space>h :wincmd h<CR> " go Left with "SPACE, h"
+nmap <silent> <space>l :wincmd l<CR> " go Right with "SPACE, l"
+
+" resize split windows
+map <silent> <C-h> <C-w>< " less cols (vert split) with "C-h"
+map <silent> <C-l> <C-w>> " more cols (vert split) with "C-l"
+map <silent> <C-j> <C-W>- " less rows (horiz split) with "C-j"
+map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
+
+" close all other (split) windows except the current one
+map <silent> <space><space> <C-w>o
+
+" Remap the ':' to ';' and vice versa (affects ex commands)
+"nnoremap ; :
+"nnoremap : ;
+
+" Allow reliable pasting from other apps.  Toggle with "F12"
+nnoremap <F12> :set invpaste paste?<CR>
+imap <F12> <C-O><F12>
+set pastetoggle=<F12>
+
+" View tabs and trailing spaces.  Toggle with ",s"
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
+
+" Add a line below, "SHIFT-h" (conflict) w/o entering Insert mode
+" map <S-h> o<Esc>k
+:nnoremap K O<Esc>j
+" Add a space to the right w/o entering Insert mode with "s"
+map s a<space><Esc>h
+
+" Insert/remove '#' at beginning of visual block lines with "#" and ",#"
+vmap # :s/^/# /<CR>gv
+vmap <Leader># :s/^# //<CR>gv
+" Insert/remove '"' at beginning of visual block lines with """ and ",""
+vmap " :s/^/" /<CR>gv
+vmap <Leader>" :s/^" //<CR>gv
+
+" FOLDING
+" Fold & unfold visual/non-visual blocks with "F4"
+nnoremap <F4> za
+vnoremap <F4> zf
+" view folded areas better
+" :set foldcolumn=4
+
+" Toggle highlighted search with "F5"
+map <F5> :set hls!<bar>set hls?<CR>
+
+" Toggle the spellchecker with "F6"
+:map <F6> :setlocal spell! spelllang=en_ca<CR>
+
+" Dictionary (use with "Ctrl-x")
+set dictionary=/usr/share/dict/words
+
+" FIREFOX GOOGLE SEARCH
+" (current visual selection) with "F2"
+" vmap <F2> y<Esc>:silent exec
+" \ ":!noglob sensible-browser http://www.google.com/search?q='"
+" \ . substitute(@","\\W\\+\\\\|\\<\\w\\>",'\\%20',"g") . "' &"<CR><CR>
+
+" YANK (need vim-athena, or similar, installed)
+" visual selection with "F3"
+" and paste externally per usual (with "<C-V>" or "Paste"; seems to be
+" "<C-space>" now (change in lubuntu-rc.xml)
+vnoremap <F3> "+y
+
+" THEMES
+" make the xoria256 theme transparent
+autocmd ColorScheme * highlight Normal ctermbg=None
+autocmd ColorScheme * highlight NonText ctermbg=None
+colorscheme xoria256
+" colorscheme jellybeans
+" colorscheme vibrantink
+" colorscheme wuye
+
+" TABLINE
+" if exists("+showtabline")
+"      function MyTabLine()
+"          let s = ''
+"          let t = tabpagenr()
+"          let i = 1
+"          while i <= tabpagenr('$')
+"              let buflist = tabpagebuflist(i)
+"              let winnr = tabpagewinnr(i)
+"              let s .= '%' . i . 'T'
+"              let s .= (i == t ? '%1*' : '%2*')
+"              let s .= ' '
+"              let s .= i . ')'
+"              let s .= ' %*'
+"              let s .= (i == t ? '%#TabLineSel#' : '%#TabLine#')
+"              let file = bufname(buflist[winnr - 1])
+"              let file = fnamemodify(file, ':p:t')
+"              if file == ''
+"                  let file = '[No Name]'
+"              endif
+"              let s .= file
+"              let i = i + 1
+"          endwhile
+"          let s .= '%T%#TabLineFill#%='
+"          let s .= (tabpagenr('$') > 1 ? '%999XX' : 'X')
+"          return s
+"      endfunction
+"      set stal=2
+"      set tabline=%!MyTabLine()
+" endif
