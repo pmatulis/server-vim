@@ -73,6 +73,7 @@ let &t_EI = "\<Esc>[2 q"
 " See ~/.vim/pack/plugins
 
 " "vim-startify"
+let g:startify_session_dir = '~/.vim_startify_sessions'
 let g:startify_bookmarks = [
  \ { 'i': 'reference-install.md'},
  \ { 'r': 'reference-release-notes.md'} ]
