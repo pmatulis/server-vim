@@ -12,6 +12,7 @@
 :set hidden
 ":set nofoldenable
 :set autoindent
+":set viminfo='100,n$HOME/.vim/files/info/viminfo
 
 " :highlight Search ctermfg=White
 " :highlight Search ctermbg=Red
@@ -118,9 +119,6 @@ set updatetime=250
 
 " PLUGINS END .................
 
-" sudo saving with ":W"
-command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
-
 " cycle through buffers
 :nnoremap <Left> :bprevious<CR>	" previous buffer with Left arrow key
 :nnoremap <Right> :bnext<CR>    " next buffer with Rigt arrow key
@@ -150,12 +148,8 @@ map <leader>g :set fo-=t<CR> " OFF"
 " Toggle with ",c"
 " cursor column
 :highlight CursorColumn cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>c :set cursorcolumn!<CR>
-
-" Toggle with ",l"
-" cursor line
-:highlight CursorLine cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>l :set cursorline!<CR>
+map <silent> <leader>c :set cursorcolumn!<CR>
+imap <silent> <leader>c <Esc>:set cursorcolumn!<CR>i
 
 " Add a line above, "99"
 " (w/o entering Insert mode)
@@ -172,9 +166,6 @@ nmap <silent> <leader>s a<space><Esc>h
 " (includes the removal of double spaces)
 nmap <silent> <leader>r vipgqgv:s/  / /g<CR>
 
-" Stamp (overwrite) current word with last yanked or deleted word, ",S"
-nnoremap <leader>S "_diwP
-
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
@@ -188,10 +179,10 @@ autocmd FileType md,markdown setlocal spell spelllang=en_gb
 " (add a word with "zg")
 " (remove a word with "zug")
 
-" SPACE key
+" F4 key
 " fold & unfold visual/non-visual blocks
-nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
-vnoremap <Space> zf
+nnoremap <F4> za
+vnoremap <F4> zf
 
 " F5 key
 " toggle highlighted search
@@ -234,16 +225,14 @@ let @h = 'o```no-highlightjj88k'	  " insert no-highlight syntax highlighting
 let @x = 'o```text```jj88k'		  " insert text syntax highlighting
 let @t = 'o```jj'		  	  " insert backticks
 let @a = 'o!!! Note:    '	      	  " insert a Note admonishment
-"let @t = 'oTODO:  '		     	  " insert a TODO line
+let @t = 'oTODO:  '		     	  " insert a TODO line
 let @l = 'o<!-- LINKS -->'     	  " insert a LINKS line
-let @c = 'o<!---->jj88ki'     	  " insert a comment
 let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
 
-" set a text width and other things depending on file extension
+" set a text width depending on file extension
 if has('autocmd')
 	au BufRead,BufNewFile *.xml set tw=150
 	au BufRead,BufNewFile *.sh set tw=135
-        au BufWritePre *.rst :%s/\s\+$//e
 endif
 
 " remap the ; key to ` (to go to a mark's exact cursor position easily)
