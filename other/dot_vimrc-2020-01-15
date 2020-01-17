@@ -10,6 +10,7 @@
 :set wildmode=list:longest,full
 :set noswapfile
 :set hidden
+":set nofoldenable
 :set autoindent
 
 let mapleader = ","
@@ -37,7 +38,6 @@ setlocal textwidth=79 colorcolumn=+1
 " Use OVER_COLOUR when over 80 characters
 autocmd BufEnter * match OverLength /\%80v.*/
 
-" Configure soft wrapping for README.md files
 function! Environment()
   let l:path = expand('%:p')
   if l:path =~ '.*/README.md'
@@ -46,6 +46,12 @@ function! Environment()
       autocmd!
       autocmd VimEnter * setlocal columns=79  " Only way to set columns
     augroup END
+    au CursorMovedI *.md call ModifyTextWidth()
+    function! ModifyTextWidth()
+      if getline(".")=~'^\[.*\]:[[:space:]].*$'      " Don't wrap the LINKS section
+        set nowrap
+      endif
+    endfunction
   endif
 endfunction
 autocmd! BufReadPost,BufNewFile * call Environment()
@@ -58,22 +64,19 @@ let &t_SR = "\<Esc>[4 q"
 " normal: block
 let &t_EI = "\<Esc>[2 q"
 
+" Cursor colours based on mode
+" insert: red
+"let &t_SI .= "\<Esc>]12;red\x7"
+" replace: red
+"let &t_SR .= "\<Esc>]12;red\x7"
+" normal: red
+"let &t_EI .= "\<Esc>]12;red\x7"
+"silent !echo -ne "\033]12;red\007"
+" reset cursor when vim exits
+"autocmd VimLeave * silent !echo -ne "\033]112\007"
+
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
-
-" "vim-table-mode"
-" Define table styles for RST and MD files
-" Enable with ",tm"
-function! Environment()
-  let l:path = expand('%:p')
-  if l:path =~ '.*/.*.rst'
-    let g:table_mode_corner_corner='+'
-    let g:table_mode_header_fillchar='='
-  elseif l:path =~ '.*/.*.md'
-    let g:table_mode_corner='|'
-  endif
-endfunction
-autocmd! BufReadPost,BufNewFile * call Environment()
 
 " "vim-startify"
 let g:startify_session_dir = '~/.vim_startify_sessions'
