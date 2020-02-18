@@ -109,3 +109,12 @@ nofoldenable
 hlsearch
 LightGray
 OverLength
+AppArmor
+DHCP
+VLAN
+OSDs
+ceph
+standalone
+Mitaka
+hacluster
+corosync

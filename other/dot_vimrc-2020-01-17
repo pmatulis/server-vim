@@ -1,6 +1,7 @@
 :syntax on
 
 :set incsearch
+":set hlsearch
 :set smartcase
 :set ignorecase
 :set laststatus=2
@@ -13,13 +14,9 @@
 
 let mapleader = ","
 
-" Cursor shapes based on mode
-" insert: ibeam
-let &t_SI = "\<Esc>[6 q"
-" replace: underline
-let &t_SR = "\<Esc>[4 q"
-" normal: block
-let &t_EI = "\<Esc>[2 q"
+" :highlight Search ctermfg=White
+" :highlight Search ctermbg=Red
+" :highlight Comment ctermfg=LightGray
 
 " Use textwidth (t)
 " Auto-wrap comments and add leader character (c) 
@@ -40,22 +37,79 @@ setlocal textwidth=79 colorcolumn=+1
 " Use OVER_COLOUR when over 80 characters
 autocmd BufEnter * match OverLength /\%80v.*/
 
-" Environment function sets up:
-"   - table style for REAMDE.md and RST files
-"       via plugin "vim-table-mode" (enable with ",tm")
-function! Environment()
+" Configure soft wrapping for README.md files
+" function! MD()
+"   let l:path = expand('%:p')
+"   if l:path =~ '.*/README.md'
+"     setlocal textwidth=0 wrapmargin=0 wrap linebreak nolist showbreak=>
+"     augroup COLUMNS
+"       autocmd!
+"       autocmd VimEnter * setlocal columns=79  " Only way to set columns
+"     augroup END
+"   endif
+" endfunction
+" autocmd! BufReadPost,BufNewFile * call MD()
+
+function! README()
   let l:path = expand('%:p')
   if l:path =~ '.*/README.md'
     let g:table_mode_corner='|'
-  elseif l:path =~ '.*.rst'
+    setlocal textwidth=0 wrapmargin=0 wrap linebreak nolist showbreak=>
+    augroup COLUMNS
+      autocmd!
+      autocmd VimEnter * setlocal columns=79  " Only way to set columns
+    augroup END
+  endif
+endfunction
+autocmd! BufReadPost,BufNewFile * call MD()
+
+" function! SoftWrap()
+"   let l:path = expand('%:p')
+"   if l:path =~ '.*/README.md'
+"     let s:old_fo = &formatoptions
+"     let s:old_tw = &textwidth
+"     set fo=
+"     set tw=999999
+"     normal gggqG
+"     let &fo = s:old_fo
+"     let &tw = s:old_tw
+"   endif
+" endfunction
+" autocmd! BufReadPost,BufNewFile * call SoftWrap()
+
+" Cursor shapes based on mode
+" insert: ibeam
+let &t_SI = "\<Esc>[6 q"
+" replace: underline
+let &t_SR = "\<Esc>[4 q"
+" normal: block
+let &t_EI = "\<Esc>[2 q"
+
+" PLUGINS BEGIN .................
+" See ~/.vim/pack/plugins
+
+" "vim-table-mode"
+" Define table styles for RST and MD files
+" Enable with ",tm"
+" function! Tables()
+"   let l:path = expand('%:p')
+"   if l:path =~ '.*.rst'
+"     let g:table_mode_corner_corner='+'
+"     let g:table_mode_header_fillchar='='
+"   elseif l:path =~ '.*.md'
+"     let g:table_mode_corner='|'
+"   endif
+" endfunction
+" autocmd! BufReadPost,BufNewFile * call Tables()
+
+function! RST()
+  let l:path = expand('%:p')
+  if l:path =~ '.*.rst'
     let g:table_mode_corner_corner='+'
     let g:table_mode_header_fillchar='='
   endif
 endfunction
-autocmd! BufReadPost,BufNewFile * call Environment()
-
-" PLUGINS BEGIN .................
-" See ~/.vim/pack/plugins
+autocmd! BufReadPost,BufNewFile * call RST()
 
 " "vim-startify"
 let g:startify_session_dir = '~/.vim_startify_sessions'
@@ -123,15 +177,6 @@ map <silent> <C-l> <C-w>> " more cols (vert split) with "C-l"
 map <silent> <C-j> <C-W>- " less rows (horiz split) with "C-j"
 map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 
-" Copy and paste using system clipboard
-" vmap <C-c> "*y     " Yank visual block with "C-c"
-" nmap <C-c> "*Y     " Yank current line with "C-c"
-" nmap <C-v> "*p     " Paste with "C-v"
-
-vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
-nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
-nmap <C-v> :r ~/.vbuf<CR>       " paste the contents of the buffer file
-
 " Toggle with ",w"
 " view tabs and trailing spaces
 set listchars=tab:>-,trail:·,eol:$
@@ -170,8 +215,8 @@ nnoremap <leader>S "_diwP
 vmap # :s/^/# /<CR>gv<Esc>
 vmap <leader># :s/^# //<CR>gv<Esc>
 " insert/remove '"' at beginning of visual block lines with """ and ",""
-" vmap " :s/^/" /<CR>gv<Esc>
-" vmap <leader>" :s/^" //<CR>gv<Esc>
+vmap " :s/^/" /<CR>gv<Esc>
+vmap <leader>" :s/^" //<CR>gv<Esc>
 
 " Only turn on spelling for certain filetypes
 autocmd FileType md,markdown setlocal spell spelllang=en_gb
