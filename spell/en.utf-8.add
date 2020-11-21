@@ -118,3 +118,5 @@ standalone
 Mitaka
 hacluster
 corosync
+amd64
+libvirtd

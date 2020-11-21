@@ -130,7 +130,7 @@ map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 
 vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
 nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
-nmap <C-v> :r ~/.vbuf<CR>       " paste the contents of the buffer file
+nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file
 
 " Toggle with ",w"
 " view tabs and trailing spaces
