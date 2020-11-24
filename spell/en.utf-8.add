@@ -118,6 +118,7 @@ standalone
 Mitaka
 hacluster
 corosync
+<<<<<<< HEAD
 RabbitMQ
 ceph-mon
 ceph-osd
@@ -162,3 +163,7 @@ docstrings
 docstring
 startup
 charms
+=======
+amd64
+libvirtd
+>>>>>>> 2d2ea9dafd3a6a43b84687ba85208ba4ec210ff4
