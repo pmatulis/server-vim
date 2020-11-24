@@ -40,6 +40,14 @@ git add -A
 git commit -m "update plugins"
 git push origin master
 
+## adding a plugin
+ 
+cd ~/.vim
+git submodule add https://github.com/rhysd/vim-eunuch pack/plugins/start/vim-eunuch
+git add pack/plugins/start/vim-eunuch
+git commit -m "added submodule vim-eunuch"
+git push -u origin master
+
 ## removing a plugin
 
 cd ~/.vim

@@ -36,7 +36,7 @@ augroup OVER_COLOUR
   autocmd BufEnter * highlight OverLength ctermfg=darkgrey
 augroup END
 " Print a column at 80 characters
-setlocal textwidth=79 colorcolumn=+1
+set textwidth=79 colorcolumn=+1
 " Use OVER_COLOUR when over 80 characters
 autocmd BufEnter * match OverLength /\%80v.*/
 
@@ -47,7 +47,7 @@ function! Environment()
   let l:path = expand('%:p')
   if l:path =~ '.*/README.md'
     let g:table_mode_corner='|'
-  elseif l:path =~ '.*.rst'
+  elseif l:path =~ '.*/.*.rst'
     let g:table_mode_corner_corner='+'
     let g:table_mode_header_fillchar='='
   endif
@@ -126,11 +126,11 @@ map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 " Copy and paste using system clipboard
 " vmap <C-c> "*y     " Yank visual block with "C-c"
 " nmap <C-c> "*Y     " Yank current line with "C-c"
-" nmap <C-v> "*p     " Paste with "C-v"
+" nmap <C-x> "*p     " Paste with "C-x"
 
 vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
 nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
-nmap <C-v> :r ~/.vbuf<CR>       " paste the contents of the buffer file
+nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file (C-v is already taken)
 
 " Toggle with ",w"
 " view tabs and trailing spaces
