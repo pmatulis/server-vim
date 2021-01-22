@@ -200,9 +200,8 @@ map <F5> :set hls!<bar>set hls?<CR>
 :set spell spelllang=en_gb
 
 " F7 key
-" copy the current filename onto the system clipboard
-" use 'p' to paste (as usual)
-nnor <F7> :let @"=expand("%")<CR>
+" toggle the display of non-printable characters
+nnoremap <F7> :set list! list?<CR>
 
 " F12 key
 " allow reliable pasting from other apps
