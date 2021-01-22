@@ -73,6 +73,11 @@ augroup BufNewFile,BufRead *.py
     \ set autoindent
     \ set fileformat=unix
 
+augroup BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
 
@@ -208,9 +213,9 @@ set pastetoggle=<F12>
 "colorscheme PaperColor
 "colorscheme zenburn
 "colorscheme xoria256
-colorscheme jellybeans
+"colorscheme jellybeans
 "colorscheme apprentice
-"colorscheme tender
+colorscheme tender
 highlight Normal ctermbg=None
 highlight NonText ctermbg=None
 

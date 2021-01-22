@@ -10,18 +10,8 @@
 :set noswapfile
 :set hidden
 :set autoindent
-:set encoding=utf-8
 
 let mapleader = ","
-
-" remap the ; key to `
-" to go to a mark's exact cursor position easily
-" (; is easier to reach than `)
-:nnoremap ; `
-
-" encryption
-:set cryptmethod=blowfish
-autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
 
 " Cursor shapes based on mode
 " insert: ibeam
@@ -32,7 +22,7 @@ let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
 " Use textwidth (t)
-" Auto-wrap comments and add leader character (c)
+" Auto-wrap comments and add leader character (c) 
 " Allow reformatting with gq (q)
 " Recognize numbered lists when formatting text (n)
 :set formatoptions+=tcqn
@@ -46,7 +36,7 @@ augroup OVER_COLOUR
   autocmd BufEnter * highlight OverLength ctermfg=darkgrey
 augroup END
 " Print a column at 80 characters
-set textwidth=79 colorcolumn=+1
+setlocal textwidth=79 colorcolumn=+1
 " Use OVER_COLOUR when over 80 characters
 autocmd BufEnter * match OverLength /\%80v.*/
 
@@ -57,21 +47,12 @@ function! Environment()
   let l:path = expand('%:p')
   if l:path =~ '.*/README.md'
     let g:table_mode_corner='|'
-  elseif l:path =~ '.*/.*.rst'
+  elseif l:path =~ '.*.rst'
     let g:table_mode_corner_corner='+'
     let g:table_mode_header_fillchar='='
   endif
 endfunction
 autocmd! BufReadPost,BufNewFile * call Environment()
-
-augroup BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
 
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
@@ -105,11 +86,11 @@ let g:ctrlp_working_path_mode = 'c'
 let g:ctrlp_open_multiple_files = 'tj'
 
 " Notes:
-"  a) Ctrl-j|k : scroll through files
-"  b) Ctrl-t   : open file in tab
-"  c) Ctrl-f   : change modes
-"  d) Ctrl-d   : switch to filename search instead of full path
-"  e) Ctrl-z   : mark multiple files
+"	a) Ctrl-j|k : scroll through files
+"	b) Ctrl-t   : open file in tab
+"	c) Ctrl-f   : change modes
+"	d) Ctrl-d   : switch to filename search instead of full path
+"	e) Ctrl-z   : mark multiple files
 
 " "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
@@ -127,8 +108,8 @@ set updatetime=250
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " cycle through buffers
-:nnoremap <Left> :bprevious<CR> " previous buffer with Left arrow
-:nnoremap <Right> :bnext<CR>    " next buffer with Right arrow
+:nnoremap <Left> :bprevious<CR>	" previous buffer with Left arrow key
+:nnoremap <Right> :bnext<CR>    " next buffer with Rigt arrow key
 
 " navigate windows
 nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
@@ -145,36 +126,54 @@ map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 " Copy and paste using system clipboard
 " vmap <C-c> "*y     " Yank visual block with "C-c"
 " nmap <C-c> "*Y     " Yank current line with "C-c"
-" nmap <C-x> "*p     " Paste with "C-x"
+" nmap <C-v> "*p     " Paste with "C-v"
 
 vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
 nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
-nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file (C-v is already taken)
+nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file
 
-" Add a line above with "99"
+" Toggle with ",w"
+" view tabs and trailing spaces
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>w :set nolist!<CR>
+
+" Toggle with ",c"
+" cursor column
+:highlight CursorColumn cterm=NONE ctermfg=darkgrey
+:nnoremap <Leader>c :set cursorcolumn!<CR>
+
+" Toggle with ",l"
+" cursor line
+:highlight CursorLine cterm=NONE ctermfg=darkgrey
+:nnoremap <Leader>l :set cursorline!<CR>
+
+" Add a line above, "99"
 " (w/o entering Insert mode)
 nnoremap 99 O<Esc>j
-" Add a line below with "88"
+" Add a line below, "88"
 " (w/o entering Insert mode)
 nnoremap 88 o<Esc>k
 
-" Add a space to the right with ",s"
+" Add a space to the right, ",s"
 " (w/o entering Insert mode)
 nmap <silent> <leader>s a<space><Esc>h
 
-" Reformat current paragraph with ",r"
+" Reformat current paragraph, ",r"
 " (includes the removal of double spaces)
 nmap <silent> <leader>r vipgqgv:s/  / /g<CR>
 
-" Stamp (overwrite) current word with last yanked or deleted word with ",S"
+" Stamp (overwrite) current word with last yanked or deleted word, ",S"
 nnoremap <leader>S "_diwP
 
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
 vmap <leader># :s/^# //<CR>gv<Esc>
+" insert/remove '"' at beginning of visual block lines with """ and ",""
+" vmap " :s/^/" /<CR>gv<Esc>
+" vmap <leader>" :s/^" //<CR>gv<Esc>
 
-" Only turn on spelling for certain file types
+" Only turn on spelling for certain filetypes
 autocmd FileType md,markdown setlocal spell spelllang=en_gb
 " (add a word with "zg")
 " (remove a word with "zug")
@@ -195,8 +194,9 @@ map <F5> :set hls!<bar>set hls?<CR>
 :set spell spelllang=en_gb
 
 " F7 key
-" toggle the display of non-printable characters
-nnoremap <F7> :set list! list?<CR>
+" copy the current filename onto the system clipboard
+" use 'p' to paste (as usual)
+nnor <F7> :let @"=expand("%")<CR>
 
 " F12 key
 " allow reliable pasting from other apps
@@ -204,15 +204,17 @@ nnoremap <F12> :set invpaste paste?<CR>
 imap <F12> <C-O><F12>
 set pastetoggle=<F12>
 
+" remove all whitespace at the end of lines
+" autocmd BufWritePre * :%s/\s\+$//e
+
 " THEMES
-"colorscheme PaperColor
-"colorscheme zenburn
+" make some themes transparent
+autocmd ColorScheme * highlight Normal ctermbg=None
+autocmd ColorScheme * highlight NonText ctermbg=None
 "colorscheme xoria256
 colorscheme jellybeans
-"colorscheme apprentice
-"colorscheme tender
-highlight Normal ctermbg=None
-highlight NonText ctermbg=None
+"colorscheme vibrantink
+"colorscheme wuye
 
 " MACROS
 " for writing in Markdown
@@ -229,22 +231,15 @@ let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
 
 " set a text width and other things depending on file extension
 if has('autocmd')
-   au BufRead,BufNewFile *.xml set tw=150
-   au BufRead,BufNewFile *.sh set tw=135
-   au BufWritePre *.rst :%s/\s\+$//e
+	au BufRead,BufNewFile *.xml set tw=150
+	au BufRead,BufNewFile *.sh set tw=135
+        au BufWritePre *.rst :%s/\s\+$//e
 endif
 
-" display cursor column
-" Toggle with ",c"
-:highlight CursorColumn cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>c :set cursorcolumn!<CR>
+" remap the ; key to ` (to go to a mark's exact cursor position easily)
+" ; is easier to reach than `
+:nnoremap ; `
 
-" display cursor line
-" Toggle with ",l"
-:highlight CursorLine cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>l :set cursorline!<CR>
-
-" show tabs and trailing spaces
-:highlight SpecialKey ctermfg=black ctermbg=yellow
-set list
-set listchars=tab:>-,trail:·
+" encryption
+:set cryptmethod=blowfish
+autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
