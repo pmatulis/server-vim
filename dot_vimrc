@@ -10,7 +10,7 @@
 :set noswapfile
 :set hidden
 :set autoindent
-set encoding=utf-8
+:set encoding=utf-8
 
 let mapleader = ","
 
