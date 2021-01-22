@@ -13,6 +13,15 @@
 
 let mapleader = ","
 
+" remap the ; key to `
+" to go to a mark's exact cursor position easily
+" (; is easier to reach than `)
+:nnoremap ; `
+
+" encryption
+:set cryptmethod=blowfish
+autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
+
 " Cursor shapes based on mode
 " insert: ibeam
 let &t_SI = "\<Esc>[6 q"
@@ -22,7 +31,7 @@ let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
 " Use textwidth (t)
-" Auto-wrap comments and add leader character (c) 
+" Auto-wrap comments and add leader character (c)
 " Allow reformatting with gq (q)
 " Recognize numbered lists when formatting text (n)
 :set formatoptions+=tcqn
@@ -53,6 +62,20 @@ function! Environment()
   endif
 endfunction
 autocmd! BufReadPost,BufNewFile * call Environment()
+
+augroup BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+
+augroup BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
 
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
@@ -86,11 +109,11 @@ let g:ctrlp_working_path_mode = 'c'
 let g:ctrlp_open_multiple_files = 'tj'
 
 " Notes:
-"	a) Ctrl-j|k : scroll through files
-"	b) Ctrl-t   : open file in tab
-"	c) Ctrl-f   : change modes
-"	d) Ctrl-d   : switch to filename search instead of full path
-"	e) Ctrl-z   : mark multiple files
+"  a) Ctrl-j|k : scroll through files
+"  b) Ctrl-t   : open file in tab
+"  c) Ctrl-f   : change modes
+"  d) Ctrl-d   : switch to filename search instead of full path
+"  e) Ctrl-z   : mark multiple files
 
 " "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
@@ -108,8 +131,8 @@ set updatetime=250
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " cycle through buffers
-:nnoremap <Left> :bprevious<CR>	" previous buffer with Left arrow key
-:nnoremap <Right> :bnext<CR>    " next buffer with Rigt arrow key
+:nnoremap <Left> :bprevious<CR> " previous buffer with Left arrow
+:nnoremap <Right> :bnext<CR>    " next buffer with Right arrow
 
 " navigate windows
 nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
@@ -132,48 +155,30 @@ vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
 nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
 nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file (C-v is already taken)
 
-" Toggle with ",w"
-" view tabs and trailing spaces
-set listchars=tab:>-,trail:·,eol:$
-nmap <silent> <leader>w :set nolist!<CR>
-
-" Toggle with ",c"
-" cursor column
-:highlight CursorColumn cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>c :set cursorcolumn!<CR>
-
-" Toggle with ",l"
-" cursor line
-:highlight CursorLine cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>l :set cursorline!<CR>
-
-" Add a line above, "99"
+" Add a line above with "99"
 " (w/o entering Insert mode)
 nnoremap 99 O<Esc>j
-" Add a line below, "88"
+" Add a line below with "88"
 " (w/o entering Insert mode)
 nnoremap 88 o<Esc>k
 
-" Add a space to the right, ",s"
+" Add a space to the right with ",s"
 " (w/o entering Insert mode)
 nmap <silent> <leader>s a<space><Esc>h
 
-" Reformat current paragraph, ",r"
+" Reformat current paragraph with ",r"
 " (includes the removal of double spaces)
 nmap <silent> <leader>r vipgqgv:s/  / /g<CR>
 
-" Stamp (overwrite) current word with last yanked or deleted word, ",S"
+" Stamp (overwrite) current word with last yanked or deleted word with ",S"
 nnoremap <leader>S "_diwP
 
 " COMMENTS
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
 vmap <leader># :s/^# //<CR>gv<Esc>
-" insert/remove '"' at beginning of visual block lines with """ and ",""
-" vmap " :s/^/" /<CR>gv<Esc>
-" vmap <leader>" :s/^" //<CR>gv<Esc>
 
-" Only turn on spelling for certain filetypes
+" Only turn on spelling for certain file types
 autocmd FileType md,markdown setlocal spell spelllang=en_gb
 " (add a word with "zg")
 " (remove a word with "zug")
@@ -204,9 +209,6 @@ nnoremap <F12> :set invpaste paste?<CR>
 imap <F12> <C-O><F12>
 set pastetoggle=<F12>
 
-" remove all whitespace at the end of lines
-" autocmd BufWritePre * :%s/\s\+$//e
-
 " THEMES
 " make some themes transparent
 autocmd ColorScheme * highlight Normal ctermbg=None
@@ -231,15 +233,22 @@ let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
 
 " set a text width and other things depending on file extension
 if has('autocmd')
-	au BufRead,BufNewFile *.xml set tw=150
-	au BufRead,BufNewFile *.sh set tw=135
-        au BufWritePre *.rst :%s/\s\+$//e
+   au BufRead,BufNewFile *.xml set tw=150
+   au BufRead,BufNewFile *.sh set tw=135
+   au BufWritePre *.rst :%s/\s\+$//e
 endif
 
-" remap the ; key to ` (to go to a mark's exact cursor position easily)
-" ; is easier to reach than `
-:nnoremap ; `
+" display cursor column
+" Toggle with ",c"
+:highlight CursorColumn cterm=NONE ctermfg=darkgrey
+:nnoremap <Leader>c :set cursorcolumn!<CR>
 
-" encryption
-:set cryptmethod=blowfish
-autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
+" display cursor line
+" Toggle with ",l"
+:highlight CursorLine cterm=NONE ctermfg=darkgrey
+:nnoremap <Leader>l :set cursorline!<CR>
+
+" show tabs and trailing spaces
+:highlight SpecialKey ctermfg=black ctermbg=yellow
+set list
+set listchars=tab:>-,trail:·
