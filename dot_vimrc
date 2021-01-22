@@ -215,7 +215,8 @@ set pastetoggle=<F12>
 "colorscheme zenburn
 "colorscheme xoria256
 "colorscheme jellybeans
-colorscheme apprentice
+"colorscheme apprentice
+colorscheme tender
 highlight Normal ctermbg=None
 highlight NonText ctermbg=None
 
