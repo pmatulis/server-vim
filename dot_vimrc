@@ -246,6 +246,8 @@ endif
 :nnoremap <Leader>l :set cursorline!<CR>
 
 " show tabs and trailing spaces
+" space will be highlighted at eol while typing
+" (for alternate methods see https://vim.fandom.com/wiki/Highlight_unwanted_spaces)
 :highlight SpecialKey ctermfg=black ctermbg=yellow
 set list
 set listchars=tab:>-,trail:·
