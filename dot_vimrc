@@ -26,7 +26,7 @@ let g:polyglot_disabled = ['markdown']
 :set cryptmethod=blowfish
 autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
 
-" Cursor shapes based on mode
+" cursor shapes based on mode
 " insert: ibeam
 let &t_SI = "\<Esc>[6 q"
 " replace: underline
@@ -34,26 +34,26 @@ let &t_SR = "\<Esc>[4 q"
 " normal: block
 let &t_EI = "\<Esc>[2 q"
 
-" Use textwidth (t)
+" use textwidth (t)
 " Auto-wrap comments and add leader character (c)
 " Allow reformatting with gq (q)
 " Recognize numbered lists when formatting text (n)
 :set formatoptions+=tcqn
 
-" Toggle formatoptions with ",f" and ",g"
+" toggle formatoptions with ",f" and ",g"
 map <leader>f :set fo+=tcqn<CR> " ON"
 map <leader>g :set fo-=tcqn<CR> " OFF"
 
-" Visual queue when auto-wrapping is disabled (the default)
+" visual queue when auto-wrapping is disabled (the default)
 augroup OVER_COLOUR
   autocmd BufEnter * highlight OverLength ctermfg=darkgrey
 augroup END
-" Print a column at 80 characters
+" print a column at 80 characters
 set textwidth=79 colorcolumn=+1
-" Use OVER_COLOUR when over 80 characters
+" use OVER_COLOUR when over 80 characters
 autocmd BufEnter * match OverLength /\%80v.*/
 
-" Environment function sets up:
+" environment function sets up:
 "   - table style for REAMDE.md and RST files
 "       via plugin "vim-table-mode" (enable with ",tm")
 function! Environment()
@@ -77,7 +77,7 @@ autocmd! BufReadPost,BufNewFile * call Environment()
 "    \ set fileformat=unix
 
 " PLUGINS BEGIN .................
-" See ~/.vim/pack/plugins
+" see ~/.vim/pack/plugins
 
 " "vim-startify"
 let g:startify_session_dir = '~/.vim_startify_sessions'
@@ -145,7 +145,7 @@ map <silent> <C-l> <C-w>> " more cols (vert split) with "C-l"
 map <silent> <C-j> <C-W>- " less rows (horiz split) with "C-j"
 map <silent> <C-k> <C-W>+ " more rows (horiz split) with "C-k"
 
-" Copy and paste using system clipboard
+" copy and paste using system clipboard
 " vmap <C-c> "*y     " Yank visual block with "C-c"
 " nmap <C-c> "*Y     " Yank current line with "C-c"
 " nmap <C-x> "*p     " Paste with "C-x"
@@ -154,33 +154,35 @@ vmap <C-c> :w! ~/.vbuf<CR>      " yank visual selection to ~/.vbuf
 nmap <C-c> :.w! ~/.vbuf<CR>     " yank current line to the buffer file if no visual selection
 nmap <C-x> :r ~/.vbuf<CR>       " paste the contents of the buffer file (C-v is already taken)
 
-" Add a line above with "99"
+" add a line above with "99"
 " (w/o entering Insert mode)
 nnoremap 99 O<Esc>j
-" Add a line below with "88"
+" add a line below with "88"
 " (w/o entering Insert mode)
 nnoremap 88 o<Esc>k
 
-" Add a space to the right with ",s"
+" add a space to the right with ",s"
 " (w/o entering Insert mode)
 nmap <silent> <leader>s a<space><Esc>h
 
-" Reformat current paragraph with ",r"
+" reformat current paragraph with ",r"
 " (includes the removal of double spaces)
 nmap <silent> <leader>r vipgqgv:s/  / /g<CR>
 
 " Stamp (overwrite) current word with last yanked or deleted word with ",S"
 nnoremap <leader>S "_diwP
 
-" COMMENTS
+" Comments
 " insert/remove '#' at beginning of visual block lines with "#" and ",#"
 vmap # :s/^/# /<CR>gv<Esc>
 vmap <leader># :s/^# //<CR>gv<Esc>
 
-" Only turn on spelling for certain file types
-autocmd FileType md,markdown setlocal spell spelllang=en_gb
-" (add a word with "zg")
-" (remove a word with "zug")
+" enable spellchecking by default
+":set spell spelllang=en_gb
+" enable spellchecking by default but only for certain file types
+autocmd FileType markdown,rst,python setlocal spell spelllang=en_gb
+" add a word with "zg"
+" remove a word with "zug"
 
 " SPACE key
 " fold & unfold visual/non-visual blocks
@@ -194,15 +196,13 @@ map <F5> :set hls!<bar>set hls?<CR>
 " F6 key
 " toggle the spellchecker
 :map <F6> :setlocal spell! spelllang=en_gb<CR>
-" Enable spellcheck by default (and add a word with "zg")
-:set spell spelllang=en_gb
 
 " F7 key
 " toggle the display of non-printable characters
 nnoremap <F7> :set list! list?<CR>
 
 " F12 key
-" allow reliable pasting from other apps
+" toggle reliable pasting from other apps
 nnoremap <F12> :set invpaste paste?<CR>
 imap <F12> <C-O><F12>
 set pastetoggle=<F12>
@@ -220,23 +220,12 @@ set pastetoggle=<F12>
 "colorscheme seoul256
 colorscheme herald
 
-highlight Normal ctermbg=234
-highlight NonText ctermbg=234
-highlight SpellBad ctermfg=red ctermbg=238
-highlight SpellLocal ctermfg=183 ctermbg=238
-
-" MACROS
-" for writing in Markdown
-let @b = 'o```bash```jj88k'           " insert bash syntax highlighting
-let @n = 'o```no-highlight```jj88k'   " insert no-highlight syntax highlighting
-let @h = 'o```no-highlightjj88k'          " insert no-highlight syntax highlighting
-let @x = 'o```text```jj88k'           " insert text syntax highlighting
-let @t = 'o```jj'                         " insert backticks
-let @a = 'o!!! Note:    '               " insert a Note admonishment
-"let @t = 'oTODO:  '                      " insert a TODO line
-let @l = 'o<!-- LINKS -->'          " insert a LINKS line
-let @c = 'o<!---->jj88ki'             " insert a comment
-let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
+highlight Normal ctermbg=234 ctermfg=255
+highlight NonText ctermbg=234 ctermfg=204
+highlight SpellBad ctermbg=238 ctermfg=009
+highlight SpellLocal ctermbg=238 ctermfg=183
+highlight String ctermbg=234 ctermfg=249
+highlight ColorColumn ctermbg=235
 
 " set a text width and other things depending on file extension
 if has('autocmd')
@@ -247,12 +236,12 @@ if has('autocmd')
 endif
 
 " display cursor column
-" Toggle with ",c"
+" toggle with ",c"
 :highlight CursorColumn cterm=NONE ctermfg=darkgrey
 :nnoremap <Leader>c :set cursorcolumn!<CR>
 
 " display cursor line
-" Toggle with ",l"
+" toggle with ",l"
 :highlight CursorLine cterm=NONE ctermfg=darkgrey
 :nnoremap <Leader>l :set cursorline!<CR>
 
