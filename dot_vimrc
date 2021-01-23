@@ -14,6 +14,9 @@
 
 let mapleader = ","
 
+" vim-polyglot install instructions say to do this
+let g:polyglot_disabled = ['markdown']
+
 " remap the ; key to `
 " to go to a mark's exact cursor position easily
 " (; is easier to reach than `)
@@ -64,14 +67,14 @@ function! Environment()
 endfunction
 autocmd! BufReadPost,BufNewFile * call Environment()
 
-augroup BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+"augroup BufNewFile,BufRead *.py
+"    \ set tabstop=4
+"    \ set softtabstop=4
+"    \ set shiftwidth=4
+"    \ set textwidth=79
+"    \ set expandtab
+"    \ set autoindent
+"    \ set fileformat=unix
 
 " PLUGINS BEGIN .................
 " See ~/.vim/pack/plugins
@@ -206,16 +209,21 @@ set pastetoggle=<F12>
 
 " THEMES
 "colorscheme PaperColor
-colorscheme zenburn
+"colorscheme zenburn
 "colorscheme xoria256
 "colorscheme jellybeans
 "colorscheme apprentice
 "colorscheme tender
 "colorscheme iceberg
 "colorscheme afterglow
+"colorscheme triplejelly
+"colorscheme seoul256
+colorscheme herald
 
-highlight Normal ctermbg=232
-highlight NonText ctermbg=232
+highlight Normal ctermbg=234
+highlight NonText ctermbg=234
+highlight SpellBad ctermfg=red ctermbg=238
+highlight SpellLocal ctermfg=183 ctermbg=238
 
 " MACROS
 " for writing in Markdown
