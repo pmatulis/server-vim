@@ -234,6 +234,7 @@ let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
 if has('autocmd')
    au BufRead,BufNewFile *.xml set tw=150
    au BufRead,BufNewFile *.sh set tw=135
+   au BufRead,BufNewFile *.py set tw=120
    au BufWritePre *.rst :%s/\s\+$//e
 endif
 
