@@ -206,25 +206,28 @@ set pastetoggle=<F12>
 
 " THEMES
 "colorscheme PaperColor
-"colorscheme zenburn
+colorscheme zenburn
 "colorscheme xoria256
-colorscheme jellybeans
+"colorscheme jellybeans
 "colorscheme apprentice
 "colorscheme tender
-highlight Normal ctermbg=None
-highlight NonText ctermbg=None
+"colorscheme iceberg
+"colorscheme afterglow
+
+highlight Normal ctermbg=232
+highlight NonText ctermbg=232
 
 " MACROS
 " for writing in Markdown
-let @b = 'o```bash```jj88k'		  " insert bash syntax highlighting
-let @n = 'o```no-highlight```jj88k'	  " insert no-highlight syntax highlighting
-let @h = 'o```no-highlightjj88k'	  " insert no-highlight syntax highlighting
-let @x = 'o```text```jj88k'		  " insert text syntax highlighting
-let @t = 'o```jj'		  	  " insert backticks
-let @a = 'o!!! Note:    '	      	  " insert a Note admonishment
-"let @t = 'oTODO:  '		     	  " insert a TODO line
-let @l = 'o<!-- LINKS -->'     	  " insert a LINKS line
-let @c = 'o<!---->jj88ki'     	  " insert a comment
+let @b = 'o```bash```jj88k'           " insert bash syntax highlighting
+let @n = 'o```no-highlight```jj88k'   " insert no-highlight syntax highlighting
+let @h = 'o```no-highlightjj88k'          " insert no-highlight syntax highlighting
+let @x = 'o```text```jj88k'           " insert text syntax highlighting
+let @t = 'o```jj'                         " insert backticks
+let @a = 'o!!! Note:    '               " insert a Note admonishment
+"let @t = 'oTODO:  '                      " insert a TODO line
+let @l = 'o<!-- LINKS -->'          " insert a LINKS line
+let @c = 'o<!---->jj88ki'             " insert a comment
 let @o = 'j88itable_of_contents: Truejj'  " insert a table of contents
 
 " set a text width and other things depending on file extension
