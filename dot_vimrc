@@ -180,7 +180,7 @@ vmap <leader># :s/^# //<CR>gv<Esc>
 " enable spellchecking by default
 ":set spell spelllang=en_gb
 " enable spellchecking by default but only for certain file types
-autocmd FileType markdown,rst,python setlocal spell spelllang=en_gb
+autocmd FileType markdown,rst setlocal spell spelllang=en_gb
 " add a word with "zg"
 " remove a word with "zug"
 
