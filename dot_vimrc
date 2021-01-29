@@ -1,16 +1,17 @@
-:syntax on
+syntax on
 
-:set incsearch
-:set smartcase
-:set ignorecase
-:set laststatus=2
-:set t_Co=256
-:set wildmenu
-:set wildmode=list:longest,full
-:set noswapfile
-:set hidden
-:set autoindent
-:set encoding=utf-8
+set incsearch
+set smartcase
+set ignorecase
+set laststatus=2
+set t_Co=256
+set wildmenu
+set wildmode=list:longest,full
+set noswapfile
+set hidden
+set autoindent
+set encoding=utf-8
+set spellcapcheck=
 
 let mapleader = ","
 
@@ -20,10 +21,10 @@ let g:polyglot_disabled = ['markdown']
 " remap the ; key to `
 " to go to a mark's exact cursor position easily
 " (; is easier to reach than `)
-:nnoremap ; `
+nnoremap ; `
 
 " encryption
-:set cryptmethod=blowfish
+set cryptmethod=blowfish
 autocmd BufReadPost * if &key != "" | set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure | endif
 
 " cursor shapes based on mode
@@ -38,7 +39,7 @@ let &t_EI = "\<Esc>[2 q"
 " Auto-wrap comments and add leader character (c)
 " Allow reformatting with gq (q)
 " Recognize numbered lists when formatting text (n)
-:set formatoptions+=tcqn
+set formatoptions+=tcqn
 
 " toggle formatoptions with ",f" and ",g"
 map <leader>f :set fo+=tcqn<CR> " ON"
@@ -130,8 +131,8 @@ set updatetime=250
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " cycle through buffers
-:nnoremap <Left> :bprevious<CR> " previous buffer with Left arrow
-:nnoremap <Right> :bnext<CR>    " next buffer with Right arrow
+nnoremap <Left> :bprevious<CR> " previous buffer with Left arrow
+nnoremap <Right> :bnext<CR>    " next buffer with Right arrow
 
 " navigate windows
 nmap <silent> <space>k :wincmd k<CR> " go Up with "SPACE, k"
@@ -195,7 +196,7 @@ map <F5> :set hls!<bar>set hls?<CR>
 
 " F6 key
 " toggle the spellchecker
-:map <F6> :setlocal spell! spelllang=en_gb<CR>
+map <F6> :setlocal spell! spelllang=en_gb<CR>
 
 " F7 key
 " toggle the display of non-printable characters
@@ -220,11 +221,13 @@ set pastetoggle=<F12>
 "colorscheme seoul256
 colorscheme herald
 
+highlight Title ctermbg=234 ctermfg=77
 highlight Normal ctermbg=234 ctermfg=255
 highlight NonText ctermbg=234 ctermfg=204
 highlight SpellBad ctermbg=238 ctermfg=009
 highlight SpellLocal ctermbg=238 ctermfg=183
 highlight String ctermbg=234 ctermfg=249
+highlight Visual ctermbg=238 ctermfg=255
 highlight ColorColumn ctermbg=235
 
 " set a text width and other things depending on file extension
@@ -237,17 +240,24 @@ endif
 
 " display cursor column
 " toggle with ",c"
-:highlight CursorColumn cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>c :set cursorcolumn!<CR>
+highlight CursorColumn ctermfg=darkgrey
+nnoremap <Leader>c :set cursorcolumn!<CR>
 
 " display cursor line
 " toggle with ",l"
-:highlight CursorLine cterm=NONE ctermfg=darkgrey
-:nnoremap <Leader>l :set cursorline!<CR>
+highlight CursorLine ctermfg=darkgrey
+nnoremap <Leader>l :set cursorline!<CR>
 
-" show tabs and trailing spaces
-" space will be highlighted at eol while typing
-" (for alternate methods see https://vim.fandom.com/wiki/Highlight_unwanted_spaces)
-:highlight SpecialKey ctermfg=black ctermbg=yellow
+" show tabs (edit listchars to show other things)
+highlight SpecialKey ctermfg=000 ctermbg=229
 set list
-set listchars=tab:>-,trail:·
+"set listchars=tab:>-
+set listchars=tab:␉·
+
+" show trailing spaces (but not when typing)
+highlight ExtraWhitespace ctermbg=160
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+"autocmd BufWinLeave * call clearmatches()
