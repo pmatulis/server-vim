@@ -251,7 +251,7 @@ nnoremap <Leader>l :set cursorline!<CR>
 highlight SpecialKey ctermfg=000 ctermbg=229
 set list
 "set listchars=tab:>-
-set listchars=tab:␉·
+set listchars=tab:␉· "U 2409 and U 00B7
 
 " show trailing spaces (but not when typing)
 highlight ExtraWhitespace ctermbg=160
@@ -260,3 +260,5 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 "autocmd BufWinLeave * call clearmatches()
+
+autocmd CursorMovedI <buffer> call rsth#Heading()
