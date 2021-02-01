@@ -34,3 +34,6 @@
 [submodule "pack/plugins/start/vim-polyglot"]
 	path = pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/plugins/start/rst-headings"]
+	path = pack/plugins/start/rst-headings
+	url = https://github.com/tobyS/rst-headings.vim
