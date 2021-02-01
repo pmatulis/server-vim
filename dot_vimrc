@@ -190,6 +190,18 @@ autocmd FileType markdown,rst setlocal spell spelllang=en_gb
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
 
+" RST headers
+" Underline the current line in either normal or insert mode
+" F1 key ==> 1st level (dashes)
+" F2 key ==> 2nd level (tildes)
+" F3 key ==> 3rd level (caret)
+nnoremap <F1> yyp<c-v>$r-
+inoremap <F1> <Esc>yyp<c-v>$r-A
+nnoremap <F2> yyp<c-v>$r~
+inoremap <F2> <Esc>yyp<c-v>$r~A
+nnoremap <F3> yyp<c-v>$r^
+inoremap <F3> <Esc>yyp<c-v>$r^A
+
 " F5 key
 " toggle highlighted search
 map <F5> :set hls!<bar>set hls?<CR>
@@ -260,5 +272,3 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 "autocmd BufWinLeave * call clearmatches()
-
-autocmd CursorMovedI <buffer> call rsth#Heading()
