@@ -242,6 +242,11 @@ highlight String ctermbg=234 ctermfg=249
 highlight Visual ctermbg=238 ctermfg=255
 highlight ColorColumn ctermbg=235
 
+" I've observed that some parts of RST files (e.g. text blocks)
+" do not get spellcheck coloured. It works if syntax is off.
+
+autocmd BufEnter *.md colorscheme triplejelly
+
 " set a text width and other things depending on file extension
 if has('autocmd')
    au BufRead,BufNewFile *.xml set tw=150
