@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/pmatulis/git/openstack-guides/charm-guide/doc/source/author-guides'
 let g:netrw_dirhist_2='/home/pmatulis/git/openstack-guides/charm-guide/doc/source'
 let g:netrw_dirhist_3='/home/pmatulis/git/openstack-guides/charm-guide/doc/source/author-guides'
+let g:netrw_dirhist_4='/home/peter/.vim/pack/plugins/start/vim-gitgutter'
+let g:netrw_dirhist_5='/home/peter/.vim/pack/plugins/start/vim-airline'
+let g:netrw_dirhist_6='/home/peter/.vim/pack/plugins/start/vim-airline-themes'
